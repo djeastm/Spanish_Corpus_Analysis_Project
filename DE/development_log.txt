@@ -1,0 +1,9 @@
+9/19/17 11:00 am to 3:30 pm
+
+- Added files from Dropbox to Github.
+- Cleaned mismatched tags from CordialCorpus.xml 
+- Created process_corpus.py to raw_output.txt from CordialCorpus_Cleaned.xml
+- Downloaded FreeLing to local computer
+- Input raw text into FreeLing to get freeling_output.txt
+- Created process_freeling.py to count frequencies of parts of speech and output to separate text files
+- Wrote comments and development log
