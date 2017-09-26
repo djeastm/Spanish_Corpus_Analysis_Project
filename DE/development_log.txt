@@ -7,3 +7,8 @@
 - Input raw text into FreeLing to get freeling_output.txt
 - Created process_freeling.py to count frequencies of parts of speech and output to separate text files
 - Wrote comments and development log
+
+9/26/17 4:30 pm to 6:30 pm
+
+- Create process_freeling_breakdown.py to break down frequencies by subcategories based on FreeLing tags
+- Renamed process_freeling.py to process_freeling_frequency.py
