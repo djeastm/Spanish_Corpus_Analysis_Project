@@ -34,52 +34,7 @@ def print_to_file(name, dictionary):
             code = roots[0]
             sorted_roots = sorted(roots[1].items())
             for root in list(sorted_roots):
-                name.write(code+" "+root[0]+" ("+str(root[1])+")\n")
-
-## TODO: Parse codes into readable descriptions
-def parse_code(code):
-    pass
-
-verb_genders = {'F':'feminine',
-                'M':'masculine',
-                'C':'common'}
-
-verb_nums = {'S':{'singular':verb_genders},
-             'P':{'plural':verb_genders}}
-
-verb_persons = {'1':{'1':verb_nums},
-                '2':{'2':verb_nums},
-                '3':{'3':verb_nums}}
-verb_tenses = {'P':{'present':verb_persons},
-              'I':{'imperfect':verb_persons},
-              'F':{'future':verb_persons},
-              'S':{'past':verb_persons},
-              'C':{'conditional':verb_persons}}
-
-verb_moods = {'I':{'indicative':verb_tenses},
-              'S':{'subjunctive':verb_tenses},
-              'M':{'imperative':verb_tenses},
-              'P':{'participle':verb_tenses},
-              'G':{'gerund':verb_tenses},
-              'N':{'infinitive':verb_tenses}}
-
-verb_types = {'M':{'main':verb_moods},
-              'A':{'auxiliary':verb_moods},
-              'S':{'semiauxiliary':verb_moods}}
-PoS_codes = {
-    'V':{'verbs':verb_types}, 
-    'A':'adjectives',
-    'C':'conjunctions',
-    'D':'determiners',
-    'N':'nouns',
-    'P':'pronouns',
-    'R':'adverbs',
-    'S':'adpositions',
-    'Z':'number',
-    'W':'date',
-    'I':'interjection'
-    }
-
+                name.write(code+" "+root[0]+" "+str(root[1])+"\n")
         
 if __name__ == "__main__":
     main()
