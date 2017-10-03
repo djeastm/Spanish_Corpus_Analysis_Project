@@ -21,9 +21,13 @@
 
 - Training
 
-9/29/17 7:00 pm to 10:00pm
+9/29/17 7:00 pm to 10:00 pm
 
 - Created parse_breakdown.py to take output of process_freeling_breakdown.py and parse the tags associated with each part of speech
 - This resulted in comma-separated files (*.csv files) that can be easily input into Excel or other database programs.
 - Used RapidMiner (data mining software--free for educational use) to create bar chart of verb tense frequencies (verb_breakdown.png)
 
+10/3/17 1:30 pm to 3:30 pm
+
+- Created "Research Narrative.docx" to document the thought process behind my choices for future use
+- Created Excel file Analysis.xlsx for breakdown of verbs by mood, tense, person, and number using RapidMiner.
