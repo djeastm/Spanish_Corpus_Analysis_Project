@@ -14,6 +14,7 @@ def main():
                     code = elements[0] # the FreeLing code (e.g. AQ0MS0)                
                     root = elements[1] # the root word determined by FreeLing
                     freq = elements[2].strip() # the frequency count
+                    text = elements[3] # the source text for this word
                     pos = PoS_codes[code[0]]
                     
                     if pos == 'verb':                       
@@ -23,7 +24,7 @@ def main():
                         person = verb_persons[code[4]]
                         num = verb_nums[code[5]]
                         gender = verb_genders[code[6]]                    
-                        entry = [root,freq,pos,vtype,mood,tense,person,num,gender]
+                        entry = [text,root,freq,pos,vtype,mood,tense,person,num,gender]
                         
                     if pos == 'adjective':
                         atype = adj_types[code[1]]
@@ -32,11 +33,11 @@ def main():
                         num = adj_nums[code[4]]
                         possessorpers = adj_possessorpers[code[5]]
                         possessornum = adj_possessornums[code[6]]
-                        entry = [root,freq,pos,atype,degree,gen,num,possessorpers,possessornum]
+                        entry = [text,root,freq,pos,atype,degree,gen,num,possessorpers,possessornum]
 
                     if pos == 'conjunction':
                         ctype = conj_types[code[1]]
-                        entry = [root,freq,pos,ctype]
+                        entry = [text,root,freq,pos,ctype]
 
                     if pos == 'determiner':
                         dtype = det_types[code[1]]
@@ -44,7 +45,7 @@ def main():
                         gen = det_gens[code[3]]
                         num = det_nums[code[4]]
                         possessornum = det_possessornums[code[5]]
-                        entry = [root,freq,pos,dtype,degree,gen,num,possessornum]
+                        entry = [text,root,freq,pos,dtype,degree,gen,num,possessornum]
 
                     if pos == 'noun':
                         ntype = noun_types[code[1]]                        
@@ -53,7 +54,7 @@ def main():
                         neclass = noun_neclasses[code[4]]
                         #nesubclass (code[5]) is not used, per documentation)
                         degree = noun_degrees[code[6]]
-                        entry = [root,freq,pos,ntype,gen,num,neclass,degree]
+                        entry = [text,root,freq,pos,ntype,gen,num,neclass,degree]
 
                     if pos == 'pronoun':
                         ptype = pronoun_types[code[1]]                        
@@ -61,32 +62,32 @@ def main():
                         gen = pronoun_gens[code[3]]
                         num = pronoun_nums[code[4]]
                         case = pronoun_cases[code[5]]
-                        entry = [root,freq,pos,ptype,person,gen,num,case]
+                        entry = [text,root,freq,pos,ptype,person,gen,num,case]
 
                     if pos == 'adverb':
                         adverbtype = adverb_types[code[1]]
-                        entry = [root,freq,pos,adverbtype]
+                        entry = [text,root,freq,pos,adverbtype]
 
                     if pos == 'adposition':
                         adpostype = adpos_types[code[1]]
-                        entry = [root,freq,pos,adpostype]
+                        entry = [text,root,freq,pos,adpostype]
 
                     if pos == 'number':
                         if len(code) > 1:
                             numtype = number_types[code[1]]
-                            entry = [root,freq,pos,numtype]
+                            entry = [text,root,freq,pos,numtype]
                         else:
-                            entry = [root,freq,pos,'n/a']
+                            entry = [text,root,freq,pos,'n/a']
 
                     if pos == 'date':
-                        entry = [root,freq,pos]
+                        entry = [text,root,freq,pos]
 
                     if pos == 'interjection':
-                        entry = [root,freq,pos]
+                        entry = [text,root,freq,pos]
                         
-                with open('breakdown_'+pos+'.csv','a',encoding='utf8',newline='') as name:
-                    filmswriter = csv.writer(name, delimiter=',', quotechar='"')        
-                    filmswriter.writerow(entry)              
+                    with open('breakdown_'+pos+'.csv','a',encoding='utf8',newline='') as name:
+                        filmswriter = csv.writer(name, delimiter=',', quotechar='"')        
+                        filmswriter.writerow(entry)              
              
 PoS_codes = {
     'V':'verb', 

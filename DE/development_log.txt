@@ -31,3 +31,16 @@
 
 - Created "Research Narrative.docx" to document the thought process behind my choices for future use
 - Created Excel file Analysis.xlsx for breakdown of verbs by mood, tense, person, and number using RapidMiner.
+
+10/4/17 10:30 am to 11:30 am
+
+- Training
+
+10/4/17 8:30 pm to 11:30 pm
+
+- Created process_corpus_with_metadata.py to handle dividing the corpus into texts and keeping the header information
+
+10/5/17 10:30 am to 11:30 am
+
+- Added to Analysis.xlsx analyses of the verbs by category and by key words, as they appear in the headers.
+- Archived files that didn't have metadata attached. They are superceded by the metadata-attached data files.
