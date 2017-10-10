@@ -44,3 +44,8 @@
 
 - Added to Analysis.xlsx analyses of the verbs by category and by key words, as they appear in the headers.
 - Archived files that didn't have metadata attached. They are superceded by the metadata-attached data files.
+
+10/10/17 2:30 pm to 5:30 pm
+
+- Attempted tagging all words in corpus *in situ* with process_corpus_with_metadata_pos_tagged.py
+- The main issue appears to be that FreeLing output splits contractions and attached pronouns into separate words, making reforming the corpus tricky
