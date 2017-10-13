@@ -49,3 +49,8 @@
 
 - Attempted tagging all words in corpus *in situ* with process_corpus_with_metadata_pos_tagged.py
 - The main issue appears to be that FreeLing output splits contractions and attached pronouns into separate words, making reforming the corpus tricky
+
+10/13/17 9:00 am to 4:00 pm
+
+- Further developed process_corpus_with_metadata_pos_tagged.py to deal with edge cases caused by idiosyncrasies in FreeLing output and corpus itself. 
+- Documented code thus far.
