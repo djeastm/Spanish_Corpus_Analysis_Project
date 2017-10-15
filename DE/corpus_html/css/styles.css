@@ -1,0 +1,160 @@
+/*
+* Title: davidjeastman.com
+* Version: 0.0.1
+* Author: David Eastman
+*/
+
+body {
+    background-color: black;
+    /*background-image: url(../images/background.jpg);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Verdana", sans-serif;
+    color: white;
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 20px 0px;
+}
+
+h3 {
+    color: rgb(0, 150, 255);
+}
+
+
+nav {
+    padding: 10px 0 10px 0;
+    background-color: black;
+    text-align: center;
+}
+
+.texthead {
+    background-color: black;
+    text-align: left;
+}
+
+.textbody {
+    background: rgba(30, 30, 30, .9);
+    padding: 10px 20px;
+    margin: 20px 30px;
+}
+
+/*[t^="V"] {
+    background-color: blue;
+}*/
+
+#courses {
+    overflow: hidden;
+    background-color: #444;
+    margin: 10px 50px 10px 50px;
+    padding: 10px 10px 15px 10px;
+    outline: thin dashed gray;
+}
+
+table {
+    margin: 0 auto;
+    empty-cells: hide;
+    border-spacing: 5px 0px;
+}
+
+th,
+td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+tr.even {
+    background-color: #121212;
+}
+
+tfoot th {
+    background-color: #121212;
+}
+
+#gpa {
+    text-align: right;
+}
+
+figure {
+    display: block;
+    background-color: #e7e3d8;
+    padding: 2px;
+    text-align: left;
+    margin: 0px 10px 10px 10px;
+}
+
+figure.align-left {
+    float: left;
+}
+
+figure.align-right {
+    float: right;
+}
+
+figure img.medium {
+    width: 777px;
+    height: 486px;
+}
+
+figure img.small {
+    width: 388px;
+    height: 243px;
+}
+
+figure img.mobile-vert {
+    width: 180px;
+    height: 320px;
+}
+
+figure img.paper {
+    width: 230px;
+    height: 320px;
+}
+
+figure img.gif {
+    width: 483px;
+    height: 328px;
+}
+
+img.googleplay {
+    background-color: black;
+    width: 162px;
+    height: 63px;
+}
+
+.project {
+    overflow: hidden;
+    background-color: #444;
+    margin: 10px 50px 10px 50px;
+    padding: 0px 10px 15px 10px;
+    outline: thin dashed gray;
+}
+
+.tags {
+    margin: 10px 0px 10px 0px;
+}
+
+.tags .tag {
+    background-color: #666;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2px;
+    margin: 1px;
+}

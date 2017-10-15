@@ -54,3 +54,11 @@
 
 - Further developed process_corpus_with_metadata_pos_tagged.py to deal with edge cases caused by idiosyncrasies in FreeLing output and corpus itself. 
 - Documented code thus far.
+
+10/15/17 3:00 pm to 7:00 pm
+
+- Created a version of the previous script that abandoned the annotations that caused all the edge cases, in order to move forward with getting a reada1ble corpus with words tagged in place. Future work can be to find a way to include those annotations. The tagged corpus is in CorpusCordial_Tagged.xml. 
+- Created process_tagged_corpus_with_metadata_xml_to_html.py in order to turn the xml into a readable
+html document that can be used with javascript to highlight tagged words on command.
+- Created process_tagged_corpus_with_metadata_html_format.py to make the html converted from xml into a nicer format, including adding titles for each text and printing the metadata in list format.
+- These scripts result in a basic webpage with, thus far, some highlighting of verbs and nouns as desired. The webpage is stored as "CorpusCordial_Tagged_HTML_Formatted.html" in the folder corpus_html and can be viewed with any web browser.
