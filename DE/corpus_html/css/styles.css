@@ -48,49 +48,26 @@ nav {
     margin: 20px 30px;
 }
 
-/*[t^="V"] {
-    background-color: blue;
-}*/
-
-#courses {
-    overflow: hidden;
-    background-color: #444;
-    margin: 10px 50px 10px 50px;
-    padding: 10px 10px 15px 10px;
-    outline: thin dashed gray;
+select, label {
+    display: none;
 }
 
-table {
-    margin: 0 auto;
-    empty-cells: hide;
-    border-spacing: 5px 0px;
+.V {
+    display: inline-block;
 }
 
-th,
-td {
-    padding: 7px 10px 10px 10px;
+#POS {
+    display: block;
 }
 
-th {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 90%;
-    border-bottom: 2px solid #111111;
-    border-top: 1px solid #999;
-    text-align: left;
-}
-
-tr.even {
-    background-color: #121212;
+#highlight_button {
+    display: block;
 }
 
 tfoot th {
     background-color: #121212;
 }
 
-#gpa {
-    text-align: right;
-}
 
 figure {
     display: block;
@@ -133,28 +110,3 @@ figure img.gif {
     height: 328px;
 }
 
-img.googleplay {
-    background-color: black;
-    width: 162px;
-    height: 63px;
-}
-
-.project {
-    overflow: hidden;
-    background-color: #444;
-    margin: 10px 50px 10px 50px;
-    padding: 0px 10px 15px 10px;
-    outline: thin dashed gray;
-}
-
-.tags {
-    margin: 10px 0px 10px 0px;
-}
-
-.tags .tag {
-    background-color: #666;
-    font-size: larger;
-    font-weight: bolder;
-    padding: 2px;
-    margin: 1px;
-}

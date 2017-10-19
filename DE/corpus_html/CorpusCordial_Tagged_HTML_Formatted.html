@@ -6,8 +6,287 @@
 <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <button id="verbbutton">Verbs</button>
-    <button id="nounbutton">Nouns</button></br>
+    <form name="pos_form" action="javascript:;" onsubmit="highlight()">
+    <label for="POS">Part of speech</label>
+    <select id="POS" name="part_of_speech" onchange="showHideSelects()">
+        <option value="V">Verb</option>
+        <option value="A">Adjective</option>
+        <option value="C">Conjunction</option>
+        <option value="D">Determiner</option>
+        <option value="N">Noun</option>
+        <option value="P">Pronoun</option>
+        <option value="R">Adverb</option>
+        <option value="S">Adposition</option>
+        <option value="Z">Number</option>
+        <option value="W">Date</option>
+        <option value="I">Interjection</option>
+    </select>
+
+    <label class="V">Type</label>
+    <select name="verb_types" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="M">Main</option>
+        <option value="A">Auxiliary</option>
+        <option value="S">Semiauxiliary</option>    
+    </select>
+
+    <label class="V">Mood</label>
+    <select name="verb_moods" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="I">Indicative</option>
+        <option value="S">Subjunctive</option>
+        <option value="M">Imperative</option>
+        <option value="P">Participle</option>
+        <option value="G">Gerund</option>
+        <option value="N">Infinitive</option>
+    </select>
+
+    <label class="V">Tense</label>
+    <select name="verb_tenses" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="P">Present</option>
+        <option value="I">Imperfect</option>
+        <option value="F">Future</option>
+        <option value="S">Past</option>
+        <option value="C">Conditional</option>
+    </select>
+
+    <label class="V">Person</label>
+    <select name="verb_persons" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    
+    <label class="V">Number</label>
+    <select name="verb_numbers" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+    </select>
+    
+    <label class="V">Gender</label>
+    <select name="verb_genders" class="V" type="V">
+        <option value="0">N/A</option>
+        <option value="F">Feminine</option>
+        <option value="M">Masculine</option>
+        <option value="C">Common</option>
+    </select>
+
+    <label class="A">Type</label>
+    <select name="adj_types" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="O">Ordinal</option>
+        <option value="Q">Qualificative</option>
+        <option value="P">Possessive</option>
+    </select>
+
+    <label class="A">Degree</label>
+    <select name="adj_degrees" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="S">Superlative</option>
+        <option value="V">Evaluative</option>
+    </select>
+
+    <label class="A">Gender</label>
+    <select name="adj_genders" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="F">Feminine</option>
+        <option value="M">Masculine</option>
+        <option value="C">Common</option>
+    </select>
+
+    <label class="A">Number</label>
+    <select name="adj_numbers" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="A">PossessorPerson</label>
+    <select name="adj_possessorpers" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <label class="A">PossessorNumber</label>
+    <select name="adj_possessornums" class="A" type="A">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="C">Type</label>
+    <select name="conj_types" class="C" type="C">
+        <option value="0">N/A</option>
+        <option value="C">Coordinating</option>
+        <option value="S">Subordinating</option>
+    </select>
+
+    <label class="D">Type</label>
+    <select name="det_types" class="D" type="D">
+        <option value="0">N/A</option>
+        <option value="A">Article</option>
+        <option value="D">Demonstrative</option>
+        <option value="I">Indefinite</option>
+        <option value="P">Possessive</option>
+        <option value="T">Interrogative</option>
+        <option value="E">Exclamative</option>
+    </select>
+
+    <label class="C">Person</label>
+    <select name="det_persons" class="D" type="D">
+        <option value="0">N/A</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <label class="C">Gender</label>
+    <select name="det_genders" class="D" type="D">
+        <option value="0">N/A</option>
+        <option value="F">Feminine</option>
+        <option value="M">Masculine</option>
+        <option value="C">Common</option>
+    </select>
+
+    <label class="C">Number</label>
+    <select name="det_numbers" class="D" type="D">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="C">PossessorNumber</label>
+    <select name="det_possessornums" class="D" type="D">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="N">Type</label>
+    <select name="noun_types" class="N" type="N">
+        <option value="0">N/A</option>
+        <option value="C">Common</option>
+        <option value="P">Proper</option>        
+    </select>
+
+    <label class="N">Gender</label>
+    <select name="noun_genders" class="N" type="N">
+        <option value="0">N/A</option>
+        <option value="F">Feminine</option>
+        <option value="M">Masculine</option>
+        <option value="C">Common</option>
+    </select>
+
+    <label class="N">Number</label>
+    <select name="noun_numbers" class="N" type="N">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="N">Class</label>
+    <select name="noun_neclasses" class="N" type="N">
+        <option value="0">N/A</option>
+        <option value="S">Person</option>
+        <option value="G">Location</option>
+        <option value="O">Organization</option>
+        <option value="V">Other</option>
+    </select>
+
+    <label class="N">Degree</label>
+    <select name="noun_degrees" class="N" type="N">
+        <option value="0">N/A</option>        
+        <option value="V">Evaluative</option>
+    </select>
+
+    <label class="P">Type</label>
+    <select name="pronoun_types" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="R">Relative</option>
+        <option value="D">Demonstrative</option>
+        <option value="I">Indefinite</option>
+        <option value="P">Personal</option>
+        <option value="T">Interrogative</option>
+        <option value="E">Exclamative</option>
+    </select>
+
+    <label class="P">Person</label>
+    <select name="pronoun_persons" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <label class="P">Gender</label>
+    <select name="pronoun_genders" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="F">Feminine</option>
+        <option value="M">Masculine</option>
+        <option value="C">Common</option>
+    </select>
+
+    <label class="P">Number</label>
+    <select name="pronoun_numbers" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="S">Singular</option>
+        <option value="P">Plural</option>
+        <option value="N">Invariable</option>
+    </select>
+
+    <label class="P">Case</label>
+    <select name="pronoun_cases" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="N">Nominative</option>
+        <option value="A">Accusative</option>
+        <option value="D">Dative</option>
+        <option value="O">Oblique</option>
+    </select>
+
+    <label class="P">Polite</label>
+    <select name="pronoun_polite" class="P" type="P">
+        <option value="0">N/A</option>
+        <option value="P">Yes</option>        
+    </select>
+
+    <label class="R">Type</label>
+    <select name="adverb_types" class="R" type="R">
+        <option value="0">N/A</option>
+        <option value="N">Negative</option>        
+        <option value="G">General</option>        
+    </select>
+
+    <label class="S">Type</label>
+    <select name="adpos_types" class="S" type="S">
+        <option value="0">N/A</option>
+        <option value="P">Preposition</option>   
+    </select>
+
+    <label class="Z">Type</label>
+    <select name="number_types" class="Z" type="Z">
+        <option value="0">N/A</option>
+        <option value="d">Partitive</option>        
+        <option value="m">Currency</option>        
+        <option value="p">Percentage</option>        
+        <option value="u">Unit</option>        
+    </select>
+    
+    <input id="highlight_button" name="Submit" type="submit" value="Highlight"/>
+    <div id="word_count"></div>
+</form>
+</br>
+    <!-- <button id="verbbutton">Verbs</button>
+    <button id="nounbutton">Nouns</button> -->
 <text id="aula_10_LO_QUE_HEMOS_HECHO"><h2>aula_10_LO_QUE_HEMOS_HECHO</h2>
 <div class="texthead"><meta>
 </meta><br/><meta>Archivos: aula_10_LO_QUE_HEMOS_HECHO.txt, aula_10_LO_QUE_HEMOS_HECHO.wav
@@ -5705,28 +5984,5 @@ CON, Concha (mujer, C 2, asistente, Madrid)
 <div class="textbody"><w t="I">hhh </w><w t="SP">a </w><w t="VMN0000">ver </w><w t="NP00000">Felonia </w><w t="PP2CSN0">t&uacute; </w><w t="PP1CS00">me </w><w t="VAIP2S0">has </w><w t="VMP00SM">escuchado </w><w t="DA00S0">lo </w><w t="SP">de </w><w t="DA0FS0">la </w><w t="NCFS000">grabaci&oacute;n </w><w t="Fit">? </w><w t="RG">s&iacute; </w><w t="AQ0MS00">bueno </w><w t="CS">pues </w><w t="VMIS1S0">di </w><w t="VMIP2S0">das </w><w t="NCMS000">permiso </w><w t="Fit">? </w><w t="RG">s&iacute; </w><w t="CS">si </w><w t="PP1CS00">me </w><w t="VMIP3S0">da </w><w t="Fz">+ </w><w t="CS">pues </w><w t="VMIS1S0">di </w><w t="RG">aqu&iacute; </w><w t="CS">que </w><w t="VSIP2S0">eres </w><w t="PP2CS00">te </w><w t="NCFP000">llamas </w><w t="NP00000">Felonia </w><w t="VSIP2S0">eres </w><w t="SP">de </w><w t="NP00000">Guinea </w><w t="CC">y </w><w t="PR0CN00">que </w><w t="VMIP2S0">das </w><w t="NCMS000">permiso </w><w t="SP">para </w><w t="DA0FS0">la </w><w t="NCFS000">grabaci&oacute;n </w><w t="VMIP3S0">vale </w><w t="I">hola </w><w t="DP1CSS">mi </w><w t="NCMS000">nombre </w><w t="VSIP3S0">es </w><w t="NP00000">Felonia </w><w t="VSIP1S0">soy </w><w t="SP">de </w><w t="NP00000">Guinea Ecuatorial </w><w t="CC">y </w><w t="VMIP1S0">permito </w><w t="CS">que </w><w t="P01CS00">me </w><w t="VMSP3P0">graben </w><w t="SP">para </w><w t="Fz">+ </w><w t="I">bueno </w><w t="CS">pues </w><w t="RG">ahora </w><w t="VMIP1P0">vamos </w><w t="SP">a </w><w t="VMN0000">ver </w><w t="PT00000">qu&eacute; </w><w t="VSIP3S0">es </w><w t="DA00S0">lo </w><w t="PR0CN00">que </w><w t="VMIP2S0">quieres </w><w t="Fit">? </w><w t="VMIP2S0">quieres </w><w t="VMIP3S0">tatata </w><w t="NCCN000">abaj </w><w t="AQ0FS00">externa </w><w t="RG">s&iacute; </w><w t="RN">no </w><w t="VMIP3S0">hay </w><w t="PI0CS00">nada </w><w t="I">ay </w><w t="NCFS000">madre </w><w t="RG">yyy </w><w t="RN">no </w><w t="RN">no </w><w t="CC">pero </w><w t="CS">si </w><w t="VMIP1P0">vamos </w><w t="SP">a </w><w t="VMN0000">ver </w><w t="SP">a </w><w t="NCCP000">finales </w><w t="SP">de </w><w t="W">julio </w><w t="DA0FP0">las </w><w t="AQ0FP00">&uacute;nicas </w><w t="NCFP000">ofertas </w><w t="PR0CN00">que </w><w t="VMIP1P0">tenemos </w><w t="RG">s&iacute; </w><w t="VSIP3P0">son </w><w t="SP">para </w><w t="VMN0000">ir </w><w t="PP3CN00">se </w><w t="SP">de </w><w t="NCFP000">vacaciones </w><w t="AQ0FS00">interna </w><w t="SP">para </w><w t="VMN0000">hacer </w><w t="DI0FS0">una </w><w t="NCFS000">sustituci&oacute;n </w><w t="CS">mientras </w><w t="DA0FP0">las </w><w t="NCFP000">se&ntilde;oras </w><w t="SP">a </w><w t="DA0FS0">la </w><w t="AP0FS3N">suya </w><w t="PR0CN00">que </w><w t="VMIP3P0">tienen </w><w t="PP3CSD0">le </w><w t="VMIP3P0">dan </w><w t="NCMS000">permiso </w><w t="SP">de </w><w t="SP">de </w><w t="W">agosto </w><w t="CC">o </w><w t="DA00S0">lo </w><w t="PR0CN00">que </w><w t="VSSP1S0">sea </w><w t="RG">ya </w><w t="RG">entonces </w><w t="RN">no </w><w t="VMIP3S0">hay </w><w t="RG">absolutamente </w><w t="PI0CS00">nada </w><w t="AQ0FS00">externa </w><w t="CC">y </w><w t="RG">luego </w><w t="VAIP2S0">has </w><w t="VMP00SM">estado </w><w t="VMIP2S0">quieres </w><w t="SP">de </w><w t="W">lunes </w><w t="SP">a </w><w t="W">jueves </w><w t="DI0MS0">todo </w><w t="DA0MS0">el </w><w t="NCMS000">d&iacute;a </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="RG">luego </w><w t="DA0MP0">los </w><w t="W">viernes </w><w t="NCMP000">s&aacute;bados </w><w t="CC">y </w><w t="NCMP000">domingos </w><w t="SP">de </w><w t="Z">nueve </w><w t="SP">a </w><w t="Z">doce </w><w t="Fit">? </w><w t="CC">pero </w><w t="VSIP3S0">es </w><w t="CS">que </w><w t="SP">de </w><w t="W">lunes </w><w t="SP">a </w><w t="CC">e </w><w t="SP">a </w><w t="W">jueves </w><w t="DA0FS0">la </w><w t="NCFS000">gente </w><w t="PP2CS00">te </w><w t="VMIF3S0">coger&aacute; </w><w t="RN">no </w><w t="RG">ahora </w><w t="CS">porque </w><w t="RN">no </w><w t="VMIP3S0">hay </w><w t="CC">pero </w><w t="CS">cuando </w><w t="PP2CS00">te </w><w t="VMSP3P0">cojan </w><w t="NCFS000">jornada </w><w t="AQ0FS00">completa </w><w t="RG">s&iacute; </w><w t="CS">que </w><w t="VMIP3S0">suele </w><w t="VSN0000">ser </w><w t="SP">de </w><w t="Z">ocho </w><w t="SP">a </w><w t="Z">seis </w><w t="CC">o </w><w t="SP">a </w><w t="Z">siete </w><w t="RG">incluso </w><w t="SP">a </w><w t="W">ocho de la tarde </w><w t="RG">s&iacute; </w><w t="PP2CS00">te </w><w t="VMIP3P0">cogen </w><w t="DA0MP0">los </w><w t="Zu">cinco d&iacute;as </w><w t="SP">de </w><w t="DA0FS0">la </w><w t="NCFS000">semana </w><w t="W">lunes </w><w t="W">martes </w><w t="NCMN000">mi&eacute;rcoles </w><w t="W">jueves </w><w t="CC">y </w><w t="W">viernes </w><w t="RG">ya </w><w t="RG">entonces </w><w t="VMIP2S0">puedes </w><w t="VMN0000">encontrar </w><w t="NCMS000">trabajo </w><w t="DA0MP0">los </w><w t="NCMP000">s&aacute;bados </w><w t="CC">y </w><w t="DA0MP0">los </w><w t="NCMP000">domingos </w><w t="SP">de </w><w t="Z">nueve </w><w t="SP">a </w><w t="Z">doce </w><w t="PR0CN00">que </w><w t="VSIP3S0">es </w><w t="RG">muy </w><w t="AQ0CS00">dif&iacute;cil </w><w t="RG">muy </w><w t="AQ0CS00">dif&iacute;cil </w><w t="RG">ya </w><w t="CS">porque </w><w t="DA0FS0">la </w><w t="NCFS000">gente </w><w t="PR0CN00">que </w><w t="VMIP3S0">busca </w><w t="DI0FS0">una </w><w t="NCFS000">persona </w><w t="DA0MP0">los </w><w t="NCMP000">fines </w><w t="SP">de </w><w t="NCFS000">semana </w><w t="RG">fundamentalmente </w><w t="VSIP3S0">es </w><w t="CS">porque </w><w t="VMIP3S0">tiene </w><w t="CC">o </w><w t="DA0MP0">los </w><w t="NCMP000">padres </w><w t="RG">muy </w><w t="AQ0CP00">mayores </w><w t="CC">o </w><w t="DI0MP0">muchos </w><w t="NCMP000">ni&ntilde;os </w><w t="DA0FS0">la </w><w t="AP0FS3N">suya </w><w t="P00CN00">se </w><w t="PP3CSD0">le </w><w t="VMIP3S0">va </w><w t="AQ0CN00">hhh </w><w t="NCFP000">gracias </w><w t="NP00000">Concha </w><w t="SP">de </w><w t="PI0CS00">nada </w><w t="AQ0CN00">hhh </w><w t="VMIP3S0">tiene </w><w t="AQ0CS00">libre </w><w t="SP">desde </w><w t="DA0MS0">el </w><w t="NCMS000">s&aacute;bado </w><w t="SP">despu&eacute;s de </w><w t="VMN0000">comer </w><w t="SP">hasta </w><w t="DA0MS0">el </w><w t="W">domingo por la noche </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="RG">entonces </w><w t="VMIP3P0">buscan </w><w t="DI0FS0">una </w><w t="NCFS000">persona </w><w t="AQ0CN00">hhh </w><w t="SP">para </w><w t="VMN0000">ocupar </w><w t="DD0MS0">ese </w><w t="NCMS000">tiempo </w><w t="SP">para </w><w t="CS">que </w><w t="DA0MP0">los </w><w t="NCMP000">padres </w><w t="RN">no </w><w t="P00CN00">se </w><w t="VMSP3P0">queden </w><w t="NCMP000">solos </w><w t="CC">o </w><w t="SP">para </w><w t="CS">que </w><w t="PP3CSD0">le </w><w t="VMSP3P0">echen </w><w t="DI0FS0">una </w><w t="NCFS000">mano </w><w t="SP">con </w><w t="DA0MP0">los </w><w t="NCMP000">ni&ntilde;os </w><w t="CC">pero </w><w t="SP">de </w><w t="Z">nueve </w><w t="SP">a </w><w t="Z">doce </w><w t="DA0FS0">la </w><w t="NCFS000">gente </w><w t="PR0CN00">que </w><w t="VMIP3S0">trabaja </w><w t="SP">a </w><w t="DA0FP0">las </w><w t="Z">nueve </w><w t="SP">de </w><w t="DA0FS0">la </w><w t="NCCS000">ma&ntilde;ana </w><w t="DA0MP0">los </w><w t="NCMP000">s&aacute;bados </w><w t="CC">y </w><w t="NCMP000">domingos </w><w t="RN">no </w><w t="VMIP3S0">est&aacute; </w><w t="VMP00SF">levantada </w><w t="RG">ya </w><w t="RG">yyy </w><w t="P00CN00">se </w><w t="VMIP3P0">quieren </w><w t="VMN0000">quedar </w><w t="SP">en </w><w t="DA0FS0">la </w><w t="NCFS000">cama </w><w t="VMIP3S0">yyy </w><w t="DI0MS0">un </w><w t="NCMS00V">ratito </w><w t="VMIP3S0">vale </w><w t="VMIP3S0">vale </w><w t="RG">entonces </w><w t="PP1CSN0">yo </w><w t="PP2CS00">te </w><w t="VMIC3S0">pondr&iacute;a </w><w t="SP">de </w><w t="W">lunes </w><w t="SP">a </w><w t="W">viernes </w><w t="NCFS000">jornada </w><w t="AQ0FS00">completa </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="RG">luego </w><w t="NCMS000">s&aacute;bado </w><w t="CC">y </w><w t="W">domingo </w><w t="SP">por </w><w t="DA0FS0">la </w><w t="NCCS000">ma&ntilde;ana </w><w t="RG">s&iacute; </w><w t="RG">luego </w><w t="SP">por </w><w t="DA0FS0">la </w><w t="NCFS000">tarde </w><w t="NCMS000">s&aacute;bado </w><w t="CC">y </w><w t="W">domingo </w><w t="PP2CSN0">t&uacute; </w><w t="VMIP2S0">tienes </w><w t="PI0CS00">algo </w><w t="PR0CN00">que </w><w t="VMN0000">hacer </w><w t="CC">o </w><w t="VMIP2S0">tienes </w><w t="NCMS000">trabajo </w><w t="Fit">? </w><w t="PP3CNO0">s&iacute; </w><w t="VMIP1S0">tengo </w><w t="VMIP1S0">hago </w><w t="Zu">veinte horas </w><w t="SP">en </w><w t="SP">en </w><w t="DI0MS0">un </w><w t="NCMS000">restaurante </w><w t="DA0MP0">los </w><w t="NCMP000">fines </w><w t="SP">de </w><w t="NCFS000">semana </w><w t="Fit">? </w><w t="RG">s&iacute; </w><w t="DA0MS0">el </w><w t="W">viernes </w><w t="RG">tambi&eacute;n </w><w t="Fit">? </w><w t="RN">no </w><w t="CS">pues </w><w t="NCMN000">ton </w><w t="Fz">+ </w><w t="W">viernes por la tarde </w><w t="NCMS000">s&aacute;bado </w><w t="CC">y </w><w t="W">domingo </w><w t="CS">pues </w><w t="RG">entonces </w><w t="PP1CSN0">yo </w><w t="PP2CS00">te </w><w t="VMIP1S0">pongo </w><w t="RG">aqu&iacute; </w><w t="SP">de </w><w t="W">lunes </w><w t="SP">a </w><w t="W">viernes </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="RG">luego </w><w t="RG">ya </w><w t="RG">aqu&iacute; </w><w t="PP2CS00">te </w><w t="VMIP1S0">pongo </w><w t="DA0MS0">el </w><w t="NCMS000">fin </w><w t="SP">de </w><w t="NCFS000">semana </w><w t="VMIP3S0">vale </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="Fit">? </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="SP">en </w><w t="DD0MS0">este </w><w t="NCMS000">momento </w><w t="RN">no </w><w t="VMIP3S0">hay </w><w t="PI0CS00">nada </w><w t="NP00000">Felonia </w><w t="CC">pero </w><w t="VMIP1P0">vamos </w><w t="SP">a </w><w t="VMN0000">abrir </w><w t="RG">&uacute;nicamente </w><w t="RG">ya </w><w t="DA0MS0">el </w><w t="W">jueves </w><w t="SP">de </w><w t="DA0FS0">la </w><w t="NCFS000">semana </w><w t="SP">de </w><w t="DD0FS0">esta </w><w t="NCFS000">semana </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="RG">luego </w><w t="RG">ya </w><w t="PP1CP00">nos </w><w t="VMIP1P0">vamos </w><w t="SP">de </w><w t="NCFP000">vacaciones </w><w t="CS">si </w><w t="VMSI3S0">surgiera </w><w t="PI0CS00">algo </w><w t="RG">hoy </w><w t="CS">que </w><w t="VMSI3P0">llamasen </w><w t="PP1CSN0">yo </w><w t="PP2CS00">te </w><w t="VMIP1S0">llamo </w><w t="CS">si </w><w t="RN">no </w><w t="PP2CS00">te </w><w t="VMIP2S0">quieres </w><w t="VMN0000">quedar </w><w t="PP2CS00">te </w><w t="VMIP2S0">puedes </w><w t="VMN0000">ir </w><w t="RG">tranquilamente </w><w t="RG">s&iacute; </w><w t="CC">y </w><w t="CS">si </w><w t="VMIP3S0">llama </w><w t="PI0CS00">alguien </w><w t="NCMS000">hhh </w><w t="PP1CSN0">yo </w><w t="VMIP1S0">miro </w><w t="RG">aqu&iacute; </w><w t="SP">en </w><w t="DA0FP0">las </w><w t="NCFP000">fichas </w><w t="AQ0CN00">hhh </w><w t="CC">y </w><w t="CC">y </w><w t="P02CS00">te </w><w t="VMIP1S0">llamo </w><w t="SP">por </w><w t="NCMS000">tel&eacute;fono </w><w t="CC">y </w><w t="CS">si </w><w t="VMIP3S0">hay </w><w t="DI0FS0">una </w><w t="NCFS000">oferta </w><w t="PP2CS00">te </w><w t="PP3MSA0">lo </w><w t="VMIP1S0">digo </w><w t="VMIP3S0">vale </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="Fit">? </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="CC">y </w><w t="CS">si </w><w t="RN">no </w><w t="PP2CS00">te </w><w t="VMIP1S0">espero </w><w t="DA0MS0">el </w><w t="W">jueves </w><w t="SP">por </w><w t="RG">aqu&iacute; </w><w t="I">ay </w><w t="DA0MS0">el </w><w t="W">jueves </w><w t="RG">ya </w><w t="RG">yyy </w><w t="RN">no </w><w t="VMIP1S0">s&eacute; </w><w t="PD00S00">eso </w><w t="RG">ya </w><w t="VSIF3S0">ser&aacute; </w><w t="VMIP1S0">creo </w><w t="CS">que </w><w t="SP">hasta </w><w t="W">septiembre </w><w t="AQ0MS00">claro </w><w t="SP">hasta </w><w t="DA0MS0">el </w><w t="W">seis de septiembre </w><w t="PR0CN00">que </w><w t="VSIP3S0">es </w><w t="W">lunes </w><w t="VMIP3S0">vale </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="SP">de </w><w t="NCMS000">acuerdo </w><w t="NCFP000">gracias </w><w t="PT00000">qu&eacute; </w><w t="VMSP2S0">tengas </w><w t="NCFS000">suerte </w><w t="NCFS000">hija </w><w t="SP">a </w><w t="VMN0000">ver </w><w t="RG">yyy </w><w t="SP">hasta </w><w t="RG">luego </w><w t="NCMS000">hhh </w></div>
 </text>
 </body>
-<script>
-
-document.getElementById("verbbutton").addEventListener("click", highlightVerbs);
-document.getElementById("nounbutton").addEventListener("click", highlightNouns);
-
-function highlightVerbs() {
-    var words = document.querySelectorAll("[t^=\"V\"]");
-    for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor="blue";
-    };
-    var button = document.getElementById("verbbutton");
-    button.style.backgroundColor = "#333333";
-    button.style.color = "#FFFFFF";
-}
-function highlightNouns() {
-    var words = document.querySelectorAll("[t^=\"N\"]");
-    for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor="red";
-    };
-    var button = document.getElementById("nounbutton");
-    button.style.backgroundColor = "#333333";
-    button.style.color = "#FFFFFF";
-}
-</script>
+<script src="js/script.js"></script>
 </html>
