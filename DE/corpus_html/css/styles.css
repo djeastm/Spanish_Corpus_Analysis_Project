@@ -1,54 +1,25 @@
 /*
-* Title: davidjeastman.com
+* Title: C-Or-DiAL Analysis Project
 * Version: 0.0.1
 * Author: David Eastman
 */
 
 body {
-    background-color: black;
-    /*background-image: url(../images/background.jpg);*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: "Verdana", sans-serif;
-    color: white;
-}
-
-p {
-    font-size: larger;
-}
-
-a {
-    color: white;
-}
-
-h1 {
-    color: white;
-    padding: 20px 0px;
-}
-
-h3 {
-    color: rgb(0, 150, 255);
-}
-
-
-nav {
-    padding: 10px 0 10px 0;
-    background-color: black;
-    text-align: center;
+    margin: 20px 25px;
 }
 
 .texthead {
-    background-color: black;
-    text-align: left;
+    padding: 10px 20px;
+    margin: 10px 15px;
 }
 
 .textbody {
-    background: rgba(30, 30, 30, .9);
     padding: 10px 20px;
     margin: 20px 30px;
 }
 
 select, label {
+    font-size: larger;
     display: none;
 }
 
@@ -56,57 +27,15 @@ select, label {
     display: inline-block;
 }
 
-#POS {
-    display: block;
+#form {
+    padding: 10px 20px;
+    margin: 20px 30px;
+}
+
+#POS, #POSLabel {
+    display: inline-block;
 }
 
 #highlight_button {
     display: block;
 }
-
-tfoot th {
-    background-color: #121212;
-}
-
-
-figure {
-    display: block;
-    background-color: #e7e3d8;
-    padding: 2px;
-    text-align: left;
-    margin: 0px 10px 10px 10px;
-}
-
-figure.align-left {
-    float: left;
-}
-
-figure.align-right {
-    float: right;
-}
-
-figure img.medium {
-    width: 777px;
-    height: 486px;
-}
-
-figure img.small {
-    width: 388px;
-    height: 243px;
-}
-
-figure img.mobile-vert {
-    width: 180px;
-    height: 320px;
-}
-
-figure img.paper {
-    width: 230px;
-    height: 320px;
-}
-
-figure img.gif {
-    width: 483px;
-    height: 328px;
-}
-

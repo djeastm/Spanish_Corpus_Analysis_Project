@@ -1,4 +1,5 @@
 var tag = '';
+var backgroundColor = "white";
 
 function highlight() {
     clearHighlight(); // Turn off all highlighting
@@ -17,7 +18,7 @@ function highlight() {
     }
 
     var count = highlightTaggedWords();
-    document.getElementById("word_count").innerHTML = "Word count:"+count;
+    document.getElementById("word_count").innerHTML = count;
 
     event.preventDefault(); // disable normal form submit behavior
 
@@ -38,15 +39,19 @@ function showHideSelects() {
         selects[i].style.display="inline-block";
     };
 
-    document.getElementById("POS").style.display="block"
+    document.getElementById("POS").style.display="inline-block"
+    document.getElementById("POSLabel").style.display="inline-block"
 }
 
 function highlightTaggedWords() {
     var this_tag = "[t^=\""+tag+"\"]"
     
     var words = document.querySelectorAll(this_tag);
+
+    if (words.length >= 1) backgroundColor = words[0].style.backgroundColor;
+
     for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor="blue";
+        words[i].style.backgroundColor="yellow";
     };
     tag = ''; 
     return words.length;   
@@ -55,6 +60,6 @@ function highlightTaggedWords() {
 function clearHighlight() {
     var words = document.querySelectorAll("w");
     for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor="black";
+        words[i].style.backgroundColor = backgroundColor;
     };
 }

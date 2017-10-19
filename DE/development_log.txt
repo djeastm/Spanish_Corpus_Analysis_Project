@@ -66,3 +66,7 @@ html document that can be used with javascript to highlight tagged words on comm
 10/18/17 6:00 pm to 9:30 pm
 
 - Added functionality to CorpusCordial_Tagged_HTML_Formatted.html to enable selective highlighting based on all of the options returned by the FreeLing analyzer using Javascript. The script.js file is in the js folder in the corpus_html folder.
+
+10/19/17 11:30 am to 12:00pm
+
+- Improved look/ease-of-use of web page using Bootstrap (a free CSS styling plugin from Twitter).
