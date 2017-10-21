@@ -70,3 +70,7 @@ html document that can be used with javascript to highlight tagged words on comm
 10/19/17 11:30 am to 12:00pm
 
 - Improved look/ease-of-use of web page using Bootstrap (a free CSS styling plugin from Twitter).
+
+10/20/17 7:00pm to 9:00pm
+
+- Attempted to improve functionality of filtering on web page using a tree data structure, but results were unsatisfactory (inefficient w.r.t time), so discarded changes.
