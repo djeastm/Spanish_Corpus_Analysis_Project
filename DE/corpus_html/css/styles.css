@@ -5,7 +5,21 @@
 */
 
 body {
-    margin: 20px 25px;
+    padding: 10px 20px;
+    margin: 40px 55px;    
+}
+
+select, label {
+    font-size: larger;
+    display: none;
+}
+
+#corpus {
+    padding: 15px 0px 0px 15px;    
+}
+
+#frequencies {
+    padding: 0px 10px 0px 10px;    
 }
 
 .texthead {
@@ -18,18 +32,8 @@ body {
     margin: 20px 30px;
 }
 
-select, label {
-    font-size: larger;
-    display: none;
-}
-
-.V {
+.V {  /*Start out with verb dropdowns visible*/ 
     display: inline-block;
-}
-
-#form {
-    padding: 10px 20px;
-    margin: 20px 30px;
 }
 
 #POS, #POSLabel {
@@ -38,4 +42,18 @@ select, label {
 
 #highlight_button {
     display: block;
+}
+
+.column {
+    float: left;
+}
+
+/* Left column */
+.column.left {
+    width: 12%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 88%;
 }
