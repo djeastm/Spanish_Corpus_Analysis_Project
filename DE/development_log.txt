@@ -78,3 +78,7 @@ html document that can be used with javascript to highlight tagged words on comm
 10/24/17 5:30 pm to 7:30 pm
 
 - Added frequency lists for filtering on webpage and documented code. Pushed new website version.
+
+10/25/17 8:00 am to 9:00 am
+
+- Added wildcard functionality to filtering
