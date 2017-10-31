@@ -50,9 +50,9 @@ function highlight() {
 
     // Sort descending by the situations with the most words
     var situationsSorted = Object.keys(situations).sort(function(a, b) {return -(situations[a].sit_count - situations[b].sit_count);});
-
+    
     freq_html = "";
-    for (var i = 0; i < situationsSorted.length; i++) {
+    for (var i = 0; i < situationsSorted.length; i++) {        
         var situation = situationsSorted[i];
         // Get the frequency dictionary for this situation
         var freq_dict = situations[situation].freq_dict;
@@ -64,8 +64,8 @@ function highlight() {
 
         // Push the sorted keys into an array along with their values from the frequencies object
         var freqSorted = [];
-        for (var i = 0; i < keysSorted.length; i++) {
-            var key = keysSorted[i];
+        for (var j = 0; j < keysSorted.length; j++) {
+            var key = keysSorted[j];
             var value = freq_dict[key];        
             var pair = {};
             pair[key] = value;
@@ -74,9 +74,9 @@ function highlight() {
 
         // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises
         freq_html += "<h3>"+situation+" ("+sit_count+" matches)"+"</h3><br>"
-        for (var i = 0; i < freqSorted.length; i++) {
-            var percent = (100 * Object.values(freqSorted[i])[0] / sit_count).toFixed(2);
-            freq_html += Object.keys(freqSorted[i])[0] + " : " + Object.values(freqSorted[i])[0] + " (" + percent + "%) <br>";
+        for (var j = 0; j < freqSorted.length; j++) {
+            var percent = (100 * Object.values(freqSorted[j])[0] / sit_count).toFixed(2);
+            freq_html += Object.keys(freqSorted[j])[0] + " : " + Object.values(freqSorted[j])[0] + " (" + percent + "%) <br>";
         }
         freq_html += "<br>";
     };
