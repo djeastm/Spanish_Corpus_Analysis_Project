@@ -48,10 +48,12 @@ function highlight() {
         }
     });
 
-    console.log(situations);
+    // Sort descending by the situations with the most words
+    var situationsSorted = Object.keys(situations).sort(function(a, b) {return -(situations[a].sit_count - situations[b].sit_count);});
 
     freq_html = "";
-    Object.keys(situations).forEach(function(situation) {
+    for (var i = 0; i < situationsSorted.length; i++) {
+        var situation = situationsSorted[i];
         // Get the frequency dictionary for this situation
         var freq_dict = situations[situation].freq_dict;
         // Get the total number of words in this situation (for calculating percentage below)
@@ -71,13 +73,13 @@ function highlight() {
         }
 
         // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises
-        freq_html += "<h3>"+situation+"</h3><br>"
+        freq_html += "<h3>"+situation+" ("+sit_count+" matches)"+"</h3><br>"
         for (var i = 0; i < freqSorted.length; i++) {
             var percent = (100 * Object.values(freqSorted[i])[0] / sit_count).toFixed(2);
             freq_html += Object.keys(freqSorted[i])[0] + " : " + Object.values(freqSorted[i])[0] + " (" + percent + "%) <br>";
         }
         freq_html += "<br>";
-    });
+    };
 
     // Update HTML with new data
     document.getElementById("word_count").innerHTML = count;

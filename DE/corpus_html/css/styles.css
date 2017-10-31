@@ -50,10 +50,10 @@ select, label {
 
 /* Left column */
 .column.left {
-    width: 12%;
+    width: 25%;
 }
 
 /* Middle column */
 .column.middle {
-    width: 88%;
+    width: 75%;
 }
