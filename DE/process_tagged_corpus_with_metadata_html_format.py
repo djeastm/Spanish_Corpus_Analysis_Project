@@ -24,11 +24,16 @@ def main():
             #print("Before: "+head.string)            
             metadata_lines = head.string.split("@")
             head.clear()
-            for line in metadata_lines:
-                meta_tag = soup.new_tag('meta')
-                meta_tag.string = line                
-                head.append(meta_tag)
-                head.append(soup.new_tag('br'))
+            for line in metadata_lines:                
+                m = re.search(r'(.*?):(.*)', line)
+                if m:
+                    #print(line)
+                    attr = m.group(1).lower()
+                    key = '_'.join(attr.split())
+                    
+                    meta_tag = soup.new_tag('div', metaclass=key)
+                    meta_tag.string = line.rstrip()                
+                    head.append(meta_tag)
             
             #print("After: "+head)
             

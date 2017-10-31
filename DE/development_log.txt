@@ -82,3 +82,11 @@ html document that can be used with javascript to highlight tagged words on comm
 10/25/17 8:00 am to 9:00 am
 
 - Added wildcard functionality to filtering
+
+10/31/17 12:30 pm to 1:00 pm
+
+- Added to Research Narrative
+
+10/31/17 2:00 pm to 4:30 pm
+
+- Created page to breakdown frequencies by situation (availably via link from normal page)

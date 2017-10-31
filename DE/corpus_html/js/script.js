@@ -17,37 +17,67 @@ function highlight() {
     }
 
     // Highlight the words 
-    var words = highlightTaggedWords();
+    var words = highlightTaggedWords();    
 
     // Get total word count
     var count = words.length;
 
-    // Count the frequencies of each word
-    var frequencies = {};
+    // Find out what situations are involved using these parts of speech
+    var situations = {};
     words.forEach(function(currVal, currIndex, listObj) {
+        // Get the word itself
         var word = currVal.innerHTML.trim();
-        frequencies[word] = frequencies[word] ? frequencies[word] + 1 : 1;
+
+        // Get the situation described in the metadata for this word
+        var texthead = currVal.parentNode.previousElementSibling;        
+        var meta_situation = texthead.querySelector("[metaclass=\"situación\"]");
+        var situation = "";
+        if (meta_situation != null) situation = meta_situation.innerHTML.split(":")[1].trim();
+
+        // Count the frequencies of each word contained in each situation
+        if (situations[situation]) {
+            situations[situation].sit_count += 1;            
+            situations[situation].freq_dict[word] = situations[situation].freq_dict[word]?
+                                                    situations[situation].freq_dict[word] + 1 : 1;            
+        } else {
+            // If the situation isn't already in our dictionary, create a new spot for it, along with its own
+            // frequency dictionary
+            var frequencies = {};
+            frequencies[word] = 1;                        
+            situations[situation] = {sit_count: 1, freq_dict: frequencies};
+        }
     });
 
-    // Sort to get the highest count at top
-    var keysSorted = Object.keys(frequencies).sort(function(a, b) { return -(frequencies[a] - frequencies[b]) });
+    console.log(situations);
 
-    // Push the sorted keys into an array along with their values from the frequencies object
-    var freqSorted = [];
-    for (var i = 0; i < keysSorted.length; i++) {
-        var key = keysSorted[i];
-        var value = frequencies[key];
-        var pair = {};
-        pair[key] = value;
-        freqSorted.push(pair);
-    }
-
-    // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises
     freq_html = "";
-    for (var i = 0; i < freqSorted.length; i++) {
-        var percent = (100 * Object.values(freqSorted[i])[0] / count).toFixed(2);
-        freq_html += Object.keys(freqSorted[i])[0] + " : " + Object.values(freqSorted[i])[0] + " (" + percent + "%) <br>";
-    }
+    Object.keys(situations).forEach(function(situation) {
+        // Get the frequency dictionary for this situation
+        var freq_dict = situations[situation].freq_dict;
+        // Get the total number of words in this situation (for calculating percentage below)
+        var sit_count = situations[situation].sit_count;
+
+        // Sort to get the highest count at top
+        var keysSorted = Object.keys(freq_dict).sort(function(a, b) {return -(freq_dict[a] - freq_dict[b]);});
+
+        // Push the sorted keys into an array along with their values from the frequencies object
+        var freqSorted = [];
+        for (var i = 0; i < keysSorted.length; i++) {
+            var key = keysSorted[i];
+            var value = freq_dict[key];        
+            var pair = {};
+            pair[key] = value;
+            freqSorted.push(pair);
+        }
+
+        // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises
+        freq_html += "<h3>"+situation+"</h3><br>"
+        for (var i = 0; i < freqSorted.length; i++) {
+            var percent = (100 * Object.values(freqSorted[i])[0] / sit_count).toFixed(2);
+            freq_html += Object.keys(freqSorted[i])[0] + " : " + Object.values(freqSorted[i])[0] + " (" + percent + "%) <br>";
+        }
+        freq_html += "<br>";
+    });
 
     // Update HTML with new data
     document.getElementById("word_count").innerHTML = count;
