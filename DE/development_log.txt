@@ -90,3 +90,16 @@ html document that can be used with javascript to highlight tagged words on comm
 10/31/17 2:00 pm to 4:30 pm
 
 - Created page to breakdown frequencies by situation (availably via link from normal page)
+
+11/10/17 7:00 pm to 11:00 pm
+
+- Found CORLEC spanish language oral corpus (788000+ words) from http://www.lllf.uam.es/ING/Corlec.html
+- Created script to concatenate multiple files into one large raw file for processing.
+- Created build_CORLEC_corpus.py to take corpus from raw state to html for the webpage
+
+11/11/17 7:00 am to 9:30 am
+
+- Developed build_CORLEC_corpus.py and reconfigured javascript and html page (including C-Or-DiAL page) to accommodate multiple corpuses along with sorting by situation (in CORLEC's case, the closest analog to situation was the category of the text, but this can be adjusted)
+- Changed filenames to distiguish scripts and documents used for different corpuses
+- Moved C-Or-DiAL-specific items into its own folder and created new folder for CORLEC items
+- Changed name of "corpus_html" to "webpage"
