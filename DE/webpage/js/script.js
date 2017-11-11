@@ -1,6 +1,14 @@
 var tag = '';
 var backgroundColor = "white";
 
+// disable button until page loads completely
+
+function showPage() {
+    document.getElementById('highlight_button').disabled = false;
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("corpus").style.display = "block";
+}
+
 function highlight() {
     clearHighlight(); // Turn off all previous highlighting
 
@@ -57,7 +65,7 @@ function highlight() {
 
     // Update HTML with new data
     document.getElementById("word_count").innerHTML = count;
-    document.getElementById("frequencies").innerHTML = freq_html;
+    document.getElementById("frequencies").innerHTML = freq_html;    
 
     event.preventDefault(); // disable normal form submit behavior
 

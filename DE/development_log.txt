@@ -103,3 +103,8 @@ html document that can be used with javascript to highlight tagged words on comm
 - Changed filenames to distiguish scripts and documents used for different corpuses
 - Moved C-Or-DiAL-specific items into its own folder and created new folder for CORLEC items
 - Changed name of "corpus_html" to "webpage"
+
+11/11/17 1:30 pm to 2:30 pm
+
+- Searched for Mexican/Latin American oral corpuses (none found)
+- Added loading icon to webpage to alert user to delay on loading large CORLEC file

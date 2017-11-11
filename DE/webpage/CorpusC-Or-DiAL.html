@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link href="css/styles.css" rel="stylesheet"/>
 </head>
-<body>
+<body onload="showPage()">
     <nav>
-        C-Or-Dial | <a href="CorpusCORLEC.html">CORLEC</a>                
+        C-Or-DiAL | <a href="CorpusCORLEC.html">CORLEC</a>                
     </nav>
     <div id="form">
         <form name="pos_form" action="javascript:;" onsubmit="highlight()">
@@ -332,13 +332,14 @@
         <label id="limit_label" for="limit">Max # results</label>
         <input id="limit" type="text" name="limit" value="10" maxlength="4" size="4">
         
-        <input id="highlight_button" name="Submit" type="submit" value="Highlight Words"/>        
+        <input id="highlight_button" name="Submit" type="submit" value="Highlight Words" disabled="disabled"/>        
         </form>
         <div>Word count: <span id="word_count">119544</span></div>
     </div>
 </br>
 <div class="row">
 <div id="frequencies" class="column left"></div>
+<div id="loader" class="column middle"></div>
 <div id="corpus" class="column middle">
 <text id="aula_10_LO_QUE_HEMOS_HECHO"><h2>aula_10_LO_QUE_HEMOS_HECHO</h2>
 <div class="texthead"><div metaclass="archivos">Archivos: aula_10_LO_QUE_HEMOS_HECHO.txt, aula_10_LO_QUE_HEMOS_HECHO.wav</div><div metaclass="t&iacute;tulo">T&iacute;tulo: lo que hemos hecho</div><div metaclass="participantes">Participantes: ANT, Antonio (hombre, C, 3, profesor, Madrid)</div><div metaclass="relaci&oacute;n_entre_los_participantes">Relaci&oacute;n entre los participantes: ANT es el profesor que da una clase a unos alumnos</div><div metaclass="situaci&oacute;n">Situaci&oacute;n: en el aula durante una clase</div><div metaclass="tema_general">Tema general: asignatura de Ling&uuml;&iacute;stica Computacional</div><div metaclass="tema">Tema: el profesor explica que durante el curso van a hacer aplicaciones pr&aacute;cticas y van a estudiar los fundamentos te&oacute;ricos por su cuenta</div><div metaclass="palabras_clave">Palabras clave: ense&ntilde;anza, Ling&uuml;&iacute;stica</div><div metaclass="uso_did&aacute;ctico">Uso did&aacute;ctico: B1</div><div metaclass="nivel_para_la_comprensi&oacute;n_del_texto">Nivel para la comprensi&oacute;n del texto: B2</div><div metaclass="palabras_nuevas">Palabras nuevas: ADMYTE, el proyecto C-ORAL-ROM, procesamiento del lenguaje natural, valer la pena</div><div metaclass="funciones_comunicativas">Funciones comunicativas: 1.6 describir, 3.9 preguntar por planes e intenciones y expresar planes e intenciones, 2.2 dar una opini&oacute;n, valorar, 4.24 tranquilizar, consolar y animar, 4.26 preguntar por obligaci&oacute;n y necesidad y expresar obligaci&oacute;n y necesidad o falta de obligaci&oacute;n o de necesidad, 6.15 destacar un elemento entre los temas o los hechos, 6.16 introducir palabras de otros y citar</div><div metaclass="observaciones_ling&uuml;&iacute;sticas">Observaciones ling&uuml;&iacute;sticas: oraciones finales; oraciones de relativo; tiempos del pasado; apoyos voc&aacute;licos</div><div metaclass="duraci&oacute;n_y_n&uacute;mero_de_palabras">Duraci&oacute;n y n&uacute;mero de palabras: 00:02:08 - 774</div><div metaclass="transcriptores_y_revisores">Transcriptores y revisores: Carlota Nicol&aacute;s Mart&iacute;nez, Marta Garrote Salazar, Stefano Olmastroni</div><div metaclass="grabaci&oacute;n_original">Grabaci&oacute;n original: 10_CLASE_MORENO.wav, 2005, Madrid, 00:57:01</div></div>
