@@ -112,3 +112,7 @@ html document that can be used with javascript to highlight tagged words on comm
 11/14/17 10:00 am to 11:00 am
 
 - Added more sorting/grouping categories to both corpuses
+
+11/14/17 4:30 pm to 6:30 pm
+
+- Added basic Excel export functionality for frequency lists

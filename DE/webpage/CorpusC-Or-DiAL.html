@@ -11,7 +11,7 @@
         C-Or-DiAL | <a href="CorpusCORLEC.html">CORLEC</a>                
     </nav>
     <div id="form">
-        <form name="pos_form" action="javascript:;" onsubmit="highlight()">
+        <form name="pos_form" action="javascript:;" onsubmit="highlight(event)">
 
         <label id="POSLabel" for="POS">Part of speech</label>
         <select id="POS" name="part_of_speech" onchange="showHideSelects()">
@@ -334,7 +334,8 @@
         <label id="limit_label" for="limit">Max # results</label>
         <input id="limit" type="text" name="limit" value="10" maxlength="4" size="4">
         
-        <input id="highlight_button" name="Submit" type="submit" value="Highlight Words" disabled="disabled"/>        
+        <input id="highlight_button" name="Submit" type="submit" value="Highlight Words" disabled="disabled"/>
+        <input id="export_button" name="export" type="button" value="Export to Excel" disabled="disabled" onclick="exportFreqList()">        
         </form>
         <div>Word count: <span id="word_count">119544</span></div>
     </div>

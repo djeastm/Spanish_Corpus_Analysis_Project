@@ -42,7 +42,7 @@ select, label {
 }
 
 #highlight_button {
-    display: block;
+    display: inline-block;
 }
 
 .column {

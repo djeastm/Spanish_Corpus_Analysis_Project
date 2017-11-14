@@ -1,5 +1,6 @@
 var tag = '';
 var backgroundColor = "white";
+var group_by = "";
 
 // disable button until page loads completely
 
@@ -9,7 +10,7 @@ function showPage() {
     document.getElementById("corpus").style.display = "block";
 }
 
-function highlight() {
+function highlight(e) {
     clearHighlight(); // Turn off all previous highlighting
 
     var pos = document.getElementById("POS").value;
@@ -32,7 +33,7 @@ function highlight() {
     var count = words.length;
 
     // Determine how/if the results will be grouped
-    var group_by = document.getElementById("group_by").value;
+    group_by = document.getElementById("group_by").value;
 
     // Determine how many of each grouping, or of total, if no grouping
     var limit = document.getElementById("limit").value;
@@ -53,7 +54,7 @@ function highlight() {
             }
         });
 
-        freq_html = buildFreqList(freq_dict, count, limit);
+        freq_html = buildFreqList(freq_dict, count, limit);        
     }
     else if (group_by == "S") {
         // the groupBy function will take care of building the html grouped by whatever grouping metaclass
@@ -81,7 +82,8 @@ function highlight() {
     document.getElementById("word_count").innerHTML = count;
     document.getElementById("frequencies").innerHTML = freq_html;    
 
-    event.preventDefault(); // disable normal form submit behavior
+    document.getElementById('export_button').disabled = false;
+    e.preventDefault(); // disable normal form submit behavior
 
     return false; // prevent further bubbling of event
 }
@@ -198,14 +200,73 @@ function groupBy(group_by, words, limit, multiple) {
     for (var i = 0; i < groupingsSorted.length; i++) { 
         var grouping = groupingsSorted[i];
         group_html += "<h3>"+grouping+" ("+groupings[grouping].sit_count+" matches)"+"</h3><br>"       
-        group_html += buildFreqList(groupings[grouping].freq_dict,
+        var freq_list_i = buildFreqList(groupings[grouping].freq_dict,
                                     groupings[grouping].sit_count,
                                     limit);
+        group_html += freq_list_i;
         group_html += "<br>";   
     };
 
     return group_html;
 }
+
+function exportFreqList() {
+    var freq_html = document.getElementById("frequencies").innerHTML;
+    var csvContent = "";
+
+    // Parse this to make a flat data file
+    var lines = freq_html.split("<br>");
+    var group = "";
+    var group_head = "";
+    for (var i = 0; i < lines.length; i++) {
+        if (lines[i] === "") {            
+            continue;
+        }
+        // Header lines        
+        if (lines[i].startsWith("<h3>")) {
+            // Store previous group, if it exists;
+            csvContent += group;
+            group = "";
+
+            var re = /<h3>(.*)\((\d+) matches\)<\/h3>/;            
+            var re_array = re.exec(lines[i]);
+            group_head = "\"" + re_array[1].trim() +"\","+re_array[2].trim() +",";
+        } else {
+            var re = /(.*) : (\d+) \((.*)%\)/;
+            var re_array = re.exec(lines[i]);
+            if (group_head === "") {
+                group += re_array[1].trim() +","
+                + re_array[2].trim() +","
+                + re_array[3].trim() +"\n";
+            } else {
+                group += re_array[1].trim() +","
+                        + re_array[2].trim() +","
+                        + re_array[3].trim() +","
+                        + group_head + "\n";      
+            }
+        }        
+    }
+    csvContent += group; // Save previous group one final time
+
+    var blob = new Blob(["\ufeff"+csvContent], { type: 'text/csv;charset=utf-8;' });
+    var filename = "export.csv";
+    if (navigator.msSaveBlob) { // IE 10+
+        navigator.msSaveBlob(blob, filename);
+    } else {
+        var link = document.createElement("a");
+        if (link.download !== undefined) { // feature detection
+            // Browsers that support HTML5 download attribute
+            var url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", filename);
+            link.style = "visibility:hidden";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    }
+}
+
 function countFreqForWord(word, groupings, grouping) {
     // Count the frequencies of each word contained in each grouping
     if (groupings[grouping]) {
