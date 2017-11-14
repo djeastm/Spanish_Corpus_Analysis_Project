@@ -108,3 +108,7 @@ html document that can be used with javascript to highlight tagged words on comm
 
 - Searched for Mexican/Latin American oral corpuses (none found)
 - Added loading icon to webpage to alert user to delay on loading large CORLEC file
+
+11/14/17 10:00 am to 11:00 am
+
+- Added more sorting/grouping categories to both corpuses

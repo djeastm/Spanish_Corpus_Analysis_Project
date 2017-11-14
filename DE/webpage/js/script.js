@@ -58,8 +58,22 @@ function highlight() {
     else if (group_by == "S") {
         // the groupBy function will take care of building the html grouped by whatever grouping metaclass
         // we choose
-        freq_html = groupBy("situation", words, limit);
-    } else {
+        freq_html = groupBy("situation", words, limit, false);
+    } // The following are CORLEC-specific
+    else if (group_by == "F") {        
+        freq_html = groupBy("fuente", words, limit, false);
+    } 
+    else if (group_by == "T") {        
+        freq_html = groupBy("terminos", words, limit, true);
+    } // The following are C-Or-DiAL-specific
+    else if (group_by == "U") {        
+        freq_html = groupBy("usos", words, limit, false);
+    } 
+    else if (group_by == "C") {        
+        freq_html = groupBy("funciones", words, limit, true);
+    } 
+     
+    else {
 
     }
 
@@ -142,9 +156,15 @@ function clearHighlight() {
     };
 }
 
-groupings_metaclass = {"situation": "situación"}
+groupings_metaclass = {"situation": "situación", 
+                        "fuente": "fuente",
+                        "terminos": "términos", 
+                        "usos": "uso_didáctico",
+                        "funciones": "funciones_comunicativas"};
 
-function groupBy(group_by, words, limit) {
+// Takes in the group_by criterion, the words themselves, the limit on the number of results, and whether 
+// the particular criterion has multiple elements that need to be parsed
+function groupBy(group_by, words, limit, multiple) {
 
     // Find out what groupings are involved using these parts of speech
     var groupings = {};
@@ -158,18 +178,17 @@ function groupBy(group_by, words, limit) {
         var grouping = "";
         if (meta_grouping != null) grouping = meta_grouping.innerHTML.split(":")[1].trim();
 
-        // Count the frequencies of each word contained in each grouping
-        if (groupings[grouping]) {
-            groupings[grouping].sit_count += 1;            
-            groupings[grouping].freq_dict[word] = groupings[grouping].freq_dict[word]?
-                                                    groupings[grouping].freq_dict[word] + 1 : 1;            
+        // If there are multiple parts to this grouping criterion, separated by commas,
+        // split them up and iterate over them
+        if (multiple) {
+            parts = grouping.split(",");
+            for (var i = 0; i < parts.length; i++) {
+                groupings = countFreqForWord(word, groupings, parts[i]);
+            }
         } else {
-            // If the grouping isn't already in our dictionary, create a new spot for it, along with its own
-            // frequency dictionary
-            var frequencies = {};
-            frequencies[word] = 1;                        
-            groupings[grouping] = {sit_count: 1, freq_dict: frequencies};
+            groupings = countFreqForWord(word, groupings, grouping);
         }
+
     });
 
     // Sort descending by the groupings with the most words
@@ -186,6 +205,21 @@ function groupBy(group_by, words, limit) {
     };
 
     return group_html;
+}
+function countFreqForWord(word, groupings, grouping) {
+    // Count the frequencies of each word contained in each grouping
+    if (groupings[grouping]) {
+        groupings[grouping].sit_count += 1;            
+        groupings[grouping].freq_dict[word] = groupings[grouping].freq_dict[word]?
+                                                groupings[grouping].freq_dict[word] + 1 : 1;            
+    } else {
+        // If the grouping isn't already in our dictionary, create a new spot for it, along with its own
+        // frequency dictionary
+        var frequencies = {};
+        frequencies[word] = 1;                        
+        groupings[grouping] = {sit_count: 1, freq_dict: frequencies};
+    }
+    return groupings;
 }
 
 function buildFreqList(freq_dict, sit_count, limit) {

@@ -15,8 +15,8 @@ def main():
         count = 0
         for text in texts:
             count = count + 1
-            if count != 461:
-                continue                        
+##            if count > 3:
+##                continue                        
             lines = text.split("\n")
             if count == 1: # first line treated differently
                 text_id = lines[0][-8:].lower()
@@ -114,7 +114,7 @@ def main():
             
         htmloutput += "</div>"
 
-        with open("CorpusCORLEC_bpub041b.html",'w', encoding='utf-8') as corpus:
+        with open("CorpusCORLEC.html",'w', encoding='utf-8') as corpus:
             corpus.write(htmloutput)
 
 situations = {"adm":"Administrativos",
