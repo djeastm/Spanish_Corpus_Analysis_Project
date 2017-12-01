@@ -116,3 +116,8 @@ html document that can be used with javascript to highlight tagged words on comm
 11/14/17 4:30 pm to 6:30 pm
 
 - Added basic Excel export functionality for frequency lists
+
+12/1/17 5:30 pm tp 6:30 pm
+
+- Researched Subcorpus oral del CREA and Corpus del Espanol to see if they can be added to webpage.
+- Found webtools existing for these corpuses at http://web.frl.es/CREA/view/inicioExterno.view and https://www.corpusdelespanol.org/web-dial/, respectively.
