@@ -1,0 +1,1 @@
+find . -type f | (while read line; do cat $line; echo "|DAVIDEASTMAN|"; done;) > ../output.txt

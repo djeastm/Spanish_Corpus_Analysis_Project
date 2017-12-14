@@ -121,3 +121,12 @@ html document that can be used with javascript to highlight tagged words on comm
 
 - Researched Subcorpus oral del CREA and Corpus del Espanol to see if they can be added to webpage.
 - Found webtools existing for these corpuses at http://web.frl.es/CREA/view/inicioExterno.view and https://www.corpusdelespanol.org/web-dial/, respectively.
+
+12/05/17 6:00 pm to 9:00 pm
+
+- Downloaded PRESEEA corpus at http://preseea.linguas.net/Corpus.aspx by downloading each individual conversation and converting to usable text files
+- Created build_PRESEEA_corpus.py to turn into database-ready format
+
+12/14/17 0800 am - 4:00 pm
+
+- Worked with build_PRESEEA_corpus.py and IndexedDB-wrapper Dexie.js to create an in-browser database (since this corpus and the Corpus del Español corpus are large, a more robust solution than previously created is needed to make the searching performant)
