@@ -1,0 +1,3724 @@
+<Trans audio_filename="MONR_H32_086.MP3" xml:lang="español">
+<Datos clave_texto=" MONR_H32_086" tipo_texto="entrevista_semidirigida">
+<Corpus corpus="PRESEEA" subcorpus="ESMXMONR" ciudad="Monterrey" pais="México"/>
+<Grabacion resp_grab="Mariano Rodríguez Alfano" lugar="casa del informante" duracion="1h44'46''"
+fecha_grab="2010-05-30" sistema="MP3"/>
+<Transcripcion resp_trans="Martha Deyanira Martínez Cepeda" fecha_trans="2010-07-05"
+numero_palabras="22492"/>
+<Revision num_rev="1" resp_rev="Raquel Rodríguez de Garza" fecha_rev="2010-07-12"/>
+<Revision num_rev="2" resp_rev="Blanca Alicia Rojas Leija" fecha_rev="2010-09-13"/>
+<Revision num_rev="3" resp_rev="Mayra Silva Almanza" fecha_rev="2010-09-20"/>
+<Revision num_rev="4" resp_rev="Cynthia Martínez del Ángel" fecha_rev="2011-11-10"/>
+<Revision num_rev="5" resp_rev="Dalina Flores Hilerio" fecha_rev="2012-01-22"/></Datos>
+<Hablantes>
+<Hablante id="hab1" nombre="MONR_H32_086" codigo_hab="I" sexo="hombre"
+grupo_edad="3" edad="56" nivel_edu="medio" estudios="Técnico en Máquinas y Herramientas" profesion="Empleado" origen="San Nicolás de los Garza, Nuevo León" papel="informante"/>
+<Hablante id="hab2" nombre="Mariano Rodríguez Alfano" codigo_hab="E" sexo="hombre" grupo_edad="3"
+edad="65" nivel_edu="alto" estudios="Maestría Incompleta en Física" profesion="Entrevistador y realizador de encuestas de mercadotecnia" origen="Linares, Nuevo León"
+papel="entrevistador"/>
+<Hablante id="hab3" nombre="desc" codigo_hab="A1" sexo="mujer" grupo_edad="desc"
+edad="desc" nivel_edu="desc" estudios="desc" profesion="desc" origen="desc"
+papel="audiencia"/>
+<Relaciones rel_ent_inf = "desconocidos" rel_inf_aud1="desconocidos"
+rel_ent_aud1="conocidos" rel_inf_aud2="no" rel_ent_aud2="no"/>
+</Hablantes> </Trans>
+
+E: ¡buenos días!
+
+I: ¡buenos días! / ¿cómo amaneció?
+
+E: bien bien / este / estamos visitando a las personas para / a / un trabajo que / se<[e]>stá h<[a]>ciendo para la Facultad de Graduados <simultáneo> de la </simultáneo>
+
+I: <simultáneo> exacto </simultáneo>
+
+E: de Filosofía
+
+I: perfecto
+
+E: e<alargamiento/> / no sé si me permita / tener una conversación con usted 
+
+I: claro que sí cómo no / <simultáneo> sí bienvenido </simultáneo>
+
+E: <simultáneo> <extranjero> okay </extranjero>  </simultáneo> / bueno
+
+I: puede pasar / sí
+
+E: muy amable / <simultáneo> gracias </simultáneo>
+
+I: <simultáneo> ándele </simultáneo> / para servirle / pásele 
+
+E: gracias
+
+I: siéntese y pas<palabra_cortada/> / siéntese
+
+E: ah muy amable / gracias / gracias <simultáneo> gracias </simultáneo>
+
+I: <simultáneo> siéntese </simultáneo>
+
+E: mire / este / qué calor esta<[a]>ciendo ¿ve<[r]>dá<[d]>? 
+
+I: sí en verdá<[d]> sí ha estado / el tiempo un poquito / <sic> caloroso </sic>
+
+E: ya / ya / ya no / ya no tenemos primavera <simultáneo> ya </simultáneo>
+
+I: <simultáneo> no<alargamiento/>  <risas = “todos”/> </simultáneo>
+
+E: <entre_risas> se mantiene<[e]>l verano </entre_risas>
+
+I: sí <risas = “todos”/> / ya se nos viene<[e]>l agua y lue<[g]>o el / vapor el del / la humedad <simultáneo> y todo </simultáneo>
+
+E: <simultáneo> y todo </simultáneo>
+
+I: sí cómo no / sí / <simultáneo> mucho calor </simultáneo>
+
+E: <simultáneo> bastante </simultáneo> bochorno 
+
+I: sí / cómo no / mucho calor / sí 
+
+E: ha / estamos / está pesado / los días
+
+I: <ruido = “perro ladrando”/> sí cómo no
+
+E: oiga / <simultáneo> usted </simultáneo>
+
+I: <simultáneo> a sus </simultáneo> órdenes / sí
+
+E: <ruido_fondo> <observación_complementaria = “perro ladrando”/> ¿usted de dónde<[e]>s? / ¿es de aquí de Monterrey?
+
+I: sí / yo soy nativo aquí de Monterrey Nuevo León
+
+E: <simultáneo> ándele </simultáneo>
+
+I: <simultáneo> sí </simultáneo>
+
+E: y<alargamiento/> </ruido_fondo>
+
+I: mi familia / mis padres / todo / mi padre / él e <palabra_cortada/> / él es descendencia / japonesa
+
+E: ándele
+
+I: él ya falleció algunos años / este<alargamiento/> / pero su padre o sea mi abuelo / ellos vinieron hace muchos años <ruido = “perro ladrando”/> / aquí a Monterrey / él llegó al Puerto de Tampico
+
+E: ándele    
+
+I: en un barco de Japón
+
+E: ándele / sí
+
+I: <[a]>hacer mercado / y se presentan los problemas de las / de los mares de los<alargamiento/> / problemas / políticos de la cuestión de la Segunda Guerra Mundial
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: y él se quedó aquí  
+
+E: ah
+
+I: ya no pudieron regresar / el barco no regresó por ellos 
+
+E: eso es
+
+I: nuestro <sic> apeído </sic> es Ishida 
+
+E: ándele
+
+I: sí / son de una / de un grupo de<alargamiento/> / pos japoneses que llegaron en esa época
+
+E: mjm
+
+I: <[a]>hacer comercio en / en los puertos
+
+E: sí sí sí  
+
+I: ¿ve<[r]>dá<[d]>? y mi abuelo / de muy joven / se quedó ya no pudo regresar a su tierra
+
+E: ándele
+
+I: y él empezó a<alargamiento/> / pos a introducirse más a México 
+
+E: ajá
+
+I: <tiempo = “02:05”/> para poder vivir / porque ya no pudo regresar a me<palabra_cortada/> / a / Japón 
+
+E: a Japón 
+
+I: entonces / después de ahí mi abuelo se casa con una persona en Vi<[ll]>a de Santiago / vino a dar a Vi<[ll]>a de Santiago 
+
+E: hasta<[a]>cá
+
+I: porqu<[e]>él buscaba un lugar dónde<alargamiento/> / dónde<alargamiento/> / cultivar la flor
+
+E: ah
+
+I: era la profesión de mi abuelo 
+
+E: ándele
+
+I: después / después se casa / mi abuelita se llamaba Silvestre Moya ella era de / de Vi<[ll]>a de Santiago 
+
+E: mjm
+
+I: y él<alargamiento/> / empezó <[a]>hacer mercado con la flor 
+
+E: ajá
+
+I: y puso una quinta por Aramberri / aquí en Monterrey    
+
+E: ¿aquí en Monterrey?
+
+I: se llamaba La Quinta México
+
+E: ajá
+
+I: y tenía otros paisanos que<[e]>ran / e<alargamiento/> / la familia kuturata eran otros japoneses 
+
+E: ajá
+
+I: estaban por / Pino Suárez / parece que<[e]>ra Quinta la Crisantema 
+
+E: ¿y se dedicaban a lo mismo?
+
+I: y ellos se dedicaban a la flor / eran muy amigos y ya posteriormente / pues se murió él / y l<[u]> <[e]> <[g]>o los hermanos de mi papá y papá manejaba la quinta / la florería
+
+E: ajá
+
+I: y este<alargamiento/> / pasaron los años / papá después se / fallece / y luego posteriormente mi tío / pero / mucho antes vendió la quinta / vendió la propiedad
+
+E: ah
+
+I: ahí en Aramberri / antes / unas dos cuadritas de llegar al Mercado Juárez 
+
+E: ah <extranjero> okay </extranjero>
+
+I: era su mercado ahí
+
+E: ajá
+
+I: muy conocido él / era / él / mi padre se <[ll]>am<[a]>a Francisco Isida Moya 
+
+E: m<alargamiento/>
+
+I: nomá<[s]> que mi abuelo tuvo qué cambiar / el <sic> apeído </sic> / porque tenía muchos problemas en emigración 
+
+E: ah <extranjero> okay </extranjero>
+
+I: porque<[e]>ra / I s h i d a / era Ishida 
+
+E: Ishida
+
+I: y lo tuvo que quitar <sic> el </sic> aché / para que fuera / común / Isida n<[a]> <[d]>a más
+
+E: ah / <extranjero> okay </extranjero>
+
+I: y nos dijo / les digo a mis / a mis / papás ¿ve<[r]>dá<[d]>? / y a mis herman<palabra_cortada/> / hermanos de mi padre ¿ve<[r]>dá<[d]>?  
+
+E: ajá
+
+I: que no lo volvieran a usar / porque podrían tener problemas<alargamiento/> 
+
+E: <simultáneo> de<[e]>migra<palabra_cortada/> </simultáneo>
+
+I: <simultáneo> en </simultáneo> papeleo ¿ve<[r]>dá<[d]>?  cuestiones de / de papeles de / oficiales / y ya se quedó el <sic> apeído </sic> Isida pero originalmente<[e]>s de Japón 
+
+E: ándele
+
+I: sí / mi abuelo nació por allá / en Japón
+
+E: mjm
+
+I: y aquí se quedaron todos 
+
+E: mjm
+
+I: ento<[n]> <[c]> <[e]>s la descendencia de nosotros es / descendencia japonesa
+
+E: <simultáneo> por parte de </simultáneo>
+
+I: <simultáneo> por parte de </simultáneo> mi padre 
+
+E: sí / ¿y nunca viajó usted <risas = “E”/> para Japón?
+
+I: ¿mande?
+
+E: <tiempo = “04:09”/> ¿nunca viajó usted <entre_risas> para Japón? </entre_risas>
+
+I: fí<[j]>ese que / un hermano de mi papá / trabajó en petróleos / to<[d]>a su vida 
+
+E: ajá
+
+I: toda su vida / hasta que terminó él ya su / misión / ya se / murió <ruido = “nasal”/> ¿ve<[r]>dá<[d]>? / pero él / Petróleos Mexicanos / le otorgaba / a él cada<[a]>ño / un viaje a cualquier parte del mundo
+
+E: ándele 
+
+I: y él siempre escogió Japón
+
+E: ¿y qué<[e]>ra lo que <simultáneo> le platicó? </simultáneo>
+
+I: <simultáneo> era su<alargamiento/> </simultáneo> pos platicaba que<[e]>ra un / un país muy<alargamiento/> / disciplinado / muy bonito país ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: y él anduvo buscando / descendencias de mi abuelo 
+
+E: ándele
+
+I: y por ahí anduvo en una isla ¿ve<[r]>dá<[d]>? de Japón / mi abuelo nació en la Isla de Kyushu <observación_complementaria = “tercera isla más grande del Japón / y se encuentra al sur del archipiélago / es considerada la cuna de la civilización japonesa”/> / una isla<alargamiento/> / pos no muy grande pero / pos ya ve que Japón son puras islitas 
+
+E: ajá
+
+I: y él anduvo visitando por ahí / sí / efectivamente dio con / gente / de los mismos <sic>apeídos</sic> 
+
+E: ajá
+
+I: y alcanzó a<alargamiento/> / pos a recopilar / algún<alargamiento/> / escudo del <sic> apeído </sic> de nosotros
+
+E: ándele 
+
+I: y una historia / la historia de nuestro <sic> apeído </sic> <ruido = “perro ladrando”/>
+
+E: eso es
+
+I: ¿verdá<[d]>? de muchos antigu<palabra_cortada/> / de muchos años atrás 
+
+E: que
+
+I: era un <sic> apeído </sic> pu<[e]>s / pos relativamente<alargamiento/> / medio<alargamiento/> / reconocido porque<[e]>ra de los reyes / o no <simultáneo> sé qué </simultáneo>
+
+E: <simultáneo> ándele </simultáneo>
+
+I: de las cuestiones esas / y pos ahí lo conservamos nosotros
+
+E: perfecto
+
+I: y yo creo que yo por eso yo mi carrera / por ejemplo la Facultá<[d]> General de Mecánica Eléctrica / la interrumpí por trabajo / en esa <simultáneo> época <simultáneo/>
+
+E: <simultáneo> mjm <simultáneo/>
+
+I: pos ya ve cómo<alargamiento/> / fue la época de nosotros ¿ve<[r]>dá<[d]>? de / jóvenes 
+
+E: sí sí sí 
+
+I: pos había que trabajar y había que te<palabra_cortada/> / estudiar
+
+E: mjm
+
+I: entonces este / en esa época que yo dejo la universidad / se presentó un problema / pues político en la facultad / en aquellos años / cuando / hubo un pleitito <simultáneo> por ahí de<alargamiento/> </simultáneo>
+
+E: <simultáneo> ¿no fue<[e]>n </simultáneo> el sesenta y ocho?
+
+I: no / no / fue<alargamiento/> / fue como en el ochenta / ochenta y<alargamiento/> dos / ochenta y uno  
+
+E: ándele
+
+I: aquel problema <sic> qui </sic> hubo / que decía La Facultad de Ingeniería / que por qué<[e]>ra siempre / el rector / doctor / y por qué no era ingeniero 
+
+E: ajá sí
+
+I: ¿verdá<[d]>? / era un <simultáneo> pleitito que había </simultáneo>
+
+E: <simultáneo> sí / sí </simultáneo>
+
+I: <tiempo = “06:17”/> y ahí se<[e]>mpezaron a<alargamiento/> / pos a levantar en el / usté<[d]> <simultáneo> sabe cómo </simultáneo>
+
+E: <simultáneo> huelgas </simultáneo> / sí
+
+I: es la muchachada / sí / en esa época nosotros / estudiábamos de noche 
+
+E: ajá
+
+I: pa<[r]> <[a]> poder trabajar de día
+
+E: claro
+
+I: ento<[n]> <[c]> <[e]>s los afecta<[d]>os eran l<palabra_cortada/> / principalmente los / la gente trabajadora ¿ve<[r]> <[d]>á<[d]>? 
+
+E: sí
+
+I: la muchachada como quier<[e]>a ellos le gustaba<[a]>ndar / parando camiones <risas = “E”/> y cerrar las facultades y / y así los empezaron a<[a]>poyar en muchas facultades yo me recuerdo 
+
+E: ajá
+
+I: pero no duró mucho el paro en muchas faculta<[d]>es los apoyaron cierto tiempo / hasta que <sic> los </sic> misma<alargamiento/> / pos o sea<[a]>lumnos los / directores y / ya no pudieron seguir apoyando por el paro e<[x]>cesivo de tiempo
+
+E: sí sí
+
+I: de pérdida de tiempo
+
+E: sí / sí sí 
+
+I: y nosotros en ese tiempo se nos / pos ya lo vimos muy<alargamiento/> / congruente mejo<palabra_cortada/> / m<alargamiento/> / mejor dedicarnos al trabajo 
+
+E: sí
+
+I: porque habíamos perdido mucho tiempo 
+
+E: claro
+
+I: entonces yo me dediqué al deporte / yo practi<[c]>aba deporte desde muy pequeño
+
+E: ajá
+
+I: yo creo que<alargamiento/> / el deporte que practico a la mejor era por / es por / por la descendencia de mi / familia
+
+E: ah <entre_risas> <extranjero> okay </extranjero> </entre_risas>
+
+I: yo soy este<alargamiento/> / Instructor de Artes Marciales de karate 
+
+E: ándele
+
+I: sí yo<alargamiento/> / empecé a estudiar ese deporte / de muy joven ¿ve<[r]>dá<[d]>? con la / yo buscaba un lugar donde / hubiera / pos gente<[e]>specializada en ese deporte / me llam<[a]> <[b]>a mucho la<[a]>tención
+
+E: ajá
+
+I: de muy / muchacho
+
+E: ajá
+
+I: y fui a dar yo a una<[a]>cademia / que<[e]>staba por Modesto <sic> Arriola </sic> / y Pino Suárez 
+
+E: ándele
+
+I: casi frente a L<[a]>Alameda 
+
+E: <extranjero> okay </extranjero>
+
+I: era un <vacilación/> / hay una casa muy famosa de muebles / Casa Romo / está en la mera esquina / de Modesto <sic> Arriola </sic> y / y<alargamiento/> 
+
+E: <simultáneo> y<alargamiento/> </simultáneo>
+
+I: <simultáneo> y<alargamiento/> </simultáneo> / Pino Suárez / casi a mediación de / donde<[e]>stá<[A]>ramberri / una cuadra más / <simultáneo> hacia el<alargamiento/> </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: hacia el sur / estábamos por ahí era una / se llamaba<alargamiento/> / Asociación Neolonesa de Karate-do de deporte 
+
+E: ajá
+
+I: en ese ento<[n]>ces era de los famosos e<alargamiento/> / muy conocidos / los Dávila
+
+E: m<alargamiento/>
+
+I: Jesús García Ávila / Ávila / los Ávila 
+
+E: Ávila
+
+I: era los de la quinta / la<alargamiento/> / ¿cómo se llamaba la quinta? / era una florería
+
+E: ah <extranjero> okay </extranjero>
+
+I: no me acuerdo el nombre de la quinta estaba por Pino Suárez / una cuadra antes de llegar a L<[a]>Alameda 
+
+E: <simultáneo> mjm </simultáneo>
+
+I: <simultáneo> estaba </simultáneo> la quinta esa
+
+E: ándele <ruido = “nasal”/>
+
+I: <tiempo = “08:29”/> <ruido = “I tose”/> parece que<[e]>ra / Quinta La Esmeralda / ellos son los / Ávila / Garcí<[a]>Ávila 
+
+E: ah
+
+I: en esa época eran / Jesús Garcí<[a]>Ávila / Javier Garcí<[a]>Ávila / David / todos / ellos / trajeron en esa époc<[a]>a un japonés 
+
+E: ah <extranjero> okay </extranjero>
+
+I: trajeron a un japonés / para que impartiera ese / esa disciplina aquí a Monterrey 
+
+E: a qué bien
+
+I: yo estab<palabra_cortada/> / e / yo creo que<[e]>llos lo trajeron como / como en el año<alargamiento/> / sesenta y siete o setenta / más o menos
+
+E: ajá
+
+I: ento<[n]> <[c]> <[e]>s / ese japonés / empezó a impartir clases ahí / y clases y siguió / y empezaron a salir muchas generaciones 
+
+E: mjm
+
+I: sí / y yo<alargamiento/> / perte<palabra_cortada/> / me yo / entré a esa academia 
+
+E: <extranjero> okay </extranjero>  
+
+I: y me gradué con los japoneses ¿ve<[r]> <[d]>á<[d]>? yo creo había<[a]>lgo / algo relativo de <simultáneo> mi sangre con el<alargamiento/> </simultáneo>
+
+E: <simultáneo> <risas = “E”/> familiar </simultáneo>
+
+I: ¿ve<[r]>dá<[d]>? con ellos ¿no?
+
+E: ajá
+
+I: y este<alargamiento/> / pues salí adelante ¿ve<[r]>dá<[d]>? / mi / mi padre me decía / cuando yo empiezo a estudiar ese deporte / mi papá no muy bien quería
+
+E: ah <extranjero> okay </extranjero> 
+
+I: porque él decía / que / su abue<palabra_cortada/> / su papá / o sea mi abuelo japonés / que<[e]>se deporte / en Japón / se practicó y se<[e]>ntrenó a la gente / para la guerra
+
+E: ah
+
+I: enton<[c]> <[e]>s por eso él decía que<[e]>ra una disciplina marcial una di<[s]><[c]> <[i]>plina militar muy dura
+
+E: ajá
+
+I: que no era muy conveniente que los niños / en otros países los practicaran porque / se iba formando una idea / una cultura de / de agresión 
+
+E: ah <extranjero> okay </extranjero>
+
+I: de un deporte agresivo
+
+E: sí
+
+I: pero a<palabra_cortada/> paso de los años ya la disciplina esa era<alargamiento/> / pos una disciplina muy<alargamiento/> / deportiva ¿ve<[r]> <[d]>á<[d]>? 
+
+E: mjm
+
+I: para la juventud en t<[o]> <[d]>o el mundo / y ellos empezaron a distribuirse<[e]>n todo el mundo 
+
+E: mjm
+
+I: maestros de Japón / y ahí logré yo llegar a a<alargamiento/> / a ser / pos cinta negra en esa época ¿ve<[r]>dá<[d]>? como en el ochenta / ochenta y dos más o menos / y orita<[a]>ctualmente / este / yo seguí practicándolo 
+
+E: ajá
+
+I: seguí entrenándome / presentando los exámenes correspondientes en las federaciones deportivas
+
+E: ajá / ándele
+
+I: del deporte <simultáneo> ¿ve<[r]>dá<[d]>? </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: a nivel nacional / y ahorita<[a]>ctualmente soy Instructor de la Federación Mexicana de Karate 
+
+E: <extranjero> okay </extranjero> 
+
+I: este<alargamiento/> / ya no lo practicamos nosotros / como lo hacíamos antes ¿ve<[r]>dá<[d]>?  porque / y<[a]>a la edad mía de cincuenta y seis años comoquiera / sí lo práctico ¿ve<[r]>dá<[d]>? <[d]>igo<alargamiento/> / pos mi rutina de<[e]>ntrenamiento / doy entrenamientos / ahorita / actualmente trabajo para / el gobierno del estado <ruido = “nasal”/>
+
+E: ah <extranjero> okay </extranjero>
+
+I: <tiempo = “10:51”/> hay unos centros comunitarios que / hizo las colonias marginadas 
+
+E: mjm
+
+I: en el gobierno / existen como unos veintitrés veinticuatro centros 
+
+E: mjm
+
+I: algunos / pos en / Salinas Victoria algunos en <vacilación/> / por el<alargamiento/> / Santa Catarina / a lo<palabra_cortada/> / a los alrededores de aquí de / de<alargamiento/> / pos el área metropolitana de Nuevo León ¿ve<[r]>dá<[d]>? / algunos <[e]> <[s]>tán en / Cadereyta Jiménez / otros en Villa de Juárez /  yo / yo <[e]>stoy dando instr<[c]>ciones / a niños y jóvenes ahí / en<alargamiento/> / Villa Juárez / en Villa de Juárez
+
+E: ajá 
+
+I: rumbo a Cadereyta 
+
+E: <extranjero> okay </extranjero>
+
+I: por la carreter<[a]>a San Roque<[e]>s un centro<alargamiento/> / deportivo muy grande
+
+E: mjm
+
+I: un macrocentro e / se denominan centros comunitarios 
+
+E: ándele  
+
+I: ¿verdá<[d]>? / para las colonias marginadas / todo es gratuito / todo se les otorga gratuito <simultáneo> ¿ve<[r]> <[d]>á<[d]>? </simultáneo>
+
+E: <simultáneo> ándele </simultáneo>
+
+I: a la gente nosotros / pos nos paga la / el gobierno ¿ve<[r]> <[d]>á<[d]>?
+
+E: ajá
+
+I: nos paga / para dar<alargamiento/> / pues / más cultur<[a]>a la juventud ¿ve<[r]>dá<[d]>?
+
+E: ah / <extranjero> okay </extranjero>
+
+I: y ese<[e]>s mi trabajo ¿ve<[r]>dá<[d]>? y a<palabra_cortada/> / algunos años tuve academia privada 
+
+E: ah
+
+I: pero ya la gente<alargamiento/> / pues es más difícil / pagarle a una<[a]>cademia 
+
+E: mjm
+
+I: como un colegio porque<alargamiento/> / pos esta disciplina es una disciplina muy<alargamiento/> / muy<alargamiento/> / pos muy buena ¿ve<[r]>dá<[d]>? para los niños para que / que adquieran su disciplina
+
+E: ándele 
+
+I: que ya vayan adquiriendo más valores / ya ve ahorita en la<[a]>ctualidad / jóvenes muy pequeños / pos ya se drogan y ya fuman y ya<[a]>cen <simultáneo> cuánta cosa ¿ve<[r]>dá<[d]>? </simultáneo>
+
+E: <simultáneo> sí / sí </simultáneo>
+
+I: y es el problema más grave que<[e]>xiste y / y los gobiernos son los programas que<[e]>stá<[a]>ciendo para tratar de llegar / a<alargamiento/> / a ellos por medio de disciplina de deportes <ruido = “campanadas”/> / esos muchachos que hacen el <extranjero> graffiti </extranjero> ahí los / canalizan y los enseñan <[a]>hacer murales y / y es un programa ¡muy bonito! / tiene muy buena / respuesta de la juventud / se batalla / porque hay muchos a<alargamiento/> / grupos que<alargamiento/> / no aceptan ningún tipo de<alargamiento/>
+
+E: <simultáneo> de trato </simultáneo>
+
+I: <tiempo = “12:53”/> <simultáneo> de ayuda </simultáneo> / na<palabra_cortada/> / nada de respecto a eso ellos siguen con su / sus ide<palabra_cortada/> / sus ideales ¿verdá<[d]>? de seguir con sus pandillas y<alargamiento/>
+
+E: m<alargamiento/>
+
+I: pero poco a poco se van arrimando a esos centros
+
+E: mjm
+
+I: y yo pertenezco ahí a ese grupo / que<[e]>stamos en ese centro / me tocó la fortuna de / de ayudarlos / yo creo que<alargamiento/> / visitando las páginas correspondientes ahora con la tecnología del <extranjero> internet  </extranjero>
+
+E: sí
+
+I: <[e]> <[n]>ton<[c]> <[e]>s los / nuestra papelería / nuestras informaciones <ruido = “perro ladrando”/> / e<alargamiento/> / existen en una página <ruido = “perro ladrando”/> de / de la Federación Mexicana de Karate / estamos ahí / este<alargamiento/> / pos / plantados ¿verdad? / para que la gente que nos quiera<alargamiento/> / quiera información de nosotros
+
+E: mjm
+
+I: pues lo hace por medio de la / la página de <extranjero> internet </extranjero> que tiene la / y por ese medio me localizan / y<alargamiento/> / estoy dando clases ahí en ese centro 
+
+E: sí
+
+I: buscaban una persona / pues de<alargamiento/> / pue<palabra_cortada/> de<[e]>dad madura ¿ve<[r]>dá<[d]>? que no fuera tan joven / para poder / entrar a los jóvenes no tanto por el deporte
+
+E: mjm
+
+I: sino por la / disciplina 
+
+E: claro 
+
+I: ir tratando de quita<[r]>les ciertas costumbres que / pos que ahora la juventud tiene ¿ve<[r]>dá<[d]>? de<alargamiento/> / los aretes / y su cabello / y su ropa / su modo de hablar / pero poco a poco / yo ahí he llegado a tener / alumnos / yo tengo<[o]>rita más de un año de<[e]>star <ruido = “perro ladrando”/> ayudándolos ahí 
+
+E: ajá
+
+I: estoy muy a gusto la gente<[e]>s / es muy buena gente e<alargamiento/> / donde<[e]>stoy es una colonia<alargamiento/> / se llama Monte Cristal / están allá<alargamiento/> / a las afueras de / Villa de Juárez 
+
+E: mjm
+
+I: ento<[n]> <[c]>es la juventud ahí / pos es un poquito difícil pero / yo creo que<alargamiento/> / pos ayudándolos y<alargamiento/> / bajando un poquito nosotros nuestro / nuestro índice de disciplina te bajas tantito con ellos / a su estatus ¿ve<[r]>dá<[d]>? <simultáneo> donde<[e]>llos </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: y como que se sienten más en / en confianza y es donde no<[s]> <[o]>tros los vamos / los vamos canalizando a que / se arrimen con nosotros al deporte
+
+E: mjm
+
+I: y ha funcionado bastante bien 
+
+E: claro
+
+I: bastante bien que ha funcionado / y esa es una parte de mí / la facultad pos desgraciadamente yo la / cuando yo quise regresar a / a terminarla 
+
+E: ajá
+
+I: ya se me hacía muy<alargamiento/> / pues no sé difícil porque yo ya<[a]>bía / me había casado / ya tenía familia / ento<[n]> <[c]>es yo tenía qué<alargamiento/>  
+
+E: <simultáneo> responder ya </simultáneo>
+
+I: <simultáneo> pos responder </simultáneo> y<[a]>a la familia da<[r]>les educación y tod<[o]>eso se me hacía muy difícil / atender la facultad <ruido = “voces”/> / terminar mi carrera
+
+E: mjm
+
+I: y retomarme mi trabajo se me hacía muy<alargamiento/> / pos difícil en ese entonces ¿ve<[r]> <[d]>á<[d]>? 
+
+E: sí <ruido_fondo> <observación_complementaria = “televisión encendida” />
+
+I: <tiempo = “15:25”/> porque sí tuve la intención d<[e]>hecho mi esposa sí / ella / pos me decía ¿por qué no terminas la / la carrera? <ruido = “voces”/> ¿verdá<[d]>? 
+
+E: ajá
+
+I: pues se fueron pasando los años / los hijos fueron creciendo / y este / darles escuela y<alargamiento/> / pos usté<[d]> sabe todo lo que<[e]>s mantener a los muchachos
+
+E: claro / claro
+
+I: y tene<[r]>les un / pos un patrimonio donde / donde estar ¿verdá<[d]>?
+
+E: mjm
+
+I: y toda esa época / pos tuve que poner yo una / academia privada / que<[e]>ra lo que / pos como no había el gobierno en esa época no tenía<alargamiento/> / no tenía<alargamiento/>
+
+E: recursos
+
+I: el recurso para poner gimnasios y otorgar / e pos e<alargamiento/> / enseñanzas a bajo costo / o a cero costo ¿ve<[r]>dá<[d]>?
+
+E: mjm
+
+I: entonces / yo tuve<[e]>sa academia privada por más de veinte años 
+
+E: ajá
+
+I: y funcionó muy bien / la gente siempre ha querido tener a sus hijos en / pos en el e<palabra_cortada/> / en el medio para que se superen ¿verdá<[d]>?
+
+E: claro
+
+I: sobre todo la disciplina 
+
+E: claro
+
+I: y sí / fue / tuvo mucha respuesta / mi academia
+
+E: eso es
+
+I: y<alargamiento/> / por medio de<[e]>so pues / gracias a dios logré / comprar mi casita y<alargamiento/> / y da<[r]>les estudio a mis hijos
+
+E: qué bueno
+
+I: y uno de mis / n<[a]> <[d]>a más tenemos dos hijos / es un hombre y una mujer / el mayor / este / orita debe tener unos veintinueve años de<[e]>dad 
+
+E: ándele
+
+I: y él es e / Médico Veterinario 
+
+E: mjm
+
+I: se recibió en la Facultad Autónoma de Nuevo León / y m<[i]>hija es Licenciada en<alargamiento/> / como Diseño Gráfico 
+
+E: ajá
+
+I: de<[e]>sas carreras nuevas
+
+E: ajá
+
+I: y también ya se recibió de licenciada / en esa / especialidad / y ya trabajan actualmente ya<[e]>stán casados y<alargamiento/> / m<[i]>hijo tiene una<alargamiento/> / un / negocio<alargamiento/> / propio ¿ve<[r]>dá<[d]>? / una veterinaria
+
+E: ajá
+
+I: <ruido = “nasal”/> y se ha desarrollado / pos bien ya casados pos tienen que / que<[e]>ste<alargamiento/> /  empezar una nueva familia
+
+E: ajá
+
+I: ¿verdá<[d]>?
+
+E: claro / claro
+
+I: y pos echarle ganas pa<[r]> <[a]> delante ¿ve<[r]>dá<[d]>? / <risas = “E”/> las cosas como se presentan ahora ¿ve<[r]>dá<[d]>? 
+
+E: claro 
+
+I: y así es más o menos / a groso 
+
+E: <simultáneo> modo </simultáneo>
+
+I: <simultáneo> modo </simultáneo> la<alargamiento/> 
+
+E: <simultáneo> la historia </simultáneo>
+
+I: <simultáneo> la historia </simultáneo> de<alargamiento/> 
+
+E: y / ¿tiene algo que pueda decirse / de filosofía de mentalidad / a parte de lo que<[e]>s la práctica directa de<alargamiento/> / física <simultáneo> del karate? </simultáneo>
+
+I: <simultáneo> sí </simultáneo>
+
+E: <tiempo = “17:36”/> ¿alguna idea que traiga / alguna<alargamiento/>?
+
+I: <simultáneo> alguna filosofía de </simultáneo> 
+
+E: <simultáneo> ajá </simultáneo>
+
+I: la disciplina / pues / esta disciplina de karate / es una disciplina<alargamiento/> / pues<alargamiento/> / yo la considero / porque<[e]>s en mi / profesión enseñarla ¿ve<[r]> <[d]>á<[d]>? 
+
+E: ajá
+
+I: considero que<[e]>s una disciplina muy / completa
+
+E: mjm
+
+I: para<alargamiento/> / acompañar a la<alargamiento/> / disciplina / que se conjuga con / los padres de familia / en esta disciplina trata de formar<alargamiento/> / pues principalmente un buen hombre una / una buena <simultáneo> persona </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: en sus e<alargamiento/> <vacilación/> / o sea en su <vacilación/> / ¿cómo le diré?<[e]>n su / en su / en su<alargamiento/> / disciplina en<alargamiento/> / pues en<alargamiento/> / los e<alargamiento/> / los valores de la vida ¿verdá<[d]>?
+
+E: mjm
+
+I: adquirir valores
+
+E: ajá
+
+I: como / pues pueden ser / el la cor<palabra_cortada/> / como son cantidad de valores la <sic> cortensía </sic> / el valor / el coraje la / la<alargamiento/> / pos las buenas costumbres
+
+E: mjm
+
+I: que / pos se han ido perdiendo / pero sí es una disciplina / muy completa <ruido = “voces”/> / sobre todo <ruido = “voces”/> / que<[e]>s un vehículo muy<alargamiento/> / muy apropiado para que / lo aborde / el joven 
+
+E: ajá
+
+I: desde muy temprana edad
+
+E: mjm
+
+I: para poderlo conducir por los buenos caminos de la vida es / muy bonita disciplina 
+
+E: es muy importante
+
+I: sobre todo que / en ese país / pos ha<alargamiento/> / sobresalido por su / excelente disciplina ¿ve<[r]> <[d]>á<[d]>? 
+
+E: ajá
+
+I: sobre todo / el hecho de<alargamiento/> / inclinarse delante de otra persona el / el saludo muy / muy este peculiar del japonés <simultáneo> ¿ve<[r]> <[d]>á<[d]>? </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: que hace una inclinación a / hacia las personas / quiere decir que<[e]>xiste una cultura / pos de / que tiene mucho valor
+
+E: claro
+
+I: sobre todo ¿ve<[r]> <[d]>á<[d]>? / hacer la inclinación aquí / nosotros / en Nuevo León en el norte n<[a]> <[d]>a más <[e]> <[s]>tamos / acostumbrados e<alargamiento/> / a decir un / cualquier grito ¡eh! / o algo así ¿no?
+
+E: ajá
+
+I: y ellos no / ellos casi se detienen y se inclinan
+
+E: mjm
+
+I: d<[e]>hecho<alargamiento/> / tiene un significado el inclinarse 
+
+E: ¡ah sí!
+
+I: tiene cierto ra<palabra_cortada/> / ciertas / jerarquías porque / comentarios de japoneses / se comenta que una persona salud<[a]>a otra / en la calle / hace un pequeño movimiento de su cara / o sea de su cabeza 
+
+E: ajá
+
+I: una pequeña inclinación / es porque<[e]>s / un amigo normal / un ami<palabra_cortada/> / un amigo común    
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: <tiempo = “19:59”/> pero cuando es una persona de alto / edad
+
+E: ajá
+
+I: de mucho respeto / se detienen / y s<[e]>inclinan / con <énfasis> más </énfasis> ángulo de / de inclinación 
+
+E: ah <extranjero> okay </extranjero> 
+
+I: porque<[e]>s un / ¡muy grande!<[e]>l respeto que se le tiene 
+
+E: ah <extranjero> okay </extranjero> / <énfasis> ahí se manifiesta </énfasis>
+
+I: sí se manifiesta la de<palabra_cortada/> / el el / el respeto a la persona d<[e]>hecho / al entrar a las / a los hogares de alguna / amigo / o una<[a]>mistad 
+
+E: ajá
+
+I: los japoneses acostumbran / descalzarse / se quitan su calzado / entran cuando ya el / el / el amigo / le cede / la puerta de su casa / hace una inclinación / a la casa 
+
+E: ah <extranjero> okay </extranjero>  
+
+I: un saludo al / a a / al hogar 
+
+E: mjm
+
+I: donde se inclinan que le v<[a]>a dar / su respeto ¿verdá<[d]>? / es muy <ruido = “timbre de teléfono”/> / pero muy interesante la disciplina japonesa 
+
+E: muy bonita
+
+I: muy bonita disciplina <ruido = “timbre de teléfono”/> / sí en realidad
+
+E: sí
+
+I: yo creo que la filosofía pues / el karate yo pienso que<[e]>s como la vida <ruido = “timbre de teléfono”/>
+
+E: sí
+
+I: es una semejanza muy / muy<alargamiento/> / pos muy / muy parecido a lo que<[e]>s a la <vacilación/> / a lo / a la vida / ¿verdá<[d]>?  
+
+E: el honor / es una de las / uno de los conceptos<alargamiento/> 
+
+I: sí / no cómo no el honor es / concepto<alargamiento/> / pos sobre todo<alargamiento/> / po<[s]> yo creo que de ahí viene ¿no? del respeto mutuo / se me tie<palabra_cortada/> / se le tiene un honor / grandísimo a las personas o <simultáneo> a cierto </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: a cierto<alargamiento/> / este<alargamiento/> / por decir como tienen ellos / tienen ciertos e<alargamiento/> / podemos decirlo así monumentos / a ciertas personas / que les tienen un honor<alargamiento/> / pero<alargamiento/> <ruido = “perro ladrando”/> / altísimo en su / en su vida
+
+E: mjm
+
+I: d<[e]>hecho se comenta que<alargamiento/> / en Japón existieron <ruido_fondo> <observación_complementaria = “timbre de celular” /> / unas personas / que se les denominaban los bárbaros eran los samuráis 
+
+E: ah / <extranjero> okay </extranjero>  
+
+I: ¿verdá<[d]>? / entonces los samuráis / en aquellas en / épocas </ruido_fondo> / este<alargamiento/> / cumplían / misiones
+
+E: ah <extranjero> okay </extranjero> 
+
+I: se dice se cuenta ¿ve<[r]>dá<[d]>? que los samuráis / cumplían misiones como matones a sueldo
+
+E: ah / <extranjero> okay </extranjero>
+
+I: verdá<[d]> <[d]> que cumplían una misión / privada ¿verdá<[d]>? de<alargamiento/>
+
+E: mjm
+
+I: recibían un pago / por <vacilación/> / pos / por<alargamiento/> / desaparecer a cierta <simultáneo> persona </simultáneo>
+
+E: <simultáneo> eso es </simultáneo>
+
+I: en esas épocas ¿verdá<[d]>? / y cuando ellos fallaban / por alguna causa / que<[e]>llos no / hacían su acometido / ellos mismos / el honor no les permitía / decir que habían perdid<[o]>o sea que habían / no habían podido ellos hacer su acometido / su trabajo
+
+E: ajá
+
+I: <tiempo = “22:29”/> y el honor era bastante alto ento<[n]>ces ellos / se<alargamiento/> / mataban / se aplicaban / el el<alargamiento/> / <simultáneo> la el </simultáneo> 
+
+E: <simultáneo> el <extranjero> harakiri </extranjero> <observación_complementaria = “rito de suicidio por desentrañamiento japonés”/> </simultáneo>
+
+I: el muy famoso <extranjero> harakiri </extranjero> / tiene otro / otro<alargamiento/> / otro nombrecito por ahí / se / le nombraba también / el <extranjero> seppuku </extranjero>
+
+E: ah <extranjero> okay </extranjero>
+
+I: ellos le nombraban el <extranjero> seppuku </extranjero> / o sea era / el<alargamiento/> / honor por mi honor / o sea era<alargamiento/>
+
+E: ah <extranjero> okay </extranjero> 
+
+I: esto es por honor  <ruido = “golpe de objeto” /> / por no haber podido hacer mi trabajo correctamente<[e]>llos / se quitaban la vida 
+
+E: fíjese
+
+I: ¿ve<[r]>dá<[d]>? era muy<alargamiento/>  
+
+E: muy fuerte
+
+I: yo creo que también era / entregaban su vida / el honor era / era lo máximo 
+
+E: mjm
+
+I: yo creo para ellos como / en aquellos e<alargamiento/> / famosos este<alargamiento/> /  <sic> kamikachis </sic> <observación_complementaria = “kamikaze término utilizado para referirse a los ataques suicidas efectuados por pilotos de una unidad especial perteneciente a la Armada Imperial Japonesa” /> / ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: los famosos extranjero> <sic> kamikachis </sic> </extranjero>  que se subían a su nave / a su avión / y se<[e]>strellaban cargados de 
+
+E: <simultáneo> de </simultáneo>
+
+I: <simultáneo> de<[e]>xplosivos </simultáneo> contra los barcos ¿ve<[r]>dá<[d]>?
+
+E: sí
+
+I: ento<[n]> <[c]>es el / extranjero> <sic> kamikachi </sic> </extranjero> tam<[b]>ién era un honor por su país / ¿ve<[r]>dá<[d]>?
+
+E: sí
+
+I: perder la vida ellos entregaban su vida
+
+E: sí 
+
+I: el / significado de <extranjero> kamikachi </extranjero> <ruido = “televisión”/> es e<alargamiento/> / viento divino / significa viento divino 
+
+E: ándele
+
+I: tiene<[n]> su significa<[d]>os todos esos / esas cosas / yo aprendí algunos significados por medio de mi papá / y algunas cosas del japonés mi padre lo dejó de / de practicar porque ya no había con quién practicarlo
+
+E: sí sí
+
+I: <[e]> <[n]>ton<[c]> <[e]>s mi abuelo también fue / perdiendo un poco el / el e<alargamiento/> / no lo perdió el idioma no pero sí como ya no platicaba con nadie / entonces / pos puro español / y aprender el español y / y / poco a poco se fue olvidando el japonés 
+
+E: ajá
+
+I: poco a poco al paso de los años
+
+E: claro
+
+I: pero algunos significados que nos enseñaron ¿ve<[r]>dá<[d]>? que nos decían / esto significa esto / y algunos / pos cosas de saludos y buenos días y buenas noches y / tod<[o]>eso lo aprendía cositas / pocas ¿no? / eso fue uno de mis / de mis sueños haber aprendido<alargamiento/> 
+
+E: <simultáneo> japonés </simultáneo>
+
+I: <simultáneo> el </simultáneo> idioma japonés 
+
+E: sí
+
+I: uno de mis sueños / ese fue / yo le digo a mis hijos que / cuando lo puedan estudiar estúdienlo 
+
+E: ajá
+
+I: sí el japonés yo pienso que / muy probable sea<alargamiento/> / muy indispensable como el inglés ya ve ahora / el inglés / creo que<[e]>l<alargamiento/> / francés o el<alargamiento/> / el  japonés que hay en tanta / maquinaria<alargamiento/> 
+
+E: exacto
+
+I: electrónica que viene de otros países  
+
+E: sí
+
+I: que viene<[e]>n idioma / en idioma japonés 
+
+E: ajá
+
+I: <tiempo = “24:46”/> en escritura japonesa / muy probable que vay<[a]>a ser uno de los idiomas / este<alargamiento/>  
+
+E: importantes
+
+I: importantes para la / el crecimiento de<alargamiento/>
+
+E: del país
+
+I: del país ¿verdá<[d]>? / del mundo ¿verdá<[d]>? 
+
+E: ajá
+
+I: hay que aprender muchos / muchos idiomas
+
+E: ajá
+
+I: pero este / pues en fin / así hemos seguido / y ahí / ahí la llevamos / como dicen aquí en el norte / ahí vamos    
+
+E: un sobrino / fue a Japón / y nos comentó / que cuando iban en el / en el metro o en el / ¿cómo se llama?
+
+I: tren bala
+
+E: que no <simultáneo> había quien </simultáneo>
+
+I: <simultáneo> el famoso </simultáneo>
+
+E: quien cobrara   
+
+I: es curioso
+
+E: porque cuando llegaron / el / el el / el guía / el / el compañero más bien / un amigo
+
+I: sí
+
+E: andaba con un amigo / le dijo vamos a pagar dice / ¿para qué? / pos si ya<alargamiento/>
+
+I: ya no nos cobraron
+
+E: ya no nos cobraron / no / tenemos que ir a pagar allá en tal casa
+
+I: antes de bajarnos
+
+E: no no / ya se habían bajado
+
+I: ah / <extranjero> okay </extranjero> <extranjero> okay </extranjero>
+
+E: tenemos que ir a pagar allá en tal casa
+
+I: como disciplina ¿no?
+
+E: dice pero por / ¿para qué? / <simultáneo> pos sí </simultáneo>
+
+I: <simultáneo> ya estamos </simultáneo> aquí 
+
+E: ya estamos aquí / dice por honor
+
+I: exactamente / sí / sí / sí 
+
+E: eso <risas = “E”/>  / eso me acuerdo
+
+I: otro / amistad por aquí cerquitas / fue a Japón en una ocasión 
+
+E: ajá
+
+I: y /  pues anduvo por allá con un primo que se había ido a una empresa se casó por allá Japón y / pos allá fue con él a / de visita / y ya que llegó / pos él me trajo algunas cosas / yo le encargué algunos detalles / sí / afortunadamente / me pudo traer lo que yo ne<[c]> <[e]>sitaba 
+
+E: ajá
+
+I: y me dice fíjate Francisco hay una cosa tan interesante en Japón / íbamos / de cierta parte íbamos a comer 
+
+E: ajá
+
+I: yo llevaba mi bufanda puesta  <ruido = “música” /> / y la bufanda pos regularmente con el saco se va moviendo y / y por equis causa se le cayó / había nieve dice yo recuerdo que<[e]>staba nevando / esa era época de invierno en Japón 
+
+E: ajá
+
+I: <[e]> <[n]>ton<[c]> <[e]>s cuando yo llego al <extranjero> restaurant </extranjero> / pos ya pedimos de comer y todo yo me quito mi saco y / y / eché de menos la bufanda y le dije yo al / amigo ¿ve<[r]>dá<[d]>? / y le dijo /  <cita> fíjate que perdí la bufanda / no supe dónde </cita> / <cita> no te preocupes / ahorita que nos <sic> váyamos </sic> / nos vamos por el mismo lugar / tenemos qué<[e]>ncontrarla </cita> / <cita> no creo </cita> dijo / <cita> es que allá en Monterrey / allá en México / ni pa<[r]> <[a]> ¡cuando! que la <sic> váyamos </sic> a encontrar </cita> <risas = “todos”/> /
+
+E: claro 
+
+I: bueno dijo es que depende dónde / dónde tengas tu círculo de /  de de / de movimiento dice porque / yo pienso le decía él allá / yo pienso que<[e]>n / t<[o]> <[d]>o el mundo debe haber gente de todos tipos
+
+E: ajá
+
+I: <tiempo = “27:16”/> o sea / depende los lugares como los / existe<[e]>n Monterrey que vas a un lugar bueno pos / es / otra gente diferente o / te vas a los extremos de Nuevo León pos / otra gente diferente 
+
+E: sí / sí 
+
+I: te vas por allá<[a]>l centro de Monterrey / porqu<[e]>él era de Monterrey / el que<[e]>staba en Japón <[d]>ice te vas por ahí / pos a la Colonia Independencia y te <ruido = “perro ladrando”/> / enton<[c]> <[e]>s ahí tienes un poco más de miedo ¿ve<[r]>dá<[d]>?
+
+E: sí 
+
+I: dice<[e]>nto<[n]> <[c]> <[e]>s aquí donde andamos <ruido = “perro ladrando”/> no tengas miedo / dice aquí todo / la gente<[e]>s muy disciplinada <ruido = “perro_ladrando”/>
+
+E: ah <extranjero> okay </extranjero> 
+
+I: pues total ya comieron y todo / se regresaron por el mismo lugar <ruido = “perro ladrando”/> / y la bufanda estaba / en un<alargamiento/> / en un barandalito allá<[a]>costumbran mucho los barandalitos muy pequeños de madera porque / los espacios son muy pequeños en Japón
+
+E: ah <extranjero> okay </extranjero>  
+
+I: enton<[c]> <[e]>s desde las casas muy pequeñitas / ahí estaba su bufanda / la / la / pusieron su bufanda / en el lugar donde la pueda <sic> vier </sic> / donde la pudiera ver
+
+E: ajá
+
+I: la persona que la extravío 
+
+E: ajá
+
+I: y exactamente ahí la encontró / su bufanda la volvió a encontrar
+
+E: qué bien
+
+I: o sea me / dic<[e]>él / ¡qué bárbaro! dice / qué disciplina tan bonita de la gente
+
+E: ajá
+
+I: aunque dic<[e]>él / sí me<[e]>xplicaron que hay barrios de todos <ruido = “perro ladrando”/>
+
+E: sí / sí 
+
+I: o sea todo tipo de barrios 
+
+E: de todas maneras
+
+I: de todo
+
+E: hay de todo
+
+I: tipo de personas / sí  
+
+E: ajá
+
+I: pero no no sí / el honor allá en Japón <ruido = “perro ladrando”/> es una cosa 
+
+E: <simultáneo> muy </simultáneo>
+
+I: <simultáneo> es muy </simultáneo> especial / sí un maestro / mío que<[e]>stuvo por aquí de Japón <ruido = “perro ladrando”/>  / este le decíamos / él se ib<[a]>a retirar / había venido nada más una temporada aquí a Monterrey
+
+E: mjm
+
+I: y nos dice a nosotros que s<[e]>ib<[a]>a retirar / s<[e]>ib<[a]>a Japón / y le decíamos noso<[t]> <[r]> <[o]> <[s]> maestro ¿por qué / no se queda<[a]>quí en México? / pone una<[a]>cademia en otro estado / puede ser Coahuila / Tamaulipas <ruido = “perro ladrando”/> / y me dijo <cita> no lo puedo hacer </cita> / <cita> pero ¿por qué no maestro? pos usté<[d]> / tiene muy buena experiencia / es muy bien reconocido en Japón por esta disciplina </cita> / <cita> no no lo puedo hacer / porque / es por honor a mi ma<palabra_cortada/> / al maestro que yo vine ayudarlo / o sea yo / le tengo mucho / es por honor o sea / el honor / que yo le tengo e / no puedo hacerlo </cita>
+
+E: ah <extranjero> okay </extranjero>  
+
+I: <cita> no puedo yo<alargamiento/> / e<alargamiento/> / poner otro negocio que vaya<[a]>fectarlo a él </cita>
+
+E: ándele
+
+I: <cita> pero yo no puedo / esto es por honor / yo no puedo hacerlo <ruido = “voces”/> </cita> / y sí se / se retiró a Japón 
+
+E: mire
+
+I: <tiempo = “29:25”/> yo pienso que<[e]>so es / pos es una<alargamiento/> / algo que tienen / muy arraigado 
+
+E: mjm
+
+I: yo creo que desde / a la mejor desde antes / antes de nacer / yo creo que ya lo tienen
+
+E: lo traen vocación
+
+I: lo <sic> train </sic>  como una vocación / sí el honor es / lo lo / más  fuerte yo creo de su ser de<[e]>sas personas
+
+E: ajá / d<[e]>herencia 
+
+I: d<[e]>herencia / sí  
+
+E: ándele
+
+I: sí 
+
+E: oiga / y en / pues / entrando en tema de / familiares ¿usted / acostumbran <simultáneo> reuniones </simultáneo>?
+
+I: <simultáneo> sí </simultáneo>
+
+E: ¿familiares / y cosas así?
+
+I: sí nosotros / e pues nos juntamos con nuestros hijos / hermanos / regularmente<alargamiento/> / pos no seguido pero / pos cada quince o veinte  días 
+
+E: mjm
+
+I: un mes nos vemos / platicamos / tomamos un café <ruido = “nasal”/> / tienen sus actividades / pues / yo también diferente actividad yo casi regularmente<[e]>s / todo el día me ocupo ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: y ellos un / un hermano mío tiene un negocio 
+
+E: mjm
+
+I: otro hermano mío trabaja en una empresa / ya tiene muchos años / y este / pues sí / con amistades / nos / hay / aquí en Monterrey una<alargamiento/> / no lo hemos hecho ya / han pasa<[d]>o algunos años / es una colonia que se formó de puras gentes<alargamiento/> / de descendencia japonesa 
+
+E: ándele
+
+I: la colonia japonesa 
+
+E: ándele
+
+I: sí aquí hay una<alargamiento/> / unas reuniones / que unas personas se<[e]>ncargan de / de recopilar teléfonos de to<alargamiento/>das las gentes que tienen descendencia japonesa 
+
+E: ándele
+
+I: y acostumbran / juntarse / en algún <extranjero> restaurant </extranjero> / o en alguna quinta de alguna persona / hacen reuniones / pláticas / conviven los / familias / de todos los descendientes de Japón / sí hay una familia / que se <sic> apeída </sic> / Otacara es otra / otra familia / de descendencia japonesa 
+
+E: ah / <extranjero> okay </extranjero>
+
+I: y<alargamiento/> / ella se llama Celia Otacara / ella es la que nos localiz<[a]>a todos
+
+E: ah
+
+I: y nos juntamos a tomar un café o / ellos fueron la opción de que / fuera en un <extranjero> restaurant </extranjero>/ porque hay personas que / pos que ya son grandes de<[e]>dad ya no / pueden comer<alargamiento/> / pos por / el norte ¿ve<[r]>dá<[d]>?  que / que la barbacoa que<[e]>l cabrito que / carne asada ento<[n]> <[c]> <[e]>s ya es un / pos tomarse un café / tomarse un té o / apropiado para su salud ya la gente ya no / no quiere comer<alargamiento/> / y sobre todo que hay mucha gente ya de / adulta
+
+E: <extranjero> okay </extranjero> 
+
+I: entonces / así se juntan / vamos a tomar un café un té platican conviven y / y cada quien se retir<[a]>a la hora que quiere ahí platican / se toman / varios temas 
+
+E: mjm
+
+I: <tiempo = “31:53”/> los temas de / que si alguien / como la pregunta que me hizo ahorita si alguna vez he viaja<[d]>o a Japón
+
+E: ajá
+
+I: ento<[n]> <[c]> <[e]>s / ellos / como tienen un poquito más de relación / con la Embajada Japonesa
+
+E: ajá
+
+I: ellos tienen algo de pláticas / conversaciones / <[e]> <[n]>to<[n]> <[c]> <[e]>s la Embajada de Japón / una vez aquí en México / este / lanzó una<alargamiento/> / pos una promoción ¿verdá<[d]>? / a to<[d]> <[o]>s los que quisieran viajar a Japón / de descendencia <simultáneo> japonesa </simultáneo> 
+
+E: <simultáneo> ah </simultáneo> <extranjero> okay </extranjero>
+
+I: que quisieran ir visitar al país de sus / ancestros ¿ve<[r]>dá<[d]>?
+
+E: muy bien
+
+I: de muy bajos costos <ruido = “televisión”/>
+
+E: ajá
+
+I: pero no me ha tocado todavía la <risas = “E”/> / la<alargamiento/> / la oferta como dicen ¿ve<[r]>dá<[d]>? <risas = “todos”/> / no me ha tocado y / la vez que me tocaba o sea / que podíamos / pos no me dejaba el trabajo era / algo difícil 
+
+E: sí
+
+I: este pero<alargamiento/> / pues bueno a ver si algún día / nos toca conocer <simultáneo> el </simultáneo>
+
+E: <simultáneo> exacto </simultáneo>
+
+I: el país donde viene nuestra sangre ¿ve<[r]>dá<[d]>? de por allá de Japón
+
+E: sí / claro
+
+I: sí / sí pero sí acostumbramos juntarnos / familias
+
+E: y<alargamiento/> / ¿no hay reuniones en donde sí / se / se coma<[a]>lg<[o]>o sea<[a]>cá o en / con familiares / o cosas por el estilo?
+
+I: pues sí / pos regularmente usté<[d]> sabe lo que acostumbra uno por aquí / pos que los tamalitos y que la carnita<[a]>sada y / y que los alambres y<alargamiento/> 
+
+E: ajá
+
+I: y algunos hacen que discadas 
+
+E: mjm
+
+I: pos a / a el<alargamiento/> / lo que<[e]>s la cocina del norte de aquí <ruido = “nasal”/> ¿ve<[r]>dá<[d]>? 
+
+E: ajá
+
+I: que acostumbra uno a verse en la noche pos hacen la / po<palabra_cortada/> regularmente la carne asada
+
+E: ¿y usted que le ha tocado hacer?
+
+I: pos a mí me ha toca<[d]>o hacer de todo / a mí me gusta mucho la cocina
+
+E: a ver platíqueme
+
+I: sí / mi padre<alargamiento/> 
+
+E: platíqueme 
+
+I: sí
+
+E: platíqueme algo de las recetas 
+
+I: sí / mi padre<alargamiento/> / pos era muy buen cocinero y<alargamiento/>
+
+E: ándele
+
+I: y yo creo que ya lo traía de sangre ¿ve<[r]>dá<[d]>? muy buen cocinero / él cocinaba de cualquier tipo de cocina
+
+E: ándele
+
+I: cualquiera / un excelente cocinero / y yo / pos era el mayor / pos yo me le pegaba<[a]>hí a estarlo / viendo y / y este<alargamiento/> / pos aprendí yo mucha cocina / cocina mexicana<[a]>ora / pues el / que la discada que<alargamiento/> 
+
+E: ¿y usted cómo la prepara?
+
+I: la discada pos / la discada que se<alargamiento/> / <ruido = “E tose”/> que se acostumbra<[a]>quí en el norte <ruido = “tos”/> / la<[a]>costumbran con carne de puerco / carne de res
+
+E: mjm
+
+I: e<alargamiento/> / algo de tocino / y le<[e]>chan / salchicha / o algo así para cocinarla
+
+E: ¿y todo va junto <simultáneo> o </simultáneo>?
+
+I: <simultáneo> todo </simultáneo> va<alargamiento/> 
+
+E: ¿en qué orden?
+
+I: va teniendo su orden / yo lo cocino muy diferente yo
+
+E: a ver
+
+I: primero<alargamiento/> / e preparo / yo el el / los ingredientes le / yo uso / tocino ahumado 
+
+E: ah <extranjero> okay </extranjero>
+
+I: y yo primero / el tocino lo meto al disco porque se usan unos aceros
+
+E: sí
+
+I: de discos de arado 
+
+E: ah
+
+I: porqu<[e]>ésos son los muy famosos en estas zonas 
+
+E: sí / sí 
+
+I: entonces ya en disco de arado pos le<[e]>cho primero el tocino / le saco el saborcito al<alargamiento/> / a / su grasita del ahumado 
+
+E: ajá
+
+I: y l<[u]> <[e]> <[g]>o ya<alargamiento/> / meto la carne de res / porque<[e]>s un poquito más dura / el tejido de / la carne roja 
+
+E: ah
+
+I: y luego / agrego la carne de / puerco que<[e]>s un poco más blanda 
+
+E: <extranjero> okay </extranjero>
+
+I: y posteriormente / agrego el tocino porque ya no se<alargamiento/> / sigue<alargamiento/> /  dorando / si no queda ya / una textura 
+
+E: <extranjero> okay </extranjero>
+
+I: y l<[u]> <[e]> <[g]>o de ahí empezamos agregar pos que <vacilación/> / lo / regularmente que<[e]>l chile morrón y que<alargamiento/> / pos la cebolla / y algo de especies 
+
+E: mjm
+
+I: y<alargamiento/> / pos seguirlo / moviendo / seguirlo<alargamiento/> / trabajando ¿ve<[r]> <[d]>á<[d]>? en su cocina
+
+E: ajá
+
+I: para que vaya soltando los sabores 
+
+E: eso es
+
+I: los sabores de las carnes / y luego pos posteriormente si algunos a<alargamiento/> /  acostumbran echarles / algún vino blanco / o alguna<alargamiento/> / copita de / cerveza
+
+E: ah para<alargamiento/>
+
+I: pa<[r]> <[a]> h<[a]>ce<[r]>lo más / más este<alargamiento/> / a la / al estilo mexicano <simultáneo> como dicen aquí </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: <tiempo = “35:32”/> y algunos usan yo no he usado / algunos usan mollejas /  algunos usan tripita de res / algunos usan a<alargamiento/> / una<alargamiento/> / m<alargamiento/> / salchicha<alargamiento/> / tipo polaca muy / sabrosa tipo ahumado 
+
+E: ah <extranjero> okay </extranjero>
+
+I: muy natural / porque<[e]>l <vacilación/> / no usamos una cierta / a mí no me gusta el uso de una salchicha / que trae mucho colorante
+
+E: ah / sí 
+
+I: ¿ve<[r]>dá<[d]>? muy colorante<alargamiento/> / muy colorada / y esa / cambia totalmente<[e>l sabor de la cocina 
+
+E: sí
+
+I: o sea del / del platillo ¿ve<[r]>dá<[d]>? 
+
+E: ajá
+
+I: y este<alargamiento/> / pos queda muy sabrosa / no porque lo diga yo pero <risas = “todos”/> / ya <simultáneo> regularmente </simultáneo> 
+
+E: <simultáneo> ya la está saboreando </simultáneo>
+
+I: sí / ya ya / en el momento de esta<[r]>la cocinando / así era mi padre / en / al esta<[r]>lo cocinando siempre<alargamiento/> / procuraba cocinar él solo / y estoy exactamente igual yo / cuando uno toma la cocina / no quiere que nadie meta la mano
+
+E: ajá
+
+I: nadie / absolutamente
+
+E: ajá
+
+I: puedo tener gente que me<[e]>sté platicando
+
+E: sí sí 
+
+I: pero nadie me ayuda / algunos se ofrecen / a mí me / yo practico mucho la cacería como usté<[d]> ve
+
+E: ajá </ruido_fondo>
+
+I: y<alargamiento/> / algunos se / pos se sientan por ahí a tomarse una copa mientras que<alargamiento/> / a mí me gusta mucho la cocina / yo lo hago por gusto
+
+E: ajá
+
+I: enton<[c]> <[e]>s este / y me dicen a mí oye / profe / ¿en qué te ayudo? te / ¿corto tomate / cebolla / chile? / no no no / ahí siéntate / tómate tu / copa / tu / bebida / y yo me dedico a la cocina
+
+E: ajá
+
+I: platícame lo que quieras / pero no me le metas la mano <risas = “todos”/> / yo platico / yo cocino y tú pláticas 
+
+E: muy bien
+
+I: ¿ve<[r]>dá<[d]>? y así / así me gusta la cocina / así era mi padre igual / nadie / siéntate / y yo cocino 
+
+E: ajá
+
+I: él era el cocinero 
+
+E: muy bien
+
+I: todo / <ininteligible/> / y al momento de<[e]>star cocinando probaba / para checar / los puntos de sabores 
+
+E: sí / sí 
+
+I: a la hora de terminar / no cenaba / ya el olor a la grasa / el olor al<alargamiento/> / yo creo que lo <sic>enjaquecaba</sic> ya 
+
+E: ya / sí 
+
+I: era como comerse un<alargamiento/> / un platillo como que ya no<alargamiento/> / ya <simultáneo> estaba él </simultáneo>
+
+E: <simultáneo> ya no le </simultáneo> apetecía 
+
+I: hasta el siguiente día él / separaba un / pequeño / porción / y al siguiente día lo comía él e<palabra_cortada/> / para él era más sabroso / pues se fermentaba más la comida
+
+E: ah
+
+I: y decí<[a]>a mí me gusta / un día después la comida
+
+E: ándele
+
+I: porque la / recién hecha sí tiene su punto pero un día después tiene otro sabor
+
+E: otro sabor
+
+I: sí sí / pero sí sí / me gusta mucho la cocina / cocino de todo / me<[e]>ncanta la cocina
+
+E: <tiempo = “37:54”/> ¿y de lo de los alambres cómo / cómo<alargamiento/>?
+
+I: ah el alambre / bueno yo practico / como usté<[d]> ve yo practico la cacería 
+
+E: ajá
+
+I: hace muchos años de muy / chamaco <observación_complementaria = “niño” /> / y<alargamiento/> / pos yo salgo cada<[a]>ño / salía demasiado / antes era un cazador / pero como dicen empedernido 
+
+E: ajá
+
+I: yo salía / cada fin de semana / no tenía compromisos con nadie 
+
+E: mjm
+
+I: yo me dedicab<[a]>a cazar me <ininteligible/> / a respetar la fauna silvestre pero sí / era mi pasión o sea 
+
+E: m<alargamiento/>
+
+I: mi pasión de del / del deporte / o sea de la / de la / el <extranjero> hobby </extranjero> era la cacería 
+
+E: ándele / sí  
+
+I: lo sigue siendo ya / menos / porcentaje / porque ya / necesita uno a parte / más e<alargamiento/> / dinero 
+
+E: sí 
+
+I: porque ahora es m<palabra_cortada/> / por negocio todo esto
+
+E: mjm
+
+I: pero en aquellos de joven / pos nos prestaban los ranchos / hacíamos amistades en / ¡muchos! pueblitos de aquí de Nuevo León
+
+E: ¡m<alargamiento/>!
+
+I: yo viajé mucho / casi le pue<[d]>o <[d]>ecir que a / t<[o]> <[d]>o el estado de Nuevo León 
+
+E: ajá
+
+I: viajábamos a / visitar ranchos / y andar de cacería 
+
+E: mjm
+
+I: lo que queríamos era trae<[r]>nos un buen trofeo / un buen venado 
+
+E: claro
+
+I: y el venado / es una carne / magra / una carne<alargamiento/> / no es muy grasosa / pero tiene ciertos cortes el venado de de su / estructura 
+
+E: ajá
+
+I: que<[e]>s muy blanda / es muy suave 
+
+E: eso es
+
+I: el platillo más preferido de los cazadores / es el / los lomo / los filetes 
+
+E: ah <extranjero> okay </extranjero>
+
+I: el filete de la parte de / exterior de su espalda de su espinazo
+
+E: ajá
+
+I: lleva unos cortes de filete / aproximadamente como / unas tiras de filete como de unos dos kilos
+
+E: ah
+
+I: <[e]> <[n]>ton<[c]> <[e]>s más o menos se sacan entre dos / a cuatro kilos depende / el tamaño de<alargamiento/>
+
+E: del venado
+
+I: de la pieza del venado 
+
+E: sí
+
+I: <[e]> <[n]>to<[n]> <[c]> <[e]>s / ese / esos pedazos de carne / son / demasiado suaves 
+
+E: ajá
+
+I: <[e]> <[n]>to<[n]> <[c]> <[e]>s se cortan / para tra<palabra_cortada/> / par<[a]>hacer esos alambres famosos de los / que lo comen los cazadores 
+
+E: ajá
+
+I: se cortan a unas e<alargamiento/> / porciones / pos / pequeñas para pode<[r]>la /  ensamblar en el alambre
+
+E: sí / sí 
+
+I: ¿verdá<[d]>? 
+
+E: sí
+
+I: <[e]> <[n]>to<[n]>ces / debe de ir / bien preparado por ejemplo debe ir / primero su<alargamiento/> / corte de papa de Galeana / al fondo y luego / pos su / chile morrón / su cebolla / su tocino / y pegada<[a]>l tocino debe ir la carne magra la carne<alargamiento/> / <simultáneo> de venado </simultáneo>
+
+E: <simultáneo> de venado </simultáneo> / sí 
+
+I: porque<[e]>s muy seca 
+
+E: ándele
+
+I: <[e]> <[n]>to<[n]> <[c]> <[e]>s pierde mucho / mucho jugo / <[e]> <[n]>to<[n]> <[c]> <[e]>s el tocino le v<[a]>a dar el sabor /  el jugo / necesario a ese corte
+
+E: mjm
+
+I: y así lleva / después de carne / tocino / vuelve a llevar carne otra vez / tocino de nuevo / y lleva después las porciones y / iguales / cebolla chile morrón / lo mismo l<[u]> <[e]> <[g]>o tocino<[o]>tra vez de nuevo / y así van los cortes 
+
+E: mjm
+
+I: <tiempo = “40:36”/> se pone a la parrilla / y<alargamiento/> / son muy sabrosos
+
+E: claro <risas = “E”/>
+
+I: se los recomiendo en una / ocasión que alguien lo invite
+
+E: ajá
+
+I: porque alguna gente no / no le gusta probar la carne de venado
+
+E: yo sí / yo sí la he probado
+
+I: ¿sí l<[a]>ha probado?
+
+E: sí
+
+I: es muy sabrosa / la carne de venado es sabrosa / es / la carne seca de venado es muy rica
+
+E: sí
+
+I: muy rica la carne seca de venado / tiene un sabor muy peculiar 
+
+E: sí
+
+I: peculiar a<alargamiento/> / pos como medio a<alargamiento/>
+
+E: a hierba
+
+I: a chivo / al campo ¿ve<[r]>dá<[d]>? 
+
+E: a hierba
+
+I: es algo muy sabroso 
+
+E: mjm
+
+I: muy sabroso / y ese<[e]>s el plati<[ll]>o más preferido de los cazadores 
+
+E: ajá
+
+I: y<alargamiento/> / y pos  sacar el trofeo que son los / la cornamenta que<[e]>llos / desarrollan
+
+E: claro
+
+I: a lo largo de su / época ¿ve<[r]>dá<[d]>? 
+
+E: sí
+
+I: porque cada época / cada<[a]>ño los tiran <ruido = “se mueven objetos”/> / esos cuernos los tiran
+
+E: ¿sí?
+
+I: cada año mudan
+
+E: mudan
+
+I: el venado cola blanca muda cada<[a]>ño
+
+E: ah / <extranjero> okay </extranjero>
+
+I: ya estamos a fechas de que<[e]>l venado empieza / con esa época / de lanzar la cornamenta que<[e]>l trae <ruido = “ se mueven trastes”/>
+
+E: mjm
+
+I: la tira / porque viene otra nueva 
+
+E: ah
+
+I: y los lanza los dejan tirados / los cuernos
+
+E: ah
+
+I: se hacen polvo / se pulverizan ¿ve<[r]>dá<[d]>?
+
+E: ah / <extranjero> okay </extranjero>
+
+I: este / hay ha <palabra_cortada/> / hay quienes lo logran ver algunos vaqueros de los ranchos / algunos cazadores que los ven / yo he logrado / yo tengo un montón de cuernos <ruido = “se mueven trastes”/> mire allá <[e]>stán 
+
+E: ah <extranjero> okay </extranjero>
+
+I: un montoncito de cuernos voy haciendo un montón 
+
+E: ajá
+
+I: me los encuentro / y los voy / atesorando 
+
+E: claro
+
+I: me gusta mucho atesorar así / <simultáneo> cositas </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: del campo / mi abuelo era muy<alargamiento/> / dado a la<alargamiento/> / colección de<alargamiento/> / él era coleccionista de monedas
+
+E: a <extranjero> okay </extranjero>
+
+I: mi abuelo en aque<[ll]>os años / aquí en Monterrey / era muy / muy conocedor de<alargamiento/> / muy reconocido por ser<alargamiento/> / coleccionista de monedas
+
+E: ándele
+
+I: y yo creo que<[e]>so po<palabra_cortada/> / y nos llevaba<alargamiento/> / él era<alargamiento/> / apasionado a la excursión <ruido = “se mueven trastes”/> / él era excursionista <ruido_fondo> <observación_complementaria = “música” />
+
+E: <extranjero> okay </extranjero>
+
+I: le gustaba salir a los campos ¿ve<[r]>dá<[d]>? / mi esposa 
+
+A1: <simultáneo> mucho gusto </simultáneo>
+
+E: <simultáneo> mucho gusto </simultáneo>
+
+I: y este<alargamiento/> / y él / cada piedrita rara que miraba <ruido = “trastes”/> / a nosotros nos cargaba con las mochilas / a ir a<[a]>compañarlo / y cada piedrita rara qu<[e]>él miraba / ya nos hablaba <ruido = “se mueven objetos”/> / a ver m<[i]>hijo ven tantito / cuídame<[e]>sta piedrita / y me la echab<[a]>a la / no<[s]> la echab<[a]>a la mochila 
+
+E: ah
+
+I: cuídamela me la das allá cuando lleguemos a la casa / y él iba / trayendo piedritas de muchas pa<alargamiento/>rtes / dond<[e]>él visitaba
+
+E: ah <extranjero> okay </extranjero>
+
+I: <tiempo = “42:59”/> y hacía sus / sus cerritos de piedritas en / en su casa ¿ve<[r]>dá<[d]>? d<[e]>él / él tenía una casa / bastante grande / una casa muy bonita<[a]>quí en San Nicolás 
+
+E: <extranjero> okay </extranjero> 
+
+I: que<alargamiento/> / se pueda <sic> consederar </sic> como museo / una casa muy antigua
+
+E: ándele
+
+I: y él la tiene / esa / y él acostumbra<palabra_cortada/> / ya murieron mis abuelos 
+
+E: mjm
+
+I: pero tenía en ciertos lugares del patio / pos un montoncito / de piedritas / raras / piedritas raras / que le / le gustaba / <simultáneo> coleccionar </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: y así nosotros igual / coleccionamos una cosa y otra / y es lo que traemos de / de cultura ya de / de nuestros / abuelos / sí 
+
+E: ándelen </ruido_fondo>
+
+I: sí
+
+E: oiga <ruido = “ E se aclara la garganta” /> / y este / en cuanto a<alargamiento/> / <ruido = “ tacones” /> costumbres o sea / ¿usted no / celebran la navidad / o la<alargamiento/>?
+
+I: sí<alargamiento/> / sí / nosotros los que<[e]>s la noche buena la navidad pues sí la / la<alargamiento/> / acostumbramos celebrar como cualquier<[r]> <palabra_cortada/> / yo pienso como cualquier hogar en<alargamiento/> / en el mundo ¿ve<[r]>dá<[d]>?
+
+E: ajá
+
+I: ciertos lugares / pos la cenita normal de la / noche buena / y<alargamiento/> 
+
+E: que
+
+I: pos tratar de juntarnos to<[d]> <[o]>s los de la familia 
+
+E: ajá
+
+I: todos los hijos al menos <ruido = “ perro ladrando” />
+
+E: sí
+
+I: juntarnos / convivir un ratito y<alargamiento/> / posteriormente<[e]>l / final del año igual <ruido = “ perro ladrando” /> / hacemos lo mismo / pos que ya<[a]>bres la / champaña y haces un brindis y<alargamiento/>
+
+E: claro
+
+I: y pos / <sic> desiarse </sic> lo mejor aún / en el siguiente año y / al menos e / procurar estar juntos de nuevo ¿ve<[r]>dá<[d]>? / otro año más / ya no sabe uno / si estás o no <[e]>stás  <risas = “todos”/> / ¿ve<[r]>dá<[d]>? pasan los / sí / ya no sabe uno
+
+E: mjm
+
+I: pero sí sí lo acostumbramos / regularmente sí lo hacemos
+
+E: ¿qué / qué / qué platillos son los de la navidad?
+
+I: pos regularmente<alargamiento/> / pues no<[s]> <[o]>tros hacemos e / en veces / pos unos / frijoles a la charra <simultáneo> que dicen ¿ve<[r]> <[d]>á<[d]>? </simultáneo>
+
+E: <simultáneo> claro </simultáneo> / sí 
+
+I: y hacer algún / cortecito ya sea<alargamiento/> / algunos / carne asada / algunos prefieren / e<alargamiento/> / milanesas de res
+
+E: mjm
+
+I: con<alargamiento/> / espagueti / o algo así / platillos / pos que comúnmente uno / los come<[e]>n / en es<palabra_cortada/> / momentos especiales ¿verdá<[d]>? 
+
+E: ¿usted prepara los frijoles a la charra?
+
+I: sí a mí me gusta mucho prepararlos / <simultáneo> sí esos </simultáneo>
+
+E: <simultáneo> ¿y cómo </simultáneo> / cómo<alargamiento/>?
+
+I: pos se pone a cocer el<alargamiento/>  <ruido = “ tacones” /> / frijol / yo recomiendo regularmente que sea frijol pinto un poco / frijol más fuerte / más duro
+
+E: ah <extranjero> okay </extranjero>
+
+I: o sea más fuerte su / textura que sea más fuerte 
+
+E: ah
+
+I: <tiempo = “45:18”/> porque si usa uno un frijol muy suave / se desbarata en el cocimiento
+
+E: sí / sí 
+
+I: que yo lo considero que debe ser frijol pinto / se le agregan sus cueros de / de puerco los famosos cueritos 
+
+E: ajá
+
+I: y se le agrega su pata de puerco tam<[b]>ién / patitas de puerco
+
+E: ajá
+
+I: se ponen a cocer / con su ajo y / pos nosot<[r]>os hemos aprendi<[d]>o  hacerlos de cierta forma ¿ve<[r]>dá<[d]>? 
+
+E: ajá
+
+I: que le<[e]>chamos el apio que se<[e]>sté cociendo / echar / retiramos el apio en cierto / tiempo
+
+E: ajá
+
+I: cocinar el tocino a parte / com<[o]>un guisado 
+
+E: ah <extranjero> okay </extranjero> 
+
+I: antes / se<[e]>stá cociendo / y a cierto tiempo se cocina<alargamiento/> / el tocino / bien dorado / se le agrega / su tomate cebolla y chile se hace un / cierto / guisado / como tipo mexicano ¿ve<[r]>dá<[d]>?
+
+E: ah <extranjero> okay </extranjero> 
+
+I: y ya que<[e]>sté bien<alargamiento/> / cocido / se le agregan los frijoles 
+
+E: m<alargamiento/>
+
+I: ya bien frito / se agrega los frijoles / y<alargamiento/> / ya se le<alargamiento/> / baja su volumen de<alargamiento/> / de calor / a una cierta temperatura 
+
+E: mjm
+
+I: y procurar que<[e]>stén / cociéndose lentamente
+
+E: mjm
+
+I: y quedan / con un sabor muy especial <risas = “todos”/> / y se usa el / el /  yo uso un poquito el chile chipotle / que le dé un saborcito ¿ve<[r]>dá<[d]>? 
+
+E: ajá
+
+I: y sí / en realidad / pos los muchachos los han probado / yo creo que<[e]>s / es este<alargamiento/> / yo esa receta me la robé
+
+E: ah
+
+I: la receta me la robé de un /  de un primo hermano 
+
+E: ajá
+
+I: qu<[e]>él tiene un negocito por Pablo A de la Garza / él es especialista en<alargamiento/> / en coches o de camionetas cuatro por cuatro  
+
+E: ah <extranjero> okay </extranjero> 
+
+I: y este / una vez estando yo por ahí con él / me dijo él de antemano / me dijo <cita> primo / voy a preparar unos frijoles a la charra / yo los voy a preparar </cita> / él está igual que yo me dice / <cita> no quiero que me vayas a<[a]>yudar </cita>
+
+E: ajá
+
+I: <cita> tú siéntate ahí </cita> / dice <cita> aunque ya sé / que me vas a robar la receta </cita> <risas = “E”/> / <cita> me la vas a robar / pero mi padre decía / es curioso / pero la cocina / pueden estar cocinando dos personas / al mismo tiempo / el mismo platillo / al mismo tiempo de contra reloj echarle<alargamiento/> / los ingredientes / y al terminar ya la cocina o sea el platillo / pruebe los platillos son las personas / especialistas / <simultáneo> y sabe diferente </simultáneo> </cita>
+
+E: <simultáneo> y sabe diferente </simultáneo> / sí 
+
+I: y le decía yo <cita> papá pero ¿por qué? </cita> / dice<[e]>s <cita> curioso pero yo lo aprendí hace muchos años </cita> / dice<[e]>so <cita> debe haber clases ahora / el cuerpo humano cuando está uno cocinando / debe / principalmente no traer / ellos era la costumbre de<[e]>llos / no traer / nada de perfume<[e]>n el cuerpo </cita>
+
+E: ándele
+
+I: <tiempo = “47:56”/> <cita> en la ropa / nada / tú al estar cocinando / tienes que<[e]>starlo haciendo con cariño </cita> / dice <cita> con / con humor </cita>
+
+E: ¡m!
+
+I: <cita> no debes estar / principalmente / a / a fuerza / cocinando a fuerza </cita>
+
+E: sí
+
+I: <cita> no te v<[a]>a quedar sabroso / a parte<[e]>l cuerpo / este / e<alargamiento/> / como que despide una radiación el cuerpo </cita>
+
+E: ándele 
+
+I: <cita> al estarlo haciendo con ese gusto </cita>
+
+E: ajá
+
+I: <cita> ¿verdá<[d]>? </cita> / dice <cita> y / y yo te garantizo que te sale diferente / siempre cocina / con mucho gusto / con mucho / ánimo </cita>
+
+E: ajá
+
+I: <cita> y verás que la comida te v<[a]>a quedar mucho más sabrosa </cita> / era / era <risas = “E”/> /  eran consejos d<[e]>él / <simultáneo> eran consejos d<[e]>él </simultáneo>
+
+E: <simultáneo> cómo no </simultáneo> / claro
+
+I: sí <ruido = “I tose”/>
+
+E: y / ¿en alguna ocasión ha tenido alguna experiencia / especial / que la haya considerado tal vez fuerte que haya / sido una situación?
+
+I: difícil 
+
+E: difícil 
+
+I: pues / yo creo que la experiencia más difícil que / que pasamos / puedo decir que pasamos / mi familia y yo fue / pos principalmente la pérdida de nuestra madre
+
+E: claro
+
+I: yo creo que fue una de las experiencias más / más difícil / porque fue una<alargamiento/> / <ruido = “voces”/> mi madre<[e]>n paz descanse fue una lucha contra la muerte <simultáneo> muy </simultáneo>  
+
+E: <simultáneo> muy </simultáneo> fuerte
+
+I: pues muy difícil / muy tardada <ruido = “voces”/>
+
+E: <extranjero> okay </extranjero>
+
+I: ella padecía del corazón <ruido = “voces”/> / y<alargamiento/> / con pos como / yo creo que cualquiera / no estamos prepara<[d]>os para irnos <ruido = “perro ladrando”/>
+
+E: no
+
+I: o no nos queremos ir yo creo / que<[e]>s más que todo no nos queremos ir nos gusta el<alargamiento/>  
+
+E: <ininteligible/> lo importante <risas = “E”/>
+
+I: la mala vida ¿no? <risas = “todos”/> / este / y / sí  ella / luchó mucho no quería irse porque<[e]>n realida<[d]> ella misma lo decía <ruido = “perro ladrando”/> yo<alargamiento/> / por ser uno de los hermanos mayores regularmente yo<alargamiento/> / pues estuve mucho al tanto de<[e]>lla ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: y<alargamiento/> / mis hermanos más jóvenes pues / pos sus escuelas sus cosas sus trabajos y / y<alargamiento/> / tratábamos mi esposa y yo de / de<alargamiento/> / pos de<[e]>star más al tanto ¿verdá<[d]>? 
+
+E: mjm
+
+I: de mi papá / y toda la familia ¿no? / pero sí la pérdida de<[e]>lla sí / fue / bastante difícil para nosotros pero / pos fue una<alargamiento/> / a parte de todo<alargamiento/> / pos una experiencia que no<[s]> <[o]>tros la<alargamiento/> / la<[a]>dquirimos para<alargamiento/> / hacernos un poco más fuertes ¿no?
+
+E: claro
+
+I: <tiempo = “50:09”/> porque sí nos / la disfrutamos demasiado 
+
+E: mjm
+
+I: porque sí no<[s]> <[o]>tros fuimos / una familia muy unida 
+
+E: sí
+
+I: y la disfrutamos mucho mi / mi padre tam<[b]>ién cuando<alargamiento/> / le llegó su momento de irse <ruido = “perro ladrando”/> / yo lo disfrute muchísimo porque<alargamiento/>  
+
+E: mjm
+
+I: ya<alargamiento/> / yo lo miraba com<[o]>un amigo / éramos
+
+E: eran amigos
+
+I: éramos unos amigos ¿no?
+
+E: mjm
+
+I: en veces llegaba conmigo al negocio mío de / del deporte ¿ve<[r]> <[d]>á<[d]>? y me decía<alargamiento/> / oye hijo este / yo le <sic> tantiaba </sic> / lo <sic> tantiaba </sic> ya sabía yo / cuál era su / su idea ¿ve<[r]> <[d]>á<[d]>? / llegaba / muy poquito antes de las doce / y él era muy puntual en su comida 
+
+E: mm
+
+I: y me decía oye hijo / ya van a ser las doce / este vamos a comer a tal parte / y lo llevaba yo a ciertos lugares / y le gustaban ciertos lugares 
+
+E: mjm
+
+I: vamos a comer a<alargamiento/> / hay un <extranjero> restaurant </extranjero> por acá el<alargamiento/> / por allá por Escobedo / se llama La / Posta del Gallo 
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: no se si lo haya oído <simultáneo> mentar </simultáneo>
+
+E: <simultáneo> no no </simultáneo>
+
+I: es un lugarcito que le ponen Los Cavacitos ahora / como Los Cavazos de acá del sur 
+
+E: ajá
+
+I: acá para Villa de Santiago / ac<[a]>hay un lugar por Escobedo / que le nombran Los Cavacitos
+
+E: ándele
+
+I: a ver si un día / visítelos / haga de cuenta muy similar 
+
+E: mjm
+
+I: hay un<alargamiento/> / un área de comer puestos de comidas / y por ahí está ese restorancito 
+
+E: mjm
+
+I: y me decía / este / ya van a ser la doce / vamos a comer / yo invito / él decía <entre_risas> cuando tenía muchas ganas decía yo invito </entre_risas>
+
+E: ya<alargamiento/> 
+
+I: y este no no pos / fue yo creo las experiencias y la pérdida de una hermana la única mujer 
+
+E: mjm
+
+I: muere mi madre y al pocos años muere mi hermana / una her<palabra_cortada/> /  una e<alargamiento/> / la única mujer que / pos nos unía a todos los much<palabra_cortada/> / to<[d]> <[o]>s los hermanos ¿ve<[r]>dá<[d]>? 
+
+E: ándele
+
+I: y ella también / falleció desgraciadamente / un problema tam<[b]>ién cardiovascular yo creo que<[e]>s / la herencia que nos / nos dejo mi <simultáneo> madre </simultáneo>
+
+E: <simultáneo> claro </simultáneo>
+
+I: por / por tanto que nos quería nos dejó esa herencia pa<[r]> <[a]> que siempre se acuerden de mí ¿ve<[r]>dá<[d]>? <risas = “todos”/> / y este muere mi hermana / y a los poquitos años muere mi papá 
+
+E: ¡m<alargamiento/>!
+
+I: y luego hace como unos<alargamiento/> / cuatro años / van a ser cuatro años en este agosto / agosto quince / muere un hermano muy joven mío
+
+E: mjm
+
+I: un viajecito que venía de San Antonio / este con su familia / tuvo un problemita<alargamiento/> / me imagino que de alta presión 
+
+E: m<alargamiento/>
+
+I: tuvo un problema / en<alargamiento/> / su cabeza / en el cerebro un<alargamiento/> / <sic> derramamiento </sic> por ahí un derrame / y / pues eso lo / perdió la vida 
+
+E: ¡m!
+
+I: y orita ya / una familia de cinco / hermanos / pos nada más quedamos tres
+
+E: ah / <extranjero> okay </extranjero>
+
+I: <tiempo = “52:33”/> ¿ve<[r]>dá<[d]>? nos hemos tratado de ser fuertes y<alargamiento/>
+
+E: sí
+
+I: juntarnos / tan si quiera juntarnos a
+
+E: mjm
+
+I: a tomar el café o / alguno ya no toma café / pos ya no puede y 
+
+E: mjm
+
+I: y pos que<[e]>l té / mi papá era muy curioso decía / acuérdense de una cosa / <ruido_fondo>  <observación_complementaria = “trino de pájaros” /> que ustedes / o sea o nosotros / que ahora lo dicen donde quiera / debemos / de comer para vivir 
+
+E: mjm
+
+I: no debemos de vivir para comer <risas = “E”/>
+
+E: eso es
+
+I: cuídense con lo / con el peso
+
+E: con el peso / sí 
+
+I: mi padre / regularmente casi / nunca jamás cambió / al ser maduro él de / edad madura 
+
+E: mjm
+
+I: jamás cambió de / cintura de su pantalón
+
+E: ah
+
+I: ni de su camisa / siempre / la misma / <simultáneo> medida </simultáneo>
+
+E: <simultáneo> medida </simultáneo>
+
+I: siempre / muy<alargamiento/> / muy / muy disciplinado en su comida 
+
+E: mjm 
+
+I: a él le servía por ejemplo a mí mi esposa que / que le hablábamos ahí  <cita> vente a comer papá </cita>  / le servía su comida / y mi esposa le decía / regularmente yo <cita> bueno a mí me das otro poquito </cita> <risas = “E”/>  / ento<[n]> <[c]>es le decía mi esposa / <cita> ¿le sirvo más? </cita> / <cita> no / no / con esto es suficiente / bien servido </cita>
+
+E: ah <extranjero> okay </extranjero>
+
+I: sí con esto es suficiente / dice<[e]>s que yo como / para vivir / <entre_risas> nos echaba a nosotros la <risas = “E”/> / la pedradita <observación_complementaria = “indirecta” />  ¿ve<[r]>dá<[d]>? </entre_risas> / pero sí / muy disciplinado / muy disciplinado en su / sus costumbres / en su coche todo muy bien ordenado / él / nunca<[a]>ndaba / todo el mugrero tirado ya ve que <simultáneo> muchos muchachos </simultáneo>
+
+E: sí / sí 
+
+I: <entre_risas> mucha gente acostumbra traer / pues fritura de todos sabores en el coche <risas = “E”/> y<alargamiento/> / papeles en to<[d]> <[o]>s lado<[s]> </entre_risas>
+
+E: sí sí
+
+I: ropa / calcetones / tenis / no no de todo / no mi papá era una persona muy ordenada
+
+E: mm
+
+I: su coche / siempre bien limpio <ruido = “perro ladrando”/> / todo muy<alargamiento/>
+
+E: todo
+
+I: bien ordenado su / su su pa<palabra_cortada/> / su checador de llantas / todo / su papelería / muy ordenado / muy muy <vacilación/> / y nos sorprendíamos de lo<[o]>rdenado que<[e]>ra / su cocina / era una cocina súper ordenada
+
+E: mjm
+
+I: todo en orden / y a él le gustaba / hacer la cosas a él / cuando alguien llegab<[a]>a la co<palabra_cortada/> / no le gustaba que le movieran su cocina 
+
+E: ah / <extranjero> okay </extranjero>
+ 
+I: sí / sí / ¡bien ordenadito! / y hemos ido agarrando algunas costumbres 
+
+E: d<[e]>él
+
+I: porque sí a<alargamiento/> / lo<[o]>rdenado es muy<alargamiento/> / pos es muy bonito ¿ve<[r]>dá<[d]>?
+
+E: sí cómo no
+
+I: lo desordenado / pues el nombre lo dice ¿ve<[r]>dá<[d]>? / es muy desordenado eso <risas = “todos”/> / pero hemos aprendido eso fue lo que / esas fueron las experiencias más / difíciles <simultáneo> de nosotros ¿ve<[r]>dá<[d]>? </simultáneo>
+
+E: <simultáneo> ¿en cuanto a </simultáneo> / accidentes o en cuanto a<alargamiento/> / pos detalles / que se le hayan aparecido<alargamiento/> <risas = “E”/>?
+
+I: algún aparecido por ahí
+
+E: algún aparecid<[o]>o algo 
+
+I: que comúnmente acá platica mucho la gente / que un aparecido / fíjese que / no<alargamiento/> fíjese que afor<palabra_cortada/> / afortunadamente no / mis hijos / mi hija sí / algunas ocasiones comentó aquí en la casa que / que le chistaban y que le chistaban / y yo adrede<[e]>n veces que viene / que<[e]>stoy por allá senta<[d]>o en el porche y entra y le chist<[o]>o algo / y me dice <entre_risas> no papá no me andes chistando porque <risas = “E”/> / aquí me chistaron en la casa </entre_risas> / l<[e]> <[d]>igo pero ¿quién te pu<[e]> <[d]>e chistar? / pos si no hay nadie
+
+E: ah
+
+I: no<alargamiento/> / no papá es que a mí se me hace que aquí ha<palabra_cortada/> / a la mejor había<[a]>lgo aquí / pos ¿quién? / nadie / l<[e]> <[d]>igo pos ¿quién? / compramos la casa<[a]>ce algunos / veinte años / veinti tantos años 
+
+E: mjm
+
+I: se la compramos a<alargamiento/> / esta famosa persona / de los pronósticos del tiempo pos a la mejo<[r]> usté<[d]> se ha de acordar / a Miguel Ángel Vidal Espejo / ¿se acuerda?
+
+E: no
+
+I: <tiempo = “55:49”/> es un <sic> metereólogo </sic> que salió en el / un canal muy conocido en <vacilación/> la
+
+E: <simultáneo> ajá </simultáneo>
+
+I: <simultáneo> en el </simultáneo> medio de televisión 
+
+E: sí
+
+I: Miguel Ángel Vidal Espejo </ruido_fondo>
+
+E: ah
+
+I: él era el que daba los pronósticos del tiempo
+
+E: ándele
+
+I: una persona<[a]>dulta / maestro de algunas facultades o de alguna<alargamiento/> / de cuestiones de <sic> metereología </sic> ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: él era maestro / y aquí / y / l<[e]> <[d]>igo no sé m<[i]>hija / a la mejor Don Miguel aquí / pos no sé / chistaba o le / no sé <risas = “E”/> / me <[d]>ice <cita> no<alargamiento/> papá </cita> / l<[e]> <[d]>igo <cita> no m<[i]>hija / no le tengas miedo  </cita> / dice <cita> no es que a lo mejor mi abuelita que / en paz descanse me / me habla </cita>/ l<[e]> <[d]>igo <cita> pero / ¿pa<[r]> <[a]> que te habla?  </cita> l<[e]> <[d]>igo pos yo / le <[d]>igo no / <cita> lo que pasa es que tú le debes de tener miedo / a los vivos  </cita>
+
+E: sí <risas = “E”/>
+
+I: <entre_risas> y no a los muertos </entre_risas> / pero no<alargamiento/> / fíjese que no / accidentes / pu<[e]>s no<alargamiento/>  de muchachos en una ocasión íbamos a pescar / soy muy fanático a la pesca y la caza ¿ve<[r]>dá<[d]>?    
+
+E: mjm 
+
+I: y por ahí por la carreter<[a]>a Laredo / por la Cuesta Mamulique muy famosa la Cuesta <simultáneo> Mamulique </simultáneo>
+
+E: <simultáneo> sí </simultáneo> / sí 
+
+I: en La<[A]>ntigua Cuesta Mamulique / este / bueno ya funcionaba la moderna lo que<[e]>stá la / la / lo que<[e]>s carretera libre
+
+E: ah <extranjero> okay </extranjero> 
+
+I: <ruido_fondo> <observación_complementaria = “trino de pájaros” /> en esa época íbamos a pescar y había llovido mucho y<alargamiento/> / entramos a la cuesta unos buenos amigos de aquí de San Nicolás <ruido = “nasal”/> / solteros todos éramos puros solterones y ahí vamos / y había una<alargamiento/> / pos una<alargamiento/> /  deslave / un cierto deslave<[e]>n las sierras <simultáneo> ahí </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: que<[e]>stán / muy pronunciada 
+
+E: <simultáneo> sí si <simultáneo>
+
+I: <simultáneo> la </simultáneo> / los cortes que se hizo ahí por la / en esos de / de caminos / y hubo <sic> una </sic> cierto deslave se<alargamiento/> / obstruyó un carril de<alargamiento/> / de ida
+E: ajá
+
+I: y<alargamiento/> / íbamos de noche nosotros / y<alargamiento/> / el compañero que iba manejando / pues entramos al área vimos el / el derrumbe / que<[e]>staba un derrumbe ahí / y no<[s]> <[o]>tros le decíamos que / pos que frenara<alargamiento/> / le decía <cita> oye Arturo y ¿por qué no has frenado? </cita> dice<[e]>s que ya va frenado / <cita> voy patinando </cita> dice / <cita> voy patinando </cita> / ¡válgame! total / pegó la camioneta con unas piedras / ya s<[e]>iba parando la camioneta<[a]>fortunadamente / pega con unas piedritas ahí / se medio encarama tantito / y nos bajamos / y yo saqué mi lámpara y / y los compañeros de atrás del camper oye <cita> ¿qué pasó? </cita> <cita>  ¡n’ombre! se montó arriba de<[e]>sa piedra vamos a / a poner el gato </cita> no<[s]> <[o]>tros / todavía / sin tomar la precaución debida /  <cita> ¿sabes qué? mira vamos a poner el gato / movemos esa piedra / baja la camioneta / y nos vamos </cita>
+
+E: ajá / sí sí
+
+I: <tiempo = “58:12”/> entonces / empezamos a querer hace<[r]>lo / bajar algo de herramienta y empezaron a caer piedras todavía de arriba 
+
+E: ah 
+
+I: se oía donde pegaban las piedras en el / en el pavimento ¿no? / y este / nos empezamos a retirar y <cita> ¿sabes qué? vamos a retirarnos / hasta que llegue<[e]>l federal o a ver qué pasa porque / pos no podemos hace<[r]>lo nos va a caer una piedra en la cabeza </cita> </ruido_fondo>
+
+E: sí
+
+I: total nos retiramos / y<alargamiento/> / yo creo que fue cuestión de minutos / segundos / se vino un alud bastante grande / y tapó toda la camioneta
+
+E: ah / ¡qué caray! 
+
+I: nos salvamos todos gracias a dios 
+
+E: sí ¿ve<[r]>dá<[d]>? 
+
+I: <ruido_fondo> <observación_complementaria = “trino de pájaros” /> <entre_risas> yo creo que<[e]>se fue uno de los / de los sustos que nos dimos en / cuestiones de andar en las carreteras </entre_risas>
+
+E: ajá
+
+I: pero afortunadamente nadie de no<[s]> <[o]>tros murió eso / eso fue un<alargamiento/> /  milagro ¿ve<[r]>dá<[d]>? de todos 
+
+E: sí
+
+I: porque / un compañero y yo fuimos los últimos po<[r]>que / el chofer / él quería sacar la camioneta como <simultáneo> era </simultáneo>
+E: <simultáneo> claro </simultáneo>
+
+I: era de su papá / y me decía / la camioneta me deci<palabra_cortada/> / y le decía yo <cita> espérate ¡homb<[r]>e! / orita<[a]>l momento que llegue la grúa la sacamos ¡hombre! no pasa nada </cita> / <cita> no<alargamiento/> es que yo quiero sacarla </cita> / enton<[c]> <[e]>s en ese momento pega una piedra en el cofre / y medio saltó chispas medio se asustó / y / como que reaccionó él ¿ve<[r]>dá<[d]>? <simultáneo> y </simultáneo>
+
+E: <simultáneo> y </simultáneo> reaccionó
+
+I: y salimos corriendo / pero fue segundos / se oyó donde se / crugió un poquito el cerro ahí / se vino un alud pero / grandísimo era ¡muchas! toneladas 
+
+E: vaya
+
+I: y tapó toda la camioneta / quedó totalmente tapada / gracias a / a dios afortunadamente to<[d]> <[o]>s nos bajamos / nos dio tiempo de salir y / y<alargamiento/> / sin pensar qu<[e]>ib<[a]><[a]>haber un alud <simultáneo> tan grande ¿ve<[r]> <[d]>á<[d]>? </simultáneo>
+
+E: <simultáneo> claro </simultáneo>
+
+I: pero sí duró muchos días ahí obstruida la carretera / volvieron a<[a]>brir aquella cuesta vieja
+
+E: ajá
+
+I: la volvieron abrir / para poder salir por esos lugares / porque<[e]>staba obstruida la carretera
+
+E: m<alargamiento/>
+
+I: pero ese fue yo creo uno de / de los sustitos más<alargamiento/>
+
+E: más fuertes
+
+I: más feítos que me pasó en esa época de / soltero / <entre_risas> y ya no<[e]>ra ya le pensamos / ora para / hacer una cosa le pensamos dos veces </entre_risas>
+
+E: ajá
+
+I: antes no le pensábamos / ¡n’ombre! / entre<[e]>l agua nos íbamos / pero no / le pensamos un poquito 
+
+E: sí
+
+I: sí sí como quiera
+
+E: oiga / y este / <ruido = “E se aclara la garganta”/> ¿qué opina usté<[d]> de la / de la situación de / ya ve que hasta soldados andan ahí en la / calles y<alargamiento/>?
+
+I: pues<alargamiento/>
+
+E: ¿qué<[e]>s lo que<alargamiento/>?  
+
+I: no sé qué ha pasado / bueno / yo creo que como comentan las / autoridades ¿ve<[r]>dá<[d]>? / que ya esto de las cuestiones de<alargamiento/> / pos de grupos armados que<[e]>xisten que / manejan las drogas y / que<[e]>s el mercado de<[e]>llos ¿ve<[r]>dá<[d]>? / pos comentan ellos que son más de veinte años / totalmente<alargamiento/> / ya de muchísimos años / ciertos grupos ¿no? / desconozco los nombres ¿ve<[r]>dá<[d]>? de<[e]>llos que<alargamiento/> 
+
+E: mjm
+
+I: creo que los del golfo y no sé qué / o sea que<[e]>llos / que supuestamente son unos grupos / fue lo que<[e]>scuché yo con un / mandatario ahí / pos que<[e]>ran grupos que<[e]>xistían hace más de veinte años / <simultáneo> ¿verdá<[d]>? </simultáneo>
+
+E: <simultáneo> que se han desarrollado </simultáneo>
+
+I: y ellos se han desarrolla<[d]>o a lo largo de to<[d]>a la República / en parte d<[e]>Estados Unidos / <[e]> <[n]>to<[n]> <[c]>es nace / otro grupo / ésos ahora que les dicen lo que / de los zetas 
+
+E: ajá / sí 
+
+I: que muy famosos de los zetas pero se supone que son gente que<alargamiento/> / desecho posiblemente<[e]>sos grupos
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: por malos o / vay<[a]>a usté<[d]> a saber cual<[e]> <[s]> serán las organizaciones cómo se / trabajen ellos / y vay<palabra_cortada/> / sea / posibilidad de que<[e]>llos hicieron un grupo / contrario 
+
+E: ajá
+
+I: <tiempo = “61:35”/> ¿verdá<[d]>? / un grupo contrario y / hacen lo mismo / se dedican a lo mismo y se pelean las plazas y eso / y / pos ora lo que ha pasado que / involucraron a mucha policía regia de un / de aquí de la / zona metropolitana ¿verdá<[d]>? / o sea mucha policía de to<[d]> <[o]>s los municipios de aquí / y pues / no sé<alargamiento/> / de<palabra_cortada/> /  debe de haber algún por qué / el<alargamiento/> / pos se meten a trabajar con ellos como dicen unos entran al / grupo de<[e]>llos / recibiendo un / una cuota ¿ve<[r]>dá<[d]>? porque<alargamiento/> 
+
+E: mjm
+
+I: pos yo creo que a lo mejor / con la cuota que<[e]>llos reciben pos no mantienen / a su familia / y la gente por / por necesidad a la mejor posiblemente lo haga / bajo las reglas que<[e]>llos tienen ¿ve<[r]>dá<[d]>? que tienes / m<[e]>imagino que<[e]>s / tú entras y nunca te sales 
+
+E: sí sí  
+
+I: y el día que tú te salgas / pos / te vas ir / pa<[r]> <[a]> onde te pertenece como <[d]>icen pa<[r]> <[a]> <[e]>l cielo o pa<[r]> <[a]> <[e]>l infierno <risas = “E”/> / a ver pa<[r]> <[a]> <[d]>onde te vas a ir 
+
+E: sí
+
+I: pero<alargamiento/> / pos ya ve con / ora con la entrada del ejército aquí a<alargamiento/> / pos a nuestras áreas / nuestros domicilios / nuestras colonias ¿ve<[r]>dá<[d]>? /  pues no sé ha<[a]>bido / una cierta<alargamiento/> / pues / algunos / tranquilidad y algunos intranquilidad ¿ve<[r]>dá<[d]>? <simultáneo> porque </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: pues tam<[b]>ién e<alargamiento/> / pos ha<[a]>bido muchos detalles con la cuestión de<alargamiento/> pos que se han equivocado / y que<alargamiento/> / con estos / muchachos que / mataron del tecnológico 
+
+E: sí
+
+I: pues se hacen / muchas versiones ¿verdá<[d]>? que 
+
+E: mjm
+
+I: que<alargamiento/> / algunos aseguran ¿ve<[r]>dá<[d]>? / d<[e]>hecho algunos estudiantes / aseguran que / pues los militares andaban dentro de la / institución del tecnológico / y algunos dicen que no es cierto y / y pos algunos dicen que las balas eran de<alargamiento/> / pos eran del crimen organizado / o sea las ojivas / o sea las ojivas que / que sale de la / del cartucho de de / de la bala
+
+E: mjm
+
+I: o sea es la ojiva lo que<[e]>s el metal ¿ve<[r]>dá<[d]>? / <simultáneo> que sale </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: entonces / ellos aseguran que<[e]>ra del crimen organizado y<alargamiento/> / y / la gente que conoce te dice que<alargamiento/> / cómo lo aseguran / cómo lo aseguran que pueda ser del crimen organizado
+
+E: <ruido = “timbre de celular”/> ¡hola! dime oye / estoy en una entrevista dime rápido / <extranjero> okay </extranjero> / <[e]> <[s]>tá bueno / bye / sí nos ponemos de acuerdo para la comida <risas = “E”/>
+
+I: <tiempo = “64:03”/> ah claro <entre_risas> / la comida es sagrada / sí </entre_risas> / este / pues yo creo que a la mejor es e<alargamiento/> / como le digo para ciertas personas / tranquilidad 
+
+E: mjm
+
+I: porque ya lo han hecho / hablar directamente a la zona militar / ya no hablan a la zona / que que correspondan ¿ve<[r]>dá<[d]>? 
+
+E: mjm
+
+I: a la policía de su<alargamiento/> / municipio / no / hablan directamente a los militares y<alargamiento/> / y se han dado casos / pos que ha / ha<[a]>bido respuesta de<[e]>llos / buena ¿verdá<[d]>?  
+
+E: mjm
+
+I: y yo creo que a la mejor / el pueblo tam<[b]>ién se siente tranquilo al / al haber / estan<[d]>o el Ejército en / pues en ciertos lugares son personas / pues preparadas ¿verdá<[d]>? / no sabemos la cultura que tengan tampoco <simultáneo> porque <simultáneo>
+
+E: <simultáneo> claro </simultáneo>
+
+I: como dice la gente ¿ve<[r]>dá<[d]>? / en una palabra que regularmente<alargamiento/> / pos  se usa / normal ¿ve<[r]>dá<[d]>? / algunos la escuchan y <[d]>icen no pos es u<palabra_cortada/> / es una mala palabra pero no yo creo que la cultura / este<alargamiento/> /  se mama del seno de la mujer 
+
+E: ajá
+
+I: o sea de tu madre ¿no?
+
+E: ajá
+
+I: cuando dice / este no no discúlpeme pero es que<[e]>so yo / lo<[o]>btuve de  mi madre / lo lo<alargamiento/> 
+
+E: mjm
+
+I: del seno de mi madre / o sea como dicen yo me lo mamé no lo / no me lo enseñaron  
+
+E: claro
+
+I: así nos tocó con un amigo por ahí de Veracruz que<[e]>stá en Agualeguas Nuevo León
+
+E: mjm
+
+I: <[e]> <[n]>to<[n]>ces él es me<palabra_cortada/> / muy buen cocinero de pescado / él es de Veracruz
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: y un amigo / le dijo / oye pichaco / le dicen pichaco / oye pichaco / ¿y a ti nunca se te quitó el acento de Veracruz? / y le dijo no<alargamiento/> / chico / es que yo lo mamé no lo estudié <risas = “todos”/> / <entre_risas> ento<[n]>ces yo creo que </entre_risas> / que / pos  no conocemos la cultura de / de los militares 
+
+E: ajá
+
+I: pero traen una buena escuela / traen buena escuela 
+
+E: ajá
+
+I: e<alargamiento/> / no sabemos qué pasa / en veces tam<[b]>ién / pos de repente culpan a los militares 
+
+E: claro
+
+I: y de repente culpan al otro y / pero bueno pos en fin al menos / al menos hay / hay respuesta de<[e]>llos / sí hay
+
+E: mjm
+
+I: y<alargamiento/> / otra cosa / otro comento<palabra_cortada/> / comentario que se hace<[e]>s que / pos es que / entre<[e]>llos mismos se andan / se andan acabando ¿ve<[r]>dá<[d]>? 
+
+E: ajá
+
+I: que / procuran no meter a gente inocente / pero hay ocasiones que se va gente inocente y eso <simultáneo> es lo más difícil </simultáneo>
+
+E: <simultáneo> es lo malo </simultáneo>
+
+I: que se van niños / o se van mujeres / es lo más duro
+
+E: <tiempo = “66:12”/> ¿y la situación económica no cree que haya<[a]>lguna influencia por<alargamiento/>?
+
+I: sí cómo no / se ha bajado / mucho los índices de / pos sobre todo<alargamiento/> / pos en las visitas de / lugares donde / acostumbra ir mucha gente / hay menos visitas / en los restoranes / en / porque h<[a]>habido muchas situaciones en / pos donde hay más aglomeración de gente
+
+E: claro
+
+I: ya ve<alargamiento/> / muy / reciente lo de / La Exposición
+
+E: sí
+
+I: una tradición de muchísimos años ¿ve<[r]>dá<[d]>? que algunos / desde muy pequeños lo visitábamos ¿ve<[r]>dá<[d]>? / pos que supuestamente era la número sesenta creo / la sesenta y uno 
+
+E: ah
+
+I: más de sesenta años 
+
+E: ah
+
+I: ento<[n]>ces / era una tradición muy antigua / y ahora / pos ora / ¿qué pasó? que / la suspendieron 
+
+E: sí
+
+I: quedó clausurada / a excepción na<[d]>a más de las / peleas de gallos que / no se quiso solidarizar el / el empresario que toma esas peleas 
+
+E: mjm
+
+I: y creo que se amparó / usó un amparo y<alargamiento/> / pos hubo muchas críticas hay muchos / medios económicos ¿ve<[r]>dá<[d]>? 
+
+E: claro
+
+I: que<[e]>stán de por medio / él lo vio por el lado / porque hay muchos depósitos / en esas cuestiones de / de peleas de gallo / hay gente que deposita dinero  
+
+E: mjm
+
+I: me imagino para / a lo mejor para los medios / para los artistas para / no pes <palabra_cortada/> / no que haya<[a]>puesta ¿ve<[r]>dá<[d]>? si no que / me refiero que hay un / depósito de garantía / en muchos grupos musicales 
+
+E: ajá
+
+I: y eso es / eso es una pérdida muy fuerte para los / los negocios de representaciones de / de grupos musicales <simultáneo> se </simultáneo>
+
+E: <simultáneo> claro </simultáneo>
+
+I: pierde mucho dinero ¿ve<[r]> <[d]>á<[d]>? / <[e]> <[n]>tonces / a la mejor la persona que<[e]>staba<alargamiento/> / en los negocios ahí con alguna inversión / pequeña / bueno pequeña para<alargamiento/> / para<alargamiento/>  
+
+E: empresarios 
+
+I: para grandes empresa<palabra_cortada/> / empresarios pero / para ellos es una pesi<palabra_cortada/> / una una / una<alargamiento/> / inversión fuerte pues / la perdieron <simultáneo> o </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: o la regresaron o / no sé porque sí / pues está<[a]>hí / solo <simultáneo> <[e]> <[s]>tá muy triste ahí </simultáneo>
+
+E: <simultáneo> <[e]> <[s]>tá muy triste </simultáneo>
+
+I: todo se acabó pero / pos / gracias a dios / no fue una / una<alargamiento/> / pérdida de más gente allí
+
+E: gracias a dios
+
+I: porque si no pudo haber sido más fuerte ¿ve<[r]>dá<[d]>? 
+
+E: claro
+
+I: y todo nace a razón de un / dispar<[o]>o dos que se hicieron por ahí / y ese fue<[e]>l problema más grave <simultáneo> pero </simultáneo> <ruido = “claxon” /> 
+
+E: <simultáneo> mjm </simultáneo>
+
+I: yo pienso que sí ta<palabra_cortada/> / repercute mucho en la situación económica / en todo en todos y<alargamiento/> 
+
+E: sí
+
+I: comentarios de compañeros amigos / que<[e]>n Estados Unidos hay ofertas / dicen ¿no has ido a Laredo Texas? no no he ido no no / no m<[e]>he movido / dice hay ofertas / de todas / increíble hay oferta de todo 
+
+E: mjm
+
+I: <tiempo = “68:41”/> ¿por qué? porque / poca<[a]>fluencia de gente
+
+E: claro
+
+I: mucha gente no quiere viajar
+
+E: sí </ruido_fondo>
+
+I: lo que<[e]>s por las carreteras de Reynosa por la carreter<[a]>a Laredo / tienen miedo / la gente tiene miedo / como quier<[a]>hay ese<alargamiento/> / hay esa psicosis del / temor ¿verdá<[d]>?
+
+E: mjm
+
+I: yo al ir manejando / en veces lo pienso / si llegar<[a]><[a]>haber alguna<[a]>gresión por aquí / alguna balacera / ¿que voy hacer? / parar el coche tirarme al suelo / y y ya / veces lo pienso cómo / qué<[e]>s lo que voy hacer  
+
+E: sí sí sí 
+
+I: ¿verdá<[d]>? como por <[d]>ecir / estoy preparado <simultáneo> par<[a]>hacerlo </simultáneo>
+
+E: <simultáneo> preparado </simultáneo>
+
+I: porque hasta dónd<[e]>hemos llegado ¿ve<[r]>dá<[d]>? que la se<palabra_cortada/> / la inseguridad / pos ha llegado a muy altos índices aquí en Nuevo León
+
+E: claro
+
+I: en Monterrey que<[e]>ra una<alargamiento/> / era un lugar bien pacífico Monterrey
+
+E: tranquilo
+
+I: podíamos estar afuera de la calle sentados
+
+E: mjm
+
+I: dos tres de la mañana y no había problema de ninguna clase / y ahora / a las diez / de la noche ya / ya debes estar mejor / <risas = “E” /> <entre_risas> hasta dormido mejor ya recógete porque ya no sabes qué pue<[d]>a pasar </entre_risas>
+
+E: ya<alargamiento/>
+
+I: sí / pero bueno pos a ver vamos a ver hasta <[d]>ónde llegamos 
+
+E: <simultáneo> hasta dónde llega </simultáneo>
+
+I: <simultáneo> esperemos que<alargamiento/> </simultáneo> / esto termine pronto porque sí<alargamiento/> / por ejemplo como le comentaba yo / soy muy amante de la pesca 
+
+E: ajá
+
+I: no he salido desde / hace com<[o]>un año
+
+E: ajá
+
+I: ni si quiera hemos ido a / a<alargamiento/> / a ningún lado / a pescar / nada / para <simultáneo> nada hemos salido </simultáneo> 
+
+E: <simultáneo> ¿y cómo eran </simultáneo> ahí / los pasos ahí par<[a]>hacer el<alargamiento/>? 
+
+I: ¿para la pesca? <ruido = “nasal”/>
+
+E: para la pesca
+
+I: pues la pesca es / pos es un deporte al aire libre principalmente / donde tienes contacto directamente con la / la naturaleza
+
+E: mjm
+
+I: y<alargamiento/> el<alargamiento/> / el procedimiento de la pesca pues / es como dicen<alargamiento/> / lanza el anzuelo a ver <simultáneo> qué </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: por lo pronto lanza el anzuelo y / ponle tu carnada preferida 
+
+E: ajá
+
+I: para uno / pero para el pesca<[d]>o no sabemos cuál le guste <risas = “todos”/> / era como así le<[d]> <[e]>cía a mi papá le<[d]> <[e]>cía yo a<[p]> <[a]>pá y / ¿cómo le hace usté<[d]> para pescar? porque tenía mucha<alargamiento/> / paciencia y todo y<alargamiento/> / siempre nos ponía la muestra oiga<[p]> <[a]>pá y usté<[d]> / mire yo no he pesca<[d]>o nada y los pescadotes que usté<[d]> <sic> trai </sic> / ah dice<[e]>s que / hay que lanzarle<[e]>l / el / el <vacilación/> /  la carnada / pero / al hocico del pescado / ustedes no lo lanzan al hocico / yo si lo lanzo al hocico del pescado <risas = “E”/> / sí dice no no<alargamiento/> / ¡no! ese<[e]>s / es una / un deporte muy tranquilo
+
+E: ajá
+
+I: <tiempo = “70:57”/> donde<alargamiento/> / piensas / reflexionas / estás / lanzas tu carnada y estás / espera<alargamiento/>ndo / te imagi<alargamiento/>nas que<[e]>l pez v<[a]>a llega<alargamiento/>r y lo v<[a]>a <sic> saboria<alargamiento/>r </sic>  y / yo creo que<[e]>so es parte del / de la<alargamiento/> / tranquilidad que practicas / vamos a practicar un poquito el / tranquilización <simultáneo> del </simultáneo>
+
+E: <simultáneo> mjm </simultáneo>
+
+I: cerebro / es para eso / más que todo / <entre_risas> porqu<[e]>hemos ido a pescar y no hemos pesca<[d]>o nada </entre_risas> / pero venimos descansados <simultáneo> del<alargamiento/> </simultáneo>
+
+E: <simultáneo> qué bueno </simultáneo>
+
+I: del<alargamiento/> / claxon / y que del / la / muchachos jugando / del camión urbano / y del tren y / pos ahí descansamos <simultáneo> oímos </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: la naturaleza y / es lo que / mi <vacilación/> mi padre me decía / cuando tengas oportunidad / sac<[a]>a tus hijos al campo / pa<[r]> <[a]> que disfruten el / el silencio / porque<[e]>l silencio tam<[b]>ién hay que disfrutarlo ¿ve<[r]>dá<[d]>?
+
+E: sí / ¿y algún lugar que haya usted visitado que me / pueda / platicar cómo / cómo es el / lugar?
+
+I: ¿lugares de donde visitamos la pesca?
+
+E: ajá
+
+I: pos mire aquí lo / lo que<[e]>s en Nuevo León / a lo largo de muchos años han estado haciendo lagos / embalses muy<alargamiento/> grandes
+
+E: mjm
+
+I: tiene sus peligros porque cualquier embalse / por más pequeño que sea tiene su peligro / pero nosotros de muchachos visitamos una presa / muy<alargamiento/> famosa que / era en esa época era / La Presa Sombreretillo 
+
+E: ah / <extranjero> okay </extranjero> 
+
+I: ¿esa / no conoce usted el pueblito ese?
+
+E: creo que<[e]>stá por acá <simultáneo> por </simultáneo>
+
+I: <simultáneo> ¡Sabinas! </simultáneo>
+
+E: ¿Sabinas?
+
+I: carreter<[a]>a Sabinas / o sea usté<[d]> sale rumbo al norte por la carreter<[a]>a Laredo / pasa Ciénega de Flores 
+
+E: ah ento<[n]>ces estaba confundiendo yo con otra por acá por otro rumbo
+
+I: porque hay muchas en muchas partes
+
+E: ajá
+
+I: por ejemplo / yo conozco muchas / le vo<[y]> a nombrar donde<[e]>stá esa Sombreretillo / ah e<alargamiento/> / se la recomiendo para visitarla
+
+E: gracias
+
+I: <simultáneo> es una<alargamiento/> </simultáneo>
+
+E: <simultáneo> ajá </simultáneo>
+
+I: <tiempo = “73:21”/> es un pueblo muy bonito muy tradicional / carreter<[a]>a Laredo / pasa Ciénega de Flores / posteriormente de Ciénega / v<[a]>a llegar a un<alargamiento/> / pos un montón de<[e]>ntronques que hay por ahí de / pueblitos / pero hay un pueblito que dice<alargamiento/> / arriba en el / los anuncios dice<alargamiento/> / Sombreretillo / es un pueblito que / está / como a<[a]>lgunos<alargamiento/> / veinte  kilómetros de Sabinas Hidalgo Nuevo León
+
+E: ah <extranjero> okay </extranjero>
+
+I: ahí v<[a]>a cortar hacia la derecha / por un entronque / no me he ido últimamente por ahí pero debe de decir / nogales / o debe de decir Parás Nuevo León / y<alargamiento/> / debe de<[e]>star agregado por ahí Sombreretillo 
+
+E: ajá
+
+I: ese pueblito / está del e<palabra_cortada/> /  de la carreter<[a]>a Laredo / por / un entronque hacia<[e]>l lado derecho / aproximadamente de unos quince kilómetros / o diez  kilómetros / y luego retorna por entre unos caminos / pavimentados <[e]> <[s]>tá muy bonito muy arreglado / y lleg<[a]>a ese<[e]>mbalse a esa presa
+
+E: ajá
+
+I: esa presa<[a]>hí se construyó / por sus estructuras / naturales / tiene sierras de los dos lados / formaron el muro / la lo que<[e]>s la / la <vacilación/> el <vacilación/> / el / la retención / ahí h<[i]>cieron el bordo / y es una presa<alargamiento/> / que<[e]>stá <vacilación/> / que tiene a / al al / al su<alargamiento/> / fondo / el pueblo / que se hizo famoso ahí con la presita que le pusie<[r]>on el mismo nombre / Sombreretillo Nuevo León 
+
+E: ah
+
+I: es un pueblito del sur
+
+E: sí / sí 
+
+I: así se llama Sombreretillo / y se le quedó como La Presa Sombreretillo
+
+E: ah <extranjero> okay </extranjero> 
+
+I: <[e]> <[n]>to<[n]> <[c]> <[e]>s esa presita / pos es un lago muy bonito tiene muchas especies de / de<alargamiento/> / de peces / el robalo que<[e]>s muy común ¿ve<[r]>dá<[d]>? en estas zonas / la mojarra<[a]>fricana / y pues bagre y / tiene algunas otras especies la tortuga que<[e]>s muy común / y este<alargamiento/> / y es a donde nos divertimos desde muy pequeños 
+
+E: ajá
+
+I: de muchísimos años / esa presa desde muy jovencitos mi padre nos enseñó a ir a / pos ahí a practicarla / nos enseñó cómo practicarla ¿verdá<[d]>?
+
+E: mjm
+
+I: desde muy chamacos / nos llevó a esa / presita 
+E: ¿y cómo está<[a]>hí está / tiene / tiene arboledas?
+
+I: sí / <[e]> <[s]>tá muy arbolado tiene m<palabra_cortada/> / hay muchos árboles muchos sabinos 
+
+E: ajá
+
+I: y tiene un<alargamiento/> / unos / lugares ahí donde acampar / ya<alargamiento/> / pos ya tiene sus mesitas / sus asadores y t<[o]> <[d]>o ya lo hicieron / un poco más atractivo para la <simultáneo> gente </simultáneo>
+
+E: <simultáneo> sí </simultáneo>
+
+I: para que visite el pueblito porque <simultáneo> ya </simultáneo>
+
+E: <simultáneo> sí </simultáneo>
+
+I: al visitar la gente pues hay<alargamiento/> / hay<alargamiento/> / entrada monetaria<[a]>hí al pueblito pos ya se vende la cervecita 
+
+E: sí
+
+I: ya se vende la<alargamiento/> / el refresco / y las tortilla<[s]> / o la comida ya los  restorancitos ahí / pos hacen comidas típicas / mexicanas ¿ve<[r]>dá<[d]>?
+
+E: mjm
+
+I: algunos acostumbran ir a / nomás a disfrutar de la naturaleza / a ver el lago / algunos n<[a]> <[d]>a más a verlo ¿ve<[r]>dá<[d]>?  
+
+E: ajá
+
+I: y pasarse la tarde bajo las sombras ahí / está muy bonito / se lo recomiendo
+
+E: ah <extranjero> okay </extranjero> 
+
+I: y una presa muy conocida / que la conoce regularmente to<[d]>a la gente de la universidad
+
+E: ah <extranjero> okay </extranjero>
+
+I: La Presa la Juventud / que pertenece a la Facultad de Agronomía 
+
+E: esa es otra
+
+I: o sea la Universidad Autónoma de Nuevo León 
+
+E: ajá
+
+I: ten<palabra_cortada/> / tiene / no sé si<alargamiento/> / hay<[a]>habido algún cambio por ahí / pero por la carreter<[a]>a Marín  
+
+E: mjm
+
+I: <tiempo = “75:46”/> ahí <[e]>stá la Facultad de Agronomía / ¿sí recuerda que hay una facultá<[d]> que tenemos / de la universidad / por la carreter<[a]>a Marín? 
+
+E: <simultáneo> yo / e<alargamiento/> </simultáneo>
+
+I: <simultáneo> ¿l<[a]>ha </simultáneo> oído mentar? 
+
+E: es que / hace tiempo que no viajo pero<alargamiento/> 
+
+I: m<alargamiento/>
+
+E: pero sí la / sí sí<alargamiento/> 
+
+I: bueno es / es muy sencillo llegar a esa / a esa presa / carreter<[a]>a Laredo / entronque Zuazua Nuevo León
+
+E: mjm
+
+I: está muy cerquitas unos veinte minutos de aquí del centro de San Nicolás 
+
+E: mjm
+
+I: unos veinte minutos aproximadamente hoy las vías tan rápidas que hay ora / voltea por la carretera que dice / Zuazua Nuevo León 
+
+E: mjm
+
+I: v<[a]>a pasar un entronque que dice Santa Rosa / ese no 
+
+E: Zuazua
+
+I: hasta<[e]>l siguiente<[e]>ntronque dice Zuazua Nuevo León / <[e]> <[n]>ton<[c]> <[e]>s usté<[d]> corre a su la<[d]>o derecho / llega<[a]>l pueblo de Zuazua / y hay una / una<alargamiento/> / vía rápida que rodea el pueblo 
+
+E: ajá
+
+I: un libramiento / lo saca de Zuazua / y lue<[g]>o dice carreter<[a]>a Marín / Nuevo León
+
+E: ah
+
+I: <[e]> <[n]>ton<[c]> <[e]>s usté<[d]> v<[a]>a dar / va rumbo a Marín / pasa el puente del río que pasa por ahí yo creo que<[e]>s el río Salinas / m<[e]>imagino 
+
+E: mjm
+
+I: que viene de por allá de<alargamiento/> / de las sierras / pasa por el / Salinas / Victoria 
+
+E: Salinas Victoria
+
+I: m<[e]>imagino que<[e]>s ese / y pasando el puente / el embalse o sea la presa / est<[á]>a su mano izquierda se llama / <énfasis> Presa la Juventud </énfasis>
+
+E: mjm
+
+I: esa presa / e<alargamiento/> / está muy accesible ahí hay un pequeño un cobro ahí simbólico que<alargamiento/> / si usté<[d]> va<alargamiento/> / a estancia / a estar ahí / a comer / a sentarse a sus sombras ahí / le ha<palabra_cortada/> / hay un cobro módico
+
+E: ajá
+
+I: ¿verdá<[d]>? / y se la pasa uno muy agradable / hay vigilancia 
+
+E: ajá
+
+I: hay asadores hay / mesa / hay unas sombras excelentes 
+
+E: mjm / muy bien
+
+I: y puede estar en la orilla de lago
+
+E: mjm
+
+I: hay mucha<alargamiento/> / pos hay fauna<[a]>lgo de de / patos y gansos y / y eso lo han cuidado para que sea un atractivo / hay baños
+
+E: mjm
+
+I: principalmente para las damas que<[e]>s un problema andar en el <simultáneo> campo </simultáneo>
+
+E: <simultáneo> sí  </simultáneo>
+
+I: y no haber baños
+
+E: sí  
+
+I: ora tienen ahí unas instalaciones de baños
+
+E: ¿tiene mucha<[a]>rboleda ahí o<alargamiento/>
+
+I: muy bonito / se lo recomiendo / no sé si como le digo no sé si pertenezc<[a]>a la universidá<[d]> todavía / la Facultad de Agronomía / parece que ya desapareció / pero<[e]>stán to<[d]>as las instalaciones 
+
+E: claro
+
+I: <tiempo = “77:50”/> pero ahí en la entrada de la presa / ahí marca la entrada / a su izquierda pasando el puente / este / se la recomiendo 
+
+E: mjm
+
+I: está / excelente para pasar un <simultáneo> día </simultáneo>
+
+E: <simultáneo> tranquilo </simultáneo>
+
+I: en familia / bajo las sombras / y<alargamiento/> / divertirse ahí
+
+E: ajá
+
+I: disfrutar de la naturaleza un ratito
+
+E: ver correr a las nietas
+
+I: ver correr a los nietos y a las nietas ahí
+
+E: yo tengo puras nietas <risas = “E”/>
+
+I: no yo tam<[b]>ién tengo dos nietas / ya no tarda en llegar una / es una bandida ¡n’ombre! / le comento a mis / amigos amistades y / a sus vecinos la se<palabra_cortada/> / la semana pasa<[d]>a fuimos a ve<[r]>los / aquí viven cerquitas / y le di<palabra_cortada/> / llego yo y le digo / ¿qué pasó m<[i]>hija cómo <[e]>stás? / muy bien abuelo / tiene<alargamiento/> / cua<palabra_cortada/> / v<[a]>a cumplir cuatro años
+
+E: mjm
+
+I: y le dice mi esposa / <cita> ¡abuelito! </cita> / le digo / <cita> no le digas nada fí<[j]>ate que / si vieras que bonito se siente / el escuchar la palabra abuelo </cita>
+
+E: ajá 
+
+I: l<[e]> <[d]>igo se siente muy bien / muy agradable / l<[e]> <[d]>igo ¿qué m<[i]>hija <cita> por qué / qué / qué hiciste? </cita> / <cita> no<alargamiento/> / mi abuelo / no abuelo es que / le dije a los vecinos / una niña<[a]>miguita </cita> / <cita> ¿y qué le platicaste? </cita> / le dije / <cita> si supieras / que mi abuelo / ¡tanto que me quiere! </cita>
+
+E: ¡ay / qué <simultáneo> hermoso! </simultáneo>
+
+I: <simultáneo> n’ombre bien curioso </simultáneo> disfruta uno
+
+E: sí cómo no
+
+I: disfruta uno los nietos / porque a lo hijos batallamos pa<[r]> <[a]> disfruta<[r]>los
+
+E: sí
+
+I: tenía que trabajar 
+
+E: sí <risas = “E”/>
+
+I: no los mirá<[b]> <[a]>mos en t<[o]> <[d]>o el día hasta en la noche 
+
+E: sí / sí sí sí 
+
+I: y ahora los nietos pos los disfruto un poco más
+
+E: cómo no
+
+I: sí / no / pero ahí vamos a lo largo de / de las experiencias de la vida <risas = “E”/> / ahí la llevamos / ¿y su nombre? / no le pregunté ni su nombre
+
+E: Mariano Rodríguez 
+
+I: ¡Mariano!
+
+E: <simultáneo> sí sí pensé que se lo ib<[a]>a decir / cuando empecé <risas = “E”/> </simultáneo>
+
+I: <simultáneo> ¿al principio? </simultáneo> / sí no pero<alargamiento/>
+
+E: Mariano Rodríguez 
+
+I: muy bien / qué bueno señor Mariano / muy bien
+
+E: pues / le voy a / pedir algunos datos
+
+I: claro que sí cómo no 
+
+E: ¿su nombre?
+
+I: <ruido = “escritura”/> mire mi nombre<[e]>s Francisco
+
+E: mjm
+
+I: Javier / ahí viene<[e]>l <sic> apeído </sic> ese que le digo / Isida / así como se oye 
+
+E: Isida
+
+I: Isida Garza
+
+E: Garza
+
+I: japonés con mexicano
+
+E: está combinado 
+
+I: sí / bien combinado 
+
+E: <tiempo = “79:54”/> me dijo que tenía / ¿cuarenta y qué?
+
+I: tengo actualmente / cincuenta y seis años
+
+E: cincuenta y seis 
+
+I: haga / no / hágame la buena / cuarenta / así le digo a mi esposa me toman una foto y le <[d]>igo / una / un / pastelito ahí / y le / en la misma cam<palabra_cortada/> / en el / video / hasta<[e]>l otro año / a ver si cumplo los cincuenta / sí dice / de l<[a]>otra tanda dice pos <risas = “todos”/> / de la siguiente tanda 
+
+E: creo que fue Regan el que dijo / tengo treinta y cuatro años de / estar cumpliendo treinta y seis o una cosa<[a]>sí <risas = “todos”/> / tenía setenta  
+
+I: sí 
+
+E: <extranjero> okay </extranjero> / ¿casado?
+
+I: sí / sí señor <ruido = “voces”/>
+
+E: ¿aquí el domicilio es<alargamiento/>?
+
+I: es Pico de Ajusco
+
+E: pico
+
+I: pa<[r]> <[a]> que lo corrobore ahí / que<[e]>sa persona<[a]>hí no vive 
+
+E: <simultáneo> Ajusco <simultáneo>
+
+I: <simultáneo> o<alargamiento/> </simultáneo> / les pone ahí / a lo mejor se<[e]>quivocaron / a lo mejor era Francisco
+
+E: <risas = “E”/> ¿verdad?
+
+I: es fran<palabra_cortada/> / es Pico de Ajusco número siete cero dos
+
+E: siete cero dos
+
+I: siete cero  dos / la colonia es / ¿colonia?
+
+E: sí
+
+I: Jardín de las Puentes se llama esta
+
+E: jardín 
+
+I: Jardín de las Puentes
+
+E: de Las Puentes / aquí es San Nicolás 
+
+I: San Nicolás de los Garza 
+
+E: ¿teléfono?
+
+I: ¡ay! / teléfono es catorce noventa y tres diecisiete ochenta y ocho  / diecisiete ochenta y ocho / es que hace poco lo cambió mi esposa 
+
+E: ¿católico?
+
+I: sí 
+
+E: e<alargamiento/> / ento<[n]>ces / usted es de aquí de Monterrey
+
+I: sí / de aquí nas<palabra_cortada/> / nacido en Monterrey / en San Nicolás de los Garza nací 
+
+E: en San Nicolás
+
+I: sí / a lo mejor eso sí
+
+E: bueno<alargamiento/>
+
+I: yo alcancé a nacer / todavía cuando<alargamiento/> / regularmente se aliviaban <ruido = “tintineo” /> las e<alargamiento/> / las e<alargamiento/> / las mamás en las casas / que iba el médico a / la casa
+
+E: ah <extranjero> okay </extranjero>
+
+I: ahí con mi abuelo yo me recuerdo 
+
+E: sí / <extranjero> okay </extranjero> / ¿ha vivido siempre<[e]>n Monterrey?
+
+I: sí / sí en Monterrey / Nuevo León 
+
+E: a<alargamiento/> / entonces / ¿su padre era / también de aquí?
+
+I: sí / de Monterrey / el nombre d<[e]>él Francisco 
+
+E: no <simultáneo> n<[a]> <[d]>a más </simultáneo> 
+
+I: <simultáneo> ¿nada más? </simultáneo>
+
+E: nada más
+
+I: sí nativo de aquí de Monterrey / sí de Monterrey / Nuevo León
+
+E: Monterrey / e / ¿su mamá?
+
+I: también / nativa de aquí de San Nicolás de los Garza
+
+E: San Nicolás <ruido = “escritura”/>
+
+I: sí
+
+E: <tiempo = “82:23”/> ahora<[a]>quí / ¿su abuelo paterno?
+
+I: mi abuelo paterno / pues / <ruido = “I se aclara la garganta” /> ¿el nombre d<[e]>él?
+
+E: no
+
+I: ah ¿qué si don<palabra_cortada/> <alargamiento/>?
+
+E: ¿de dónde?
+
+I: Japón
+
+E: Japón
+
+I: sí él definitivamente<alargamiento/> 
+
+E: él sí / sí venía de Japón
+
+I: nació en Japón / sí
+
+E: <extranjero> okay </extranjero> / ¿y su abuela paterna / era de<alargamiento/>
+
+I: era de Villa de Santiago
+
+E: <ruido = “escritura”/> Villa de Santiago
+
+I: sí / Los Moya de Villa de Santiago
+
+E: ándele / ¿su abuelo materno?
+
+I: materno / nativo de aquí de San Nicolás 
+
+E: ¿y su abuela?
+
+I: también de San Nicolás
+
+E: también <ruido = “vuelta a la hoja”/> / e<alargamiento/> / <extranjero> okay </extranjero> / m<alargamiento/> /  aquí / m<alargamiento/> / no aplica esta / m<alargamiento/> / ¿tiene alguna<[a]>fición o pasatiempo?
+
+I: pues e<alargamiento/> / la<[a]>fición es la pesca / la caza / la pesca puede ponerle <ruido = “escritura”/>  la pesca / la<[a]>fición
+
+E: <ruido = “escritura”/> le ponemos las dos  
+
+I: la cacería / deportiva 
+
+E: mjm
+
+I: <ruido = “escritura”/> sí porque la / completa debe ser cacería deportiva
+
+E: eso es 
+
+I: de la caza ya sabemos hay dos / caza <sic> fortiva </sic> / y caza deportiva 
+
+E: sí
+
+I: ¿cuál / cuál es la que practicas? <risas = “I”/>
+
+E: sí / sí / e<alargamiento/> / <ruido = “E se aclara la garganta”/> ¿asiste usté<[d]> al cine?
+
+I: pues muy<alargamiento/> / esporádicamente ¿ve<[r]> <[d]>á<[d]>? 
+
+E: ¿sí? 
+
+I: ahora con ya la / tecnología de las<alargamiento/>
+
+E: de la tele <observación_complementaria = “forma común de abreviar la palabra televisión” />
+
+I: películas pos las vemos en la casa 
+
+E: en la casa / ¿con que frecuencia? / ¿podríamos decir / una vez al mes / una vez al año? 
+
+I: pos a la mejor una vez al mes / al añ<palabra_cortada/> / ¿al cine <simultáneo> dice usted? </simultáneo>
+
+E: <simultáneo> sí / al cine  </simultáneo>
+
+I: sí / pos al / póngale una vez al mes
+
+E: <extranjero> okay </extranjero> / e<alargamiento/> / ¿de qué nacionalidad prefiere ver las películas? / ¿mexicanas / extranjeras / o de las dos?
+
+I: de las dos 
+
+E: <ruido = “nasal”/> a ver / en el tipo películas / ¿de acción? 
+
+I: pues e<alargamiento/>
+
+E: ¿aventuras? 
+
+I: aventuras es lo más<alargamiento/> / el más gusto mío 
+
+E: pero / ¿sí ve de acción o no?
+
+I: sí / también / sí / las vemos
+
+E: <extranjero> okay </extranjero> / ¿bélicas?
+
+I: pues / en ocasiones 
+
+E: <tiempo = “84:45”/> ¿sí? / e / ¿ciencia ficción?
+
+I: e muy / muy<alargamiento/> / muy raro 
+
+E: esporádico
+
+I: sí / esporádico 
+
+E: ¿comedia?
+
+I: sí esa sí es / bonitas 
+
+E: ¿dibujos animados?
+
+I: pues ya<alargamiento/> / ya casi ya perdimos la<alargamiento/>
+
+E: eso ya no <risas = “E”/>
+
+I: ya <vacilación/> / pos sí la / de repente alguna / <sic> qui </sic> otra / novedad pero no<alargamiento/>
+
+E: pues sí se la ponemos
+
+I: sí / pónmela ahí
+
+E: ¿documental?
+
+I: sí / eso sí es muy bonito
+
+E: ¿drama?
+
+I: también
+
+E: ¿fa<palabra_cortada/> / fantasías?
+
+I: pues también las vemos 
+
+E: no / pos casi todas son <simultáneo> de<alargamiento/> </simultáneo>
+
+I: <simultáneo> casi </simultáneo> todas
+
+E: fantasía <risas = “E”/> 
+
+I: sí / pos ya
+
+E: ¿musical?
+
+I: también / sí son / bonitas
+
+E: ¿policíaca?
+
+I: pues / pues sí / también / regularmente casi de todos<alargamiento/>
+
+E: ¿romance?
+
+I: también
+
+E: también / de todo  / ¿de suspenso?
+
+I: esas muy poco / puede / puede ponerla también
+
+E: ¿de terror?
+
+I: también 
+
+E: ¿vaqueras?
+
+I: también / sí 
+
+E: ¿alguna otra que<alargamiento/>?
+
+I: en especial / no<alargamiento/> / pues no 
+
+E: <extranjero> okay </extranjero>
+
+I: yo creo que viene muy bien especificado
+
+E: ¿escucha radio?
+
+I: sí / regularmente sí
+
+E: e / ¿hasta dos horas / menos de dos horas / o más de dos horas?
+
+I: no<alargamiento/> / yo creo que<alargamiento/> / menos de una hora / en el coche <ruido = “vuelta a la hoja”/> / oigo música
+
+E: <extranjero> okay </extranjero> / <ruido = “vuelta a la hoja” /> el tipo de / de<[e]>stación que prefiere<[e]>scuchar / ¿rancheras?
+
+I: pos no más que todo este<alargamiento/>
+
+E: ¿tropical? 
+
+I: no
+
+E: ¿romántica / español? / ¿romántica inglés?
+
+I: así algo así / romántica español  romántica inglés / de esos dos  
+
+E: <ruido = “escritura”/> ¿<extranjero> rock </extranjero>?
+
+I: pues no / ya<alargamiento/> 
+
+E: ¿esa no?
+
+I: no
+
+E: ¿<extranjero> reggaeton </extranjero>?
+
+I: no no<alargamiento/>  
+
+E: <risas = “E”/> ¿cultural?
+
+I: voy a ponerme a bailar con eso <risas = “todos”/> / cultural / son bonita / bonita música
+
+E: ajá / ¿noticias?
+
+I: pues sí / regularmente / las escucho para estar 
+
+E: enterado
+
+I: enterado
+
+E: ¿deportiva?
+
+I: sí / tam<[b]>ién me gusta mucho el<alargamiento/>
+
+E: ¿alguna otra que / en especial?
+
+I: no<alargamiento/> 
+
+E: <tiempo = “86:46”/> <extranjero> okay </extranjero> / e / ¿cuál es su estación preferida?
+
+I: pues e<alargamiento/> / no sé qué números / creo que la ciento uno punto tres / algo así / la romántica <ruido = “escritura”/> / música romántica 
+
+E: <extranjero> okay </extranjero> / entonces / ¿el tipo de programas es de música?
+
+I: sí
+
+E: ¿noticieros?
+
+I: noticiero
+
+E: ¿de parejas?   
+
+I: no
+
+E: que se andan armando parejas ahí
+
+I: no / eso no y<alargamiento/>
+
+E: ¿música clásica?
+
+I: esa sí / bonita música 
+
+E: ¿cultura general?
+
+I: tam<[b]>ién 
+
+E: e / ¿la hora nacional?
+
+I: sí / la escucho muy / muy / esporádicamente pero sí la escucho completa 
+
+E: ¿radio novelas?
+
+I: no
+
+E: ¿narraciones de terror?
+
+I: no / tampoco
+
+E: ¿chistes o bromas?
+
+I: no<alargamiento/>
+
+E: <extranjero> okay </extranjero> / <ruido = “suena objeto”/> ¿ve usted televisión?
+
+I: pues / no mucho pero sí / sí la veo 
+
+E: <ruido = “silbato”/> ¿hasta una hora<[a]>l día?
+
+I: pues muy probable / muy probable que sea una hora 
+
+E: <extranjero> okay </extranjero> / e / ¿qué tipo de programas? / ¿noticiosos? 
+
+I: pues sí eso regularmente lo<alargamiento/>
+
+E: lo ve
+
+I: lo vemos
+
+E: ¿cómicos?
+
+I: sí
+
+E: ¿deportivos?
+
+I: también
+
+E: ¿no le toca estar cuando hay / revista para mujeres / que lo esté viendo la señora? <risas = “E”/>
+
+I: no / pos igual en veces me aguanto porque / porque / pos <risas = “I”/> / uno dice que<alargamiento/> / que uno es el que da la última palabra dice <risas = “todos”/>
+
+E: pero no las / ¿no las ve? / ¿no?
+
+I: pues no / no regularmente no
+
+E: ¿telenovelas?
+
+I: tampoco
+
+E: dice / <extranjero> talk / shows </extranjero> esto es / <extranjero> shows </extranjero> platicado
+
+I: son como / sí / no<alargamiento/> 
+
+E: ¿<extranjero> shows </extranjero> de realidad?
+
+I: no / tampoco 
+
+E: ¿concursos?
+
+I: no fíjese 
+
+E: ¿entrevistas?
+
+I: esas sí muy probable que sí depende<alargamiento/> / de los entrevistados
+
+E: ajá / ¿culturales o documentales?
+
+I: sí / esos sí / documentales 
+
+E: ¿policíacas?
+
+I: no
+
+E: ¿o investigación forense?
+
+I: tampoco
+
+E: ¿musicales?
+
+I: pues en a <vacilación/> / en ocasiones 
+
+E: ¿científicas?
+
+I: sí / también
+
+E: ¿y de variedad?
+
+I: pues sí / algunas 
+
+E: e<alargamiento/> / ¿con que frecuencia ve usted películas en la televisión? / ¿poco <ruido = “voces”/> /  o no ve?
+
+I: o sea son las dos opciones / no<alargamiento/> / pos no
+
+E: ¿es con frecuencia / poco / o no ve?
+
+I: no<alargamiento/> / poco 
+
+E: poco / e<alargamiento/> / nuevamente / ¿de qué nacionalidad / mexicanas o extranjeras / o ambas?
+
+I: igual / ambas
+
+E: ambas / e<alargamiento/> /  ¿le gustan dobladas al español / o con subtítulos / o de las dos? 
+
+I: de las dos 
+
+E: <tiempo = “89:15”/>  <ruido = “vuelta a la hoja”/> ¿cuenta con videograbadora?
+
+I: sí 
+
+E: oiga / ¿y alguna película que me platique? / que se acuerde de alguna
+
+I: fíjese que no me lo v<[a]>a creer viera qué malo soy yo / pa<[r]> <[a]> / pa<[r]> <[a]> grabarme a veces me dice mi esposa <ruido = “perro ladrando”/> / o sea / ponemos la televisión le<[e]>stamos cambiando regularmente y<alargamiento/> / y le veo yo alguna escena que me gusta / la veo<[o]>tra / la espero tantito a ver qué / qué / qué <sic> trai </sic> esa película / y me <[d]>ice ya la vimos / l<[e]> <[d]>igo ¡n’ombre! no me acuerdo 
+
+E: ah
+
+I: o ella me dice de antemano / <cita> tú tienes una memoria / para las películas / ella nomás con ver así tantito una pequeña escena / dice ya la vimos
+
+E: ya sabe que la vio
+
+I: no / soy muy malo yo pa<[r]> <[a]> platicar películas 
+
+E: ah
+
+I: no<alargamiento/> <risas = “I”/> 
+
+E: ¿tienes <extranjero> dvd </extranjero> ?
+
+I: sí
+
+E: <ruido = “perro ladrando”/> ¿consola para videojuego?
+
+I: no
+
+E: <ruido = “perro ladrando”/> e<alargamiento/> / ¿tiene cable <observación complementaria = “operadora de telecomunicaciones”/> / <extranjero> Sky </extranjero> <observación complementaria = “sistema de televisión por satélite”/> o / o multivisión?
+
+I: es cable 
+
+E: ¿cuántos televisores hay en casa?
+
+I: dos
+
+E: <ruido = “pasa un vehículo”/> e<alargamiento/> / ¿lee<[e]>l periódico?
+
+I: no / fíjese 
+
+E: eso no / e / ¿revistas?
+
+I: pues / algunas deportivas algunas / culturales
+
+E: a ver
+
+I: esporádicamente 
+
+E: vamos a decir / e<alargamiento/> / cultura / ¿de cultura general?
+
+I: algo de cultura 
+
+E: ¿de política?
+
+I: no / de política no
+
+E: ¿cuidado de la salud?
+
+I: sí / me gusta 
+
+E: este / ¿consejos para el hogar o / moda y belleza? 
+
+I: pues no
+
+E: ¿no? 
+
+I: algunos de consejos para el hogar muy / sí / es bueno
+
+E: sí / e / ¿cómicos?
+
+I: no fíjese / es muy raro
+
+E: ¿novelas sí? 
+
+I: no no
+
+E: ¿y dibujos / divulgación científica?
+
+I: no<alargamiento/> / tampoco 
+
+E: ¿revista para adolescentes y jóvenes / o espectáculos?
+
+I: no 
+
+E: <ruido = “vuelta a la hoja” /> entonces las revistas / ¿podríamos decir una vez al mes / una vez al año / o cómo / lo ponemos?
+
+I: pues poco / yo creo que<[e]>s una vez al mes
+
+E: ¿una vez al mes? 
+
+I: sí
+
+E: e / ¿usa <extranjero> internet </extranjero>?
+
+I: muy poco 
+
+E: ¿sí?
+
+I: sí / sí / pero muy poco
+
+E: ¿en el / en la casa / o en la trabajo?
+
+I: aquí en la casa / n<[a]> <[d]>a más en la casa 
+
+E: <tiempo = “91:30”/>  n<[a]> <[d]>a más / <extranjero> okay </extranjero> / ¿hay computadoras en su casa?
+
+I: sí
+
+E: ¿cuántas?
+
+I: una nada más 
+
+E: <silencio/> e<alargamiento/> / ¿usa usted el <extranjero> internet </extranjero> para enviar correos?
+
+I: <ruido = “se mueve objeto”/> sí / regularmente 
+
+E: ¿a diario / o una vez por semana?
+
+I: no<alargamiento/> 
+
+E: ¿una vez por mes?
+
+I: yo creo que una vez por semana
+
+E: una vez por semana / ¿buscar información?
+
+I: sí
+
+E: cada<alargamiento/>
+
+I: sí buscamos / pos regularmente<alargamiento/> 
+
+E: una vez por semana
+
+I: por <[d]>ecir una<alargamiento/> / o dos veces / una<alargamiento/> / por <[d]>ecir a / a lo mejor por mes / alguna información 
+
+E: <extranjero> okay </extranjero> / ¿hacer tareas? / no ¿verdad?
+
+I: no / no<alargamiento/>
+
+E: ¿hablar por escrito / chatear?
+
+I: no / fíjese 
+
+E: ¿hablar con voz / o video?
+
+I: no / tampoco 
+
+E: <extranjero> okay </extranjero> / e / ¿algún otro uso en especial?
+
+I: pos no / escuchar música 
+
+E: escuchar música
+
+I: la escucha<palabra_cortada/> / la usamos en veces para escuchar música    
+
+E: <silencio/> <ruido = “perro ladrando”/> ¿y eso / a diario / una vez por semana / una vez por mes?
+
+I: pos no / a lo mejor una vez por semana 
+
+E: <extranjero> okay </extranjero> / tele / tiene teléfono 
+
+I: sí
+
+E: es / ¿y tiene celular?
+
+I: sí 
+E: <extranjero> okay </extranjero> / ¿cuáles son los usos que le da<[a]>l celular? / ¿sólo recibe llamadas / o recibe y hace llamadas?
+
+I: recibo y hago llamadas / sí 
+
+E: ¿o revisa y llama<palabra_cortada/> / hace llamadas / y envía mensajes?
+
+I: no<alargamiento/> / nomás / recibo llamadas regularmente / o hago yo alguna llamada / recibo y hago llamadas
+
+E: <extranjero> okay </extranjero> / e / ¿visitas museos?
+
+I: <ruido_fondo> <observación_complementaria = “campanadas”/> pues / a lo mejor una vez al mes 
+
+E: conciertos / ¿asiste usted a conciertos?
+
+I: no
+
+E: <ruido = “vuelta a la hoja de papel”/>¿asiste usté<[d]> al teatro? </ruido_fondo>
+
+I: pues hace mucho tiempo que no / pu<[e]> <[d]>e<[d]> <[e]>cir que no yo creo 
+
+E: e<alargamiento/> / ¿suele usted viajar por placer?
+
+I: pues sí pero no / ya / o sea muy esporádico ¿ve<[r]> <[d]>á<[d]>? / a lo mejor <simultáneo> una vez al año </simultáneo>
+
+E: <simultáneo> una vez al año </simultáneo>  / e<alargamiento/> / me dijo su / no terminó la / la facultad / entonces<alargamiento/>
+
+I: la Facultad de Ingeniería Mecánica Eléctrica 
+
+E: entonces vamos a decir / que terminó la preparatoria
+
+I: sí
+
+E: era / era / pública ¿verdad?
+
+I: sí / de la <siglas = [u a ene ele]> UANL </siglas> <observación_complementaria = “Universidad Autónoma de Nuevo León”/>
+
+E: <tiempo = “93:50”/>  <silencio/> ¿fecha en que terminó la prepa?
+
+I: ¡ah híjole! / pos yo creo como en el setenta y<alargamiento/> / siete /  setenta y<alargamiento/> / más o menos setenta y seis / por ahí / más o menos 
+
+E: ¿en la <siglas = [u a ene ele]> UANL </siglas>?
+
+I: sí
+
+E: <silencio/> <extranjero> okay </extranjero> / m<alargamiento/> / ¿carrera técnica? pues<alargamiento/> 
+
+I: estuve en una carrera técnica / en el<alargamiento/> 
+
+E: ¿qué<[e]>studió?
+
+I: en el / Instituto Tecnológico / una carrera de máquinas y herramientas 
+
+E: <simultáneo> maqu<palabra_cortada/> </simultáneo>
+
+I: <simultáneo> máquinas </simultáneo> / Técnico en Máquinas y Herramientas 
+
+E: y herramientas 
+
+I: en la Escuela Técnica del Tecnológico / del <siglas = [tec]> TEC </siglas> / <siglas = [te ese eme] TSM </siglas> 
+
+E: <silencio/> ¿y terminó?
+
+I: sí esa sí termine la carrera
+
+E: <extranjero> okay </extranjero> / está trabajando
+
+I: sí / actualmente // gracias a dios 
+
+E: ahora / pues / una bendición poder trabajar todavía ¿ve<[r]>dá<[d]>?
+
+I: sí / gracias a dios cómo no 
+
+E: <ruido = “vuelta a la hoja” /> ¿desde cuándo trabaja usted? / ¿en qué año empezó a trabajar?
+
+I: ¡híjole! como en el / setenta y seis / setenta y siete más o menos / pos <[e]> <[s]>tábamos en la facultad / fue allá por esos años
+
+E: ah <extranjero> okay </extranjero>
+
+I: no despuesito del / como en el siete siete
+
+E: siete siete
+
+I: sí salí de la prepa <observación_complementaria = “forma común de abreviar la palabra preparatoria” /> y al poquito tiempo empecé a trabajar
+
+E: <extranjero> okay </extranjero> / ¿ahorita en dónde trabaja / me dice?
+
+I: orita estoy trabajando en la Secretaría de Desarrollo Social  <ruido = “escritura”/> / Secretaría de Desarrollo Social <ruido = “ claxon de vehiculo” />
+
+E: ¿es empleado?
+
+I: pues sí / somos<alargamiento/>
+
+E: porque no es propietario <risas = “E”/>
+
+I: sí / no no yo / no no hay ahí<alargamiento/>
+
+E: no soy el dueño
+
+I: <entre_risas> no hay / no soy el dueño </entre_risas>
+
+E: <tiempo = “95:50”/>  ¿cuál de las siguientes actividades se realiza en el trabajo? / o sea da un servicio
+
+I: sí / dar una servicio / sí
+
+E: <extranjero> okay </extranjero> / m<alargamiento/> / ¿con qué respec<palabra_cortada/> / con respecto a su ingreso? 
+
+I: sí
+
+E: ¿sería<alargamiento/> / dos veces el mínimo? / ¿o cuánto? / ¿o dos veces el mínimo / o qué?
+
+I: pos no sé<alargamiento/>
+
+E: son dos mil ochocientos mensuales el mínimo
+
+I: el mínimo / dos mil ochocientos pesos mensuales / pos póngale / tres veces el mínimo
+
+E: <extranjero> okay </extranjero> / <ruido = “escritura”/> de dos a tres / y luego / <vacilación/> ¿recibe despensa?
+
+I: no
+
+E: ¿servicio médico?
+
+I: no / pos tenemos seguro social por mis hijos
+
+E: ah <extranjero> okay </extranjero> / ¿vacaciones?
+
+I: vacaciones pues / en / algunas / n<[a]> <[d]>a más una vez al año / más o menos 
+
+E: ándele sí  / ¿reparto de utilidades? / no ¿verdá<[d]>?    
+
+I: no no / ahí no hay utilidades <risas = “todos”/>
+
+E: ¿cursos de capacitación? / que a usted le den
+
+I: en ocasiones sí nos dan / pos probablemente / póngale sí / sí  
+
+E: <simultáneo> <extranjero> okay </extranjero> </simultáneo>
+
+I: <simultáneo> cursos nos dan ahí </simultáneo>
+
+A1: perdone la interrupción ¿por qué tantas preguntas? 
+
+I: pos son de la universidad hija 
+
+E: es de la universidad
+
+I: es de la facultad 
+
+A1: pos haz de cuenta que ya <sic>contastes</sic> toda tu vida 
+
+I: no es / es que tiene <risas = “E”/> / una grabación y t<[o]> <[d]>o <[e]>stá grabándose es para la universidad
+
+E: son estudios que<[e]>stán haciendo en la / Facultad de Filosofía 
+
+I: sí / eso lo relacionan con la / actualidad cómo está todo 
+
+E: cómo está el ambiente y todo
+
+I: sí
+
+E: conocer opiniones y todo 
+
+I: sí / claro <ruido = “tacones”/>
+
+E: pos / aquí / ¿quiénes viven aquí / nada más<alargamiento/>?
+
+I: nada más mi esposa y yo / mis hijos ya están casados <ruido = “cierran puerta”/>
+
+E: <extranjero> okay </extranjero> / <ruido = “escritura”/> ¿ella / habla<[a]>lgún otro idioma / o nada más<alargamiento/>?
+
+I: no<alargamiento/> / nomás<alargamiento/> / nomás el<alargamiento/> 
+
+E: ¿el último año cursado de<[e]>lla?
+
+I: ¡ay! no me recuerdo / <ruido = “escritura”/> creo que preparatoria / también
+
+E: prepa
+
+I: <ruido = “escritura”/> preparatoria
+
+E: ¿trabaja / o nada más<alargamiento/>?
+
+I: no / ella está en el hogar 
+
+E: en el hogar / mjm / nada más le voy a pedir esta / <ruido = “vuelta a la hoja” /> por favor
+
+I: sí
+
+E: <tiempo = “01:37:57”/>  ¿la lee? 
+
+I: ándele 
+
+E: sí <ruido = “claxon de vehículo” />
+
+I: hay que llena<[r]>lo ¿ve<[r]>dá<[d]>?
+
+E: sí
+
+I: yo Francisco / el nombre
+
+E: ajá
+
+I: o sea dedicado a / pos / al deporte / así le pon<palabra_cortada/> / <simultáneo> ¿le pongo </simultáneo> 
+
+E: <simultáneo> sí </simultáneo> 
+
+I: ¿al deporte? 
+
+E: sí 
+
+I: <ruido = “escritura”/> aquí va mi nombre ¿ve<[r]>dá<[d]>? / pues / ¿el deporte / le pondré?
+
+E: sí
+
+I: dedicado 
+
+E: al deporte
+
+I: a<alargamiento/> / instrucciones de deporte
+
+E: ajá
+
+I: instructor / deportivo 
+
+E: mjm
+
+I: el domicilio en / Pico de Ajusco / ¿aquí le pongo el número?
+
+E: acá 
+
+I: acá / siete cero dos / <ruido = “escritura”/> Jardín de las Puentes / y luego
+
+E: en San Nicolás
+
+I: municipio de San Nicolás 
+
+E: aquí ya no v<[a]>a ser / bueno si
+
+I: universidad <ininteligible/> / Monterrey / segunda etapa / es lo que le decí<[a]>a mi esposa / son puras este<alargamiento/> / e<alargamiento/> / o sea del / la / el / el hablar de la gente
+
+E: ajá
+
+I: el humor de la gente ¿ve<[r]>dá<[d]>?
+
+E: ajá
+
+I: <silencio/> <extranjero> okay </extranjero> / ¿le pongo nomás mi firma?
+
+E: sí / si gusta nada más el / la firma / <[e]> <[n]>ton<[c]> <[e]>s / la otra hoja es la misma nada más 
+
+I: sí
+
+E: que vienen dos / dos hojas <ruido = “vuelta a la hoja”/>
+
+I: <tiempo = “100:12”/>  <extranjero> okay </extranjero> / ¿la lleno igual?
+
+E: <ruido = “vuelta a la hoja de papel”/> sí 
+
+I: <silencio/> <ruido = “respiración”/> se va el día de volada ¿ve<[r]>dá<[d]>?
+
+E: sí <ruido = “escritura”/>
+
+I: <silencio/> <ruido = “vuelta a la hoja de papel”/> ¿la fecha la / se la pongo? 
+
+E: pues<alargamiento/>
+
+I: <ruido = “vuelta a la hoja de papel”/> ¿qué fecha es ora? / ¿treinta?
+
+E: treinta 
+
+I: treinta / cero cinco 
+
+E: del diez / orita que la<alargamiento/> 
+
+I: <ininteligible/> acá 
+
+E: <ruido = “vuelta a la hoja de papel”/> la guardé / acá / la otra hoja / sí / <extranjero> okay </extranjero> / ya es todo 
+
+I: ¿ya es todo? / ¿es otra?
+
+E: <ruido = “vuelta a la hoja de papel”/> cuando / cuando una persona está oyendo y participa en algo de la conversación 
+
+I: ah <extranjero> okay </extranjero>
+
+E: entonces / llenamos esa 
+
+I: exacto
+
+E: y esta otra es mi información <simultáneo> de<alargamiento/> </simultáneo>
+
+I: <simultáneo> <extranjero> okay </extranjero> </simultáneo> / perfecto 
+
+E: de todo esto / pues muy amable por su tiempo ¿ve<[r]>dá<[d]>? / gracias
+
+I: no / no hay problema señor / Mariano 
+
+E: de habernos dedicado su tiempo   
+
+I: fíjese muy pocas veces he<[e]>scuchado el nombre de Mariano / y aquí muy cerquita / de muy chamacos en estas áreas / eran puros campos / puras labores / todo esto
+
+E: ajá
+
+I: como vivíamos aquí en San Nicolás 
+
+E: ajá
+
+I: entonces este / pos seguramente veníamos aquí a los árboles <ruido = “escritura”/> / esos árboles de la<[a]>rboleda eran unos / ¡grandísimos árboles! / era un campo de puros árboles tod<[o]>eso
+
+E: ajá
+
+I: <tiempo = “102:16”/>  <ruido = “se mueven objetos”/> corría una sequias ahí / y había un ranchito de aquel lado
+
+E: ajá
+
+I: y no se me olvida fí<[j]>ese desde chamacos llegamos ahí <ruido = “escritura”/> / el señor que a  pedirle agua / en una quinta 
+
+E: ajá
+
+I: un ranchito / estaba él ahí / regando / y ya este / lo saludamos / oiga ¿no nos da<[a]>gua? / y uno de<[e]>llos lo conocía / Don Mariano / y ya salió el señor / díganme / sombrero y / con sus huaraches <ruido = “vuelta a la hoja/> andaba regando / díganme muchachos / quieren agua ¿verdá<[d]>? / sí / ¡ándeles! pásenle / ahí hay agua<[a]>cá en la noria / y nos daba
+
+E: mjm
+
+I: de tomar agua / señor Mariano
+
+E: ah
+
+I: me acuerdo / hace mucho tiempo que no lo escuchaba el nombre Mariano
+
+E: nombre Mariano 
+
+I: y otro amigo del karate Mariano tam<[b]>ién / él era de por allá de<alargamiento/> / Sonora donde acostumbran el<alargamiento/> / la cochinita pibil <observación_complementaria = “platillo yucateco que consiste en carne de cerdo adobada en achiote envuelta en hoja de plátano y cocida dentro de un horno de tierra”/>
+
+E: ah <extranjero> okay </extranjero> 
+
+I: ¿es por allá de Sonora?
+
+E: no sé 
+
+I: no sé / no sé / él también / Mariano muy / muy pocas veces lo he<[e]>scuchado el nombre Mariano
+
+E: ajá
+
+I: no no pos qué bueno que / echamos una platicadita
+
+E: pues / muchas gracias 
+
+I: ójala y le sirva de algo
+
+E: ¡no! / sí 
+
+I: ¿verdá<[d]>? yo sé que más o menos ya sé ma<palabra_cortada/> / lo he<[e]>scuchado pos regularmente lo veo uno en la televisión
+
+E: ajá
+
+I: cuando hay comentarios para documentales 
+
+E: mjm
+
+I: el decir de la gente ¿ve<[r]>dá<[d]>? / el hablar de la gente
+
+E: sí / sí sí 
+
+I: comentario de esto comentario de l<[o]>otro / ya lo estudian lo<alargamiento/> / lo analizan lo preparan en un<alargamiento/>
+
+E: y ven 
+
+I: un buen documental 
+
+E: y ven con el tiempo ¿ve<[r]>dá<[d]>? cómo / cómo / qué va opinando la gente
+
+I: sí
+
+E: <ruido = “campanadas”/> <ininteligible/> momentos
+
+I: <ruido = “campanadas”/> con la inseguridad que<[e]>xiste ya en nuestro<alargamiento/>
+
+E: sí
+
+I: <ruido = “campanadas”/> en nuestro estar de vida / <ruido = “campanadas”/> donde vivimos
+
+E: sí 
+
+I: porque Monterrey ora se disparó / se disparó ¡mucho! la inseguridad
+
+E: cómo no 
+
+I: <ruido_fondo> <observación_complementaria = “campanadas”/> mucha gente ya no / no sale de la casa 
+
+E: sí cómo no
+
+I: no sale de la casa / se la pasa<alargamiento/> / pos hacen una cosa / haciendo<[o]>tra cosa y<alargamiento/> / que pintas la casa y que le mueves aquí / le muevas allá / ya no quieren ir a lugares </ruido_fondo> / donde asista mucha gente porque<[e]>sa gente no sé<alargamiento/>
+
+E: no sale 
+
+I: hace males y<alargamiento/> / lo quiere hacer donde hay mucha gente pa<[r]> <[a]> h<[a]>cer daños o no sé / ya no sabe uno
+
+E: ya no sabe ni qué 
+
+I: por eso más vale / pos tratar de <ruido = “se mueven  objetos” /> / de / permanecer y disfrutar un poco más la casa 
+
+E: claro
+
+I: y la familia / señor Mariano pos aquí tiene su casa
+
+E: pues muchas gracias 
+
+I: <sic>ójala</sic> le sirva de algo
+ 
+E: cómo no 
+
+I: no y sobre todo que / como dijo usted / sí / <cita> de perdido pa<[r]> <[a]> salir mi<alargamiento/> </cita>
+
+E: de la rutina 
+
+I: de la rutina ¿verdá<[d]>? 
+
+E: cómo no / bueno pos muchas gracias 
+
+I: <ruido = “se mueve objeto”/> de nada señor Mariano 
+
+                          Entrevista # 086, Fin de la entrevista.

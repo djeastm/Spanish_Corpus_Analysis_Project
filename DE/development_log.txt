@@ -127,6 +127,10 @@ html document that can be used with javascript to highlight tagged words on comm
 - Downloaded PRESEEA corpus at http://preseea.linguas.net/Corpus.aspx by downloading each individual conversation and converting to usable text files
 - Created build_PRESEEA_corpus.py to turn into database-ready format
 
-12/14/17 0800 am - 4:00 pm
+12/14/17 8:00 am - 4:00 pm
 
 - Worked with build_PRESEEA_corpus.py and IndexedDB-wrapper Dexie.js to create an in-browser database (since this corpus and the Corpus del Español corpus are large, a more robust solution than previously created is needed to make the searching performant)
+
+12/15/17 7:00 am - 12:00 pm
+
+- Created IndexedDB/Dexie NoSQL database of PRESEEA corpus using JSON data store that is ready for querying.
