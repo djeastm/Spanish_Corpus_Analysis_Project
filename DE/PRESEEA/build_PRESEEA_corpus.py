@@ -31,11 +31,8 @@ def main():
             text_name = soup.Datos['clave_texto']
             print(text_name.strip())
             text_xml = soup.Trans
-    ##            text.append(text_tag)
-    ##            id_tag = soup.new_tag("id")
-    ##            id_tag.string = str(count)
-    ##            text.append(id_tag)
-            
+            text_xml.append(text_tag)
+    
             try:
                 d = xmltodict.parse(str(text_xml))
                 flat = flatten(d)
