@@ -1,5 +1,5 @@
-<Trans audio_filename="MADR_M11_004.MP3" xml:lang="español">
-<Datos clave_texto=" MADR_ M11_004" tipo_texto="entrevista_semidirigida">
+﻿<Trans audio_filename="MADR_M11_004.MP3" xml:lang="español">
+<Datos clave_texto=" MADR_M11_004" tipo_texto="entrevista_semidirigida">
 <Corpus corpus="PRESEEA" subcorpus="BARRIODESALAMANCA" ciudad="Madrid" pais="España"/>
 <Grabacion resp_grab="Ana María Cestero" lugar="casa del informante" duracion="1h06’59’’"
 fecha_grab="2002-05-10" sistema="analógico"/>
@@ -8,7 +8,7 @@ numero_palabras="11648"/>
 <Revision num_rev="1" resp_rev="Ana María Cestero" fecha_rev="2012-07-05"/>
 <Revision num_rev="2" resp_rev="Florentino Paredes" fecha_rev="2014-07-29"/></Datos>
 <Hablantes>
-<Hablante id="hab1" nombre="MADR_ M11_004" codigo_hab="I" sexo="mujer"
+<Hablante id="hab1" nombre="MADR_M11_004" codigo_hab="I" sexo="mujer"
 grupo_edad="1" edad="21" nivel_edu="bajo" estudios="ESO (sin terminar)" profesion="pastelera y estudiante" origen="Madrid" papel="informante"/>
 <Hablante id="hab2" nombre="Ana María Cestero" codigo_hab="E" sexo="mujer" grupo_edad="2"
 edad="37" nivel_edu="alto" estudios="doctorado" profesion="profesora" origen="Badajoz"

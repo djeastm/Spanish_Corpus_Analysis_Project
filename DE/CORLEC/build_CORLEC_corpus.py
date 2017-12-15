@@ -10,7 +10,7 @@ def main():
         
     with open(loaded_file,encoding='utf8') as fp:
         raw = fp.read()
-        texts = raw.split("|DAVIDEASTMAN|")
+        texts = raw.split("|TEXTSEPARATOR|")
         htmloutput = "<div id=\"corpus\" class=\"column middle\">\n"
         count = 0
         for text in texts:

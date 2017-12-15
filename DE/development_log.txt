@@ -134,3 +134,7 @@ html document that can be used with javascript to highlight tagged words on comm
 12/15/17 7:00 am - 12:00 pm
 
 - Created IndexedDB/Dexie NoSQL database of PRESEEA corpus using JSON data store that is ready for querying.
+
+12/15/17 12:30 pm - 4:30 pm
+
+- Started setting up webpage for PRESEEA and linking with database via basic queries.
