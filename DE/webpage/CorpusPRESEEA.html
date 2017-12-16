@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>PRESEEA Corpus</title>   
-<script type="text/javascript" src="js/bundle.js"></script>            
+<title>PRESEEA Corpus</title>              
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link href="css/styles.css" rel="stylesheet"/>
 </head>
-<body onload="showPage()">
+<body>
     <nav>
         <a href="CorpusC-Or-DiAL.html">C-Or-DiAL</a> | <a href="CorpusCORLEC.html">CORLEC</a> | PRESEEA              
     </nav>
     <div id="form">
-        <form name="pos_form" action="javascript:;" onsubmit="highlight(event)">
+        <form id="form_submit" name="pos_form">
 
         <label id="POSLabel" for="POS">Part of speech</label>
-        <select id="POS" name="part_of_speech" onchange="showHideSelects()">
+        <select id="POS" name="part_of_speech">
             <option value="V">Verb</option>
             <option value="A">Adjective</option>
             <option value="C">Conjunction</option>
@@ -336,7 +335,7 @@
         <input id="limit" type="text" name="limit" value="10" maxlength="4" size="4">
         
         <input id="highlight_button" name="Submit" type="submit" value="Highlight Words" disabled="disabled"/>
-        <input id="export_button" name="export" type="button" value="Export to Excel" disabled="disabled" onclick="exportFreqList()">
+        <input id="export_button" name="export" type="button" value="Export to Excel" disabled="disabled">
 
         </form>
         <div>Word count: <span id="word_count">2113676</span></div>
@@ -347,5 +346,5 @@
 <div id="loader" class="column middle"></div>
 <div id="corpus" class="column middle"></div>
 </body>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/bundle.js"></script> 
 </html>

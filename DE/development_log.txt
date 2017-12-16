@@ -138,3 +138,8 @@ html document that can be used with javascript to highlight tagged words on comm
 12/15/17 12:30 pm - 4:30 pm
 
 - Started setting up webpage for PRESEEA and linking with database via basic queries.
+
+12/16/17 12:00 pm - 7:00 pm
+
+- Combined highlighting features of previous corpuses to PRESEEA (which required a different approach due to large size/database usage.
+- Added substrings as option instead of full text, since conversations are so long and queries could return thousands of pages.

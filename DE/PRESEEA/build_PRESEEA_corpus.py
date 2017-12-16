@@ -82,8 +82,7 @@ def main():
                     replacement_text += tagged_word                    
 
             #print(replacement_text)
-            replacement_text = re.sub(r'(<w t="[A-Z]*[0-9]*">([A-Z])\.* <\/w>:)',r'<br>\g<2>: ',replacement_text)
-            text_html_body = "<div class=\"textbody\">\n" + replacement_text + "</div>"
+            text_html_body = re.sub(r'(<w t="[A-Z,0-9]*">([A-Z])\.* <\/w>:)',r'<br>\g<2>: ',replacement_text)
 
 ##            with open("test.html",'w') as test:
 ##                test.write(text_html_body)

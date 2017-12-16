@@ -1,4 +1,5 @@
 var tag = '';
+var pos = '';
 var backgroundColor = "white";
 var group_by = "";
 
@@ -13,15 +14,15 @@ function showPage() {
 function highlight(e) {
     clearHighlight(); // Turn off all previous highlighting
 
-    var pos = document.getElementById("POS").value;
+    pos = document.getElementById("POS").value;
     tag = pos;
 
     var selects = document.querySelectorAll("[type=\"" + pos + "\"]");
 
     // Build the tag (global) from each of the dropdown select boxes chosen by user
     for (var i = 0; i < selects.length; i++) {
-        ind = selects[i].selectedIndex;
-        val = selects[i].options[ind].value;
+        var ind = selects[i].selectedIndex;
+        var val = selects[i].options[ind].value;
         if (val == "0") break;
         tag += val;
     }
@@ -33,14 +34,15 @@ function highlight(e) {
     var count = words.length;
 
     // Determine how/if the results will be grouped
-    group_by = document.getElementById("group_by").value;
+    group_by = document.getElementById("group_by").value;    
 
     // Determine how many of each grouping, or of total, if no grouping
     var limit = document.getElementById("limit").value;
     if (!Number.isInteger(limit) || limit <= 0) limit = 10; // quick validation and handling
 
+    var freq_html;
     if (group_by == "0") {
-        freq_dict = {};
+        var freq_dict = {};
         words.forEach(function(currVal, currIndex, listObj) {
             // Get the word itself
             var word = currVal.innerHTML.trim();
@@ -112,7 +114,7 @@ function highlightTaggedWords() {
     // Every tag will at least start with a letter at index 0 (so as not to highlight every word in corpus)
     var start_tag = pieces[0]; // If there are no wildcards, this start tag should be all that's needed    
     var this_tag = "[t^=\"" + start_tag + "\"]"
-    var words = document.querySelectorAll(this_tag); // This will grab all the words that start with our tag
+    var words = document.querySelectorAll(this_tag); // This will grab all the words that start with our tag  
 
     // But if there is at least one wildcard in the tail of the tag, the pieces array will contain
     // the non-wildcard "groups" of tags (e.g. DD0*S0 ---> ["DD0","S0"])
@@ -158,11 +160,12 @@ function clearHighlight() {
     };
 }
 
-groupings_metaclass = {"situation": "situación", 
+var groupings_metaclass = {"situation": "situación", 
                         "fuente": "fuente",
                         "terminos": "términos", 
                         "usos": "uso_didáctico",
-                        "funciones": "funciones_comunicativas"};
+                        "funciones": "funciones_comunicativas"
+                    };
 
 // Takes in the group_by criterion, the words themselves, the limit on the number of results, and whether 
 // the particular criterion has multiple elements that need to be parsed
@@ -196,7 +199,7 @@ function groupBy(group_by, words, limit, multiple) {
     // Sort descending by the groupings with the most words
     var groupingsSorted = Object.keys(groupings).sort(function(a, b) {return -(groupings[a].sit_count - groupings[b].sit_count);});
     
-    group_html = "";
+    var group_html = "";
     for (var i = 0; i < groupingsSorted.length; i++) { 
         var grouping = groupingsSorted[i];
         group_html += "<h3>"+grouping+" ("+groupings[grouping].sit_count+" matches)"+"</h3><br>"       
@@ -298,7 +301,7 @@ function buildFreqList(freq_dict, sit_count, limit) {
         freqSorted.push(pair);
     }
 
-    freq_html = "";
+    var freq_html = "";
     // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises 
     for (var j = 0; j < freqSorted.length; j++) {
         if (j == limit-1) break; // only take top results up to limit chosen by user
