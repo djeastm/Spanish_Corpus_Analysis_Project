@@ -1,0 +1,88 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Text</title>              
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+<script>
+var id = sessionStorage.getItem("id");
+document.title = "Text " + id;
+
+var container = document.getElementById("container");
+
+var header = sessionStorage.getItem("header");
+var header_container = document.createElement("div");
+header_container.innerHTML = header;
+
+container.appendChild(header_container);
+
+var text = sessionStorage.getItem("text");
+var text_container = document.createElement("div");
+text_container.innerHTML = text;
+container.appendChild(text_container)
+
+var tag = sessionStorage.getItem("tag");
+
+highlightTaggedWords(tag);
+
+function highlightTaggedWords(tag) {
+    var pieces = tag.split("\.");
+    // Every tag will at least start with a letter at index 0 (so as not to highlight every word in corpus)
+    var start_tag = pieces[0]; // If there are no wildcards, this start tag should be all that's needed 
+
+    var this_tag = "[t^=\"" + start_tag + "\"]"
+    
+    var words = [];
+    words = document.querySelectorAll(this_tag);// This will grab all the words that start with our tag        
+    // But if there is at least one wildcard in the tail of the tag, the pieces array will contain
+    // the non-wildcard "groups" of tags (e.g. DD0*S0 ---> ["DD0","S0"])
+    // We will deal with the pieces in the negative. That is, we'll take our large batch of words obtained 
+    // above and eliminate the ones that don't match our pieces
+    var kept_words = [];
+    if (pieces.length > 1) { // Our tag has wildcards        
+        for (var i = 0; i < words.length; i++) {        
+            // Each word's tag will be tested against the pieces, in turn
+            // The "word" is actually an HTML "element", so we need to access the tag we want to look at
+            var w_tag = words[i].getAttribute("t");
+
+            var eliminate = false;
+            for (var k = start_tag.length; k < w_tag.length; k++) {
+                // We start where the start tag left off
+                // If this letter is a wildcard, don't eliminate this tag based on this letter (i.e. ignore)
+                if (tag[k] == ".") continue;
+                // Now that we know it's not a wildcard, if the letters of our tag don't match,
+                // we can eliminate it from our words list (i.e. not add it to our kept_words array)
+                if (tag[k] != w_tag[k]) { eliminate = true; break; }
+            }
+            if (eliminate != true) {
+                kept_words.push(words[i]);
+            }            
+        }
+        words = kept_words;
+    } 
+
+    if (words.length >= 1) backgroundColor = words[0].style.backgroundColor;
+
+    for (var i = 0; i < words.length; i++) {
+        words[i].style.backgroundColor = "yellow";
+    };
+    tag = ''; // reset tag
+    return words;
+}
+
+function hideShowElement(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none") {        
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+</script>
+</html>

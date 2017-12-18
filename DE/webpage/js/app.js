@@ -39,99 +39,97 @@ function highlight(e) {
         tag += val;
     }
 
-    // Highlight the words 
-    // var words = highlightTaggedWords();
+    // Determine how/if the results will be grouped
+    group_by = document.getElementById("group_by").value;            
+
+    // Clear old search
     var corpus_html = document.getElementById("corpus");
+    corpus_html.innerHTML = "";
+    var wc_div = document.getElementById("word_count");
+    wc_div.innerHTML = "";
+    var freq_div = document.getElementById("frequencies");
+    freq_div.innerHTML = "";
+    
 
     // Go to database and get all the texts that contain these tags    
-    // tag = tag.replace(new RegExp("\\*", 'g'), "\.");
-    tag = "DP2CSS";
+    tag = tag.replace(new RegExp("\\*", 'g'), "\.");    
+    var words = [];
     db.transaction("r", db.texts, function() {
-        return db.texts.limit(2).each(t => {
+        return db.texts.each(t => {
             console.log("In transaction: " + t.id);
-            //getWordsFromDB(t);
-            console.log("t: " + t);
+
             var text = t.text;
             var text_length = text.length;
 
             var text_div = document.createElement("text");
             var text_head = document.createElement("div");
             text_head.className = "texthead";
-            var text_substrs = document.createElement("div");
-            text_substrs.className = "textsubstrs";
-            var text_body = document.createElement("div");
-            text_body.className = "textbody";
 
-            // Head
-            var metaclasses = Object.keys(t).sort();
-            for (var i = 0; i < metaclasses.length; i++)
-                if (metaclasses[i] !== "text") text_head.appendChild(getHeaderMetaclass(t, metaclasses[i]));
-
-            text_div.appendChild(text_head);
-
-            // Substr
-
-            var tag_re = new RegExp("(<w t=\"" + tag + "\">.*?<\/w>)", "g");
+            
+            var tag_re = new RegExp("(<w t=\"" + tag + "\">(.*?)<\/w>)", "g");
 
             var substrs = [];
             var results_arr;
+            var metaclasses = Object.keys(t).sort();
+            var metagroup = [];
+            
+
+            var header_html = document.createElement("div");
+            header_html.id = t.id;
+            header_html.setAttribute('style', "height:200px; overflow:auto");
+            var text_id = document.createElement("h2");
+            text_id.innerHTML = "Text " + t.id;
+            header_html.appendChild(text_id);
+            
+            for (var i = 0; i < metaclasses.length; i++) {
+                if (metaclasses[i] !== "text") {           
+                    var header_metaclass = getHeaderMetaclass(t, metaclasses[i]);  
+                    header_html.appendChild(header_metaclass);                       
+                    // Store metaclasses for analysis
+                    if (metaclasses[i].endsWith(groupings_metaclass[group_by])) metagroup.push(header_metaclass);
+                }
+            }
+
+
+            var open_full_text_button = document.createElement("button");
+            open_full_text_button.innerText = "Text "+t.id;
+            open_full_text_button.id = "openText";
+            open_full_text_button.addEventListener('click', function() {
+                openText(t.id, header_html.innerHTML, t.text , tag);
+            });     
+
+            // text_head.appendChild(open_full_text_button);
+            text_div.appendChild(open_full_text_button);
+            // text_div.appendChild(header_html);
+            
+            corpus_html.appendChild(text_div);       
+
             while ((results_arr = tag_re.exec(text)) !== null) {
-                var msg = "Found " + results_arr[0] + ".  ";
-                msg += "Next match starts at " + tag_re.lastIndex;
-                //console.log(msg);
-                var start_ind = tag_re.lastIndex - 100;
-
-                // Start the substring at the furthest left possible
-                // and go as far right as possible (keeping the total less than 200 chars)
-                if (start_ind < 0) start_ind = 0;
-                var end_ind = start_ind + 200;
-                if (end_ind >= text_length) end_ind = text_length - 1;
-
-                // Prune off partial tags and words
-                var substr_raw = text.substring(start_ind, end_ind);
-                var substr_re = new RegExp("(<w.*\/w>)");
-                var substr = substr_raw.match(substr_re);
-
-                substrs.push([results_arr[0], substr[0]]);
-            }
-
-            var substr_html = "";
-            for (var i = 0; i < substrs.length; i++) {
-                substr_html += "<b>" + substrs[i][0] + "</b> : " + substrs[i][1].replace(new RegExp("<br>", 'g'), "") + "<br>";
-            }
-            text_substrs.innerHTML = substr_html;
-            text_div.appendChild(text_substrs);
-
-            // Body
-            text_body.innerHTML = t.text;
-            text_div.appendChild(text_body);
-
-            corpus_html.appendChild(text_div);
-            console.log("Hi: " + t.id);
-
+                
+                var tagged_word = results_arr[0];
+                var word = results_arr[2].trim();
+                
+                words.push([metagroup,word]); // store metagroup and original word for analysis                          
+            }               
         });
     }).then(() => {
+        // Words have been populated so analyze them
         console.log("Transaction completed")
-        var words = highlightTaggedWords();
-        console.log(words);
-
 
         // Get total word count
-        var count = words.length;
-
-        // Determine how/if the results will be grouped
-        group_by = document.getElementById("group_by").value;
+        var count = words.length;        
 
         // Determine how many of each grouping, or of total, if no grouping
         var limit = document.getElementById("limit").value;
         if (!Number.isInteger(limit) || limit <= 0) limit = 10; // quick validation and handling
-
+        //console.log(group_by);
         var freq_html;
         if (group_by == "0") {
             var freq_dict = {};
             words.forEach(function(currVal, currIndex, listObj) {
                 // Get the word itself
-                var word = currVal.innerHTML.trim();
+                // var word = currVal.innerHTML.trim();
+                var word = currVal[1];
 
                 // Count the frequencies of each word
                 if (freq_dict[word]) {
@@ -143,27 +141,27 @@ function highlight(e) {
             });
 
             freq_html = buildFreqList(freq_dict, count, limit);
-        } else if (group_by == "S") {
+        } else if (group_by == "1") {
             // the groupBy function will take care of building the html grouped by whatever grouping metaclass
             // we choose
             freq_html = groupBy("situation", words, limit, false);
         } // The following are CORLEC-specific
-        else if (group_by == "F") {
+        else if (group_by == "2") {
             freq_html = groupBy("fuente", words, limit, false);
-        } else if (group_by == "T") {
+        } else if (group_by == "3") {
             freq_html = groupBy("terminos", words, limit, true);
         } // The following are C-Or-DiAL-specific
-        else if (group_by == "U") {
+        else if (group_by == "4") {
             freq_html = groupBy("usos", words, limit, false);
-        } else if (group_by == "C") {
+        } else if (group_by == "5") {
             freq_html = groupBy("funciones", words, limit, true);
-        } else {
-
+        } else { // TODO: change all corpuses to act the same
+            freq_html = groupBy(group_by, words, limit, false);
         }
 
         // Update HTML with new data
-        document.getElementById("word_count").innerHTML = count;
-        document.getElementById("frequencies").innerHTML = freq_html;
+        wc_div.innerHTML = count;
+        freq_div.innerHTML = freq_html;
 
         document.getElementById('export_button').disabled = false;
         
@@ -171,87 +169,27 @@ function highlight(e) {
         return false; // prevent further bubbling of event
     }).catch(function(error) {
         console.log("Database transaction error");
+        console.log(error);
     });
     e.preventDefault(); // disable normal form submit behavior
 }
-
-function showHideSelects() {
-    pos = document.getElementById("POS").value;
-
-    // Make this type select boxes visible and hide other types
-    var selects = document.querySelectorAll("select, label");
-    for (var i = 0; i < selects.length; i++) {
-        selects[i].style.display = "none";
-    };
-
-    var selects = document.querySelectorAll("[class=\"" + pos + "\"]");
-    for (var i = 0; i < selects.length; i++) {
-        selects[i].style.display = "inline-block";
-    };
-
-    document.getElementById("POS").style.display = "inline-block"
-    document.getElementById("POSLabel").style.display = "inline-block"
-}
-
-// function getWordsFromDB(t) {
-
-// }
 
 function getHeaderMetaclass(t, metaclass) {
     var metaclassName = metaclass.toLowerCase();
     var text_head_meta = document.createElement("div");
     text_head_meta.setAttribute('metaclass', metaclassName);
-    text_head_meta.innerHTML = metaclass + ": " + t[metaclass];
+    text_head_meta.innerHTML = "<b>"+metaclass+"</b>: " + t[metaclass];
     return text_head_meta;
-
 }
 
-function highlightTaggedWords() {
+function openText(id, header, text, tag) {
+    sessionStorage.setItem("id", id); 
+    sessionStorage.setItem("header", header); 
 
-    var pieces = tag.split("*");
-    // Every tag will at least start with a letter at index 0 (so as not to highlight every word in corpus)
-    var start_tag = pieces[0]; // If there are no wildcards, this start tag should be all that's needed 
-
-    var this_tag = "[t^=\"" + start_tag + "\"]"
-    var words = document.querySelectorAll(this_tag); // This will grab all the words that start with our tag
-    console.log(words);
-
-
-    // But if there is at least one wildcard in the tail of the tag, the pieces array will contain
-    // the non-wildcard "groups" of tags (e.g. DD0*S0 ---> ["DD0","S0"])
-    // We will deal with the pieces in the negative. That is, we'll take our large batch of words obtained 
-    // above and eliminate the ones that don't match our pieces
-    var kept_words = [];
-    //console.log(pieces);
-    if (pieces.length > 1) { // Our tag has wildcards
-        for (var i = 0; i < words.length; i++) {
-            // Each word's tag will be tested against the pieces, in turn
-            // The "word" is actually an HTML "element", so we need to access the tag we want to look at
-            var w_tag = words[i].getAttribute("t");
-            //console.log(start_tag+" : "+w_tag);
-            var eliminate = false;
-            for (var j = start_tag.length; j < w_tag.length; j++) {
-                // We start where the start tag left off
-                // If this letter is a wildcard, don't eliminate this tag based on this letter (i.e. ignore)
-                if (tag[j] == "*") continue;
-                // Now that we know it's not a wildcard, if the letters of our tag don't match,
-                // we can eliminate it from our words list (i.e. not add it to our kept_words array)
-                if (tag[j] != w_tag[j]) { eliminate = true; break; }
-            }
-            if (eliminate != true) {
-                kept_words.push(words[i]);
-            }
-        }
-        words = kept_words;
-    }
-
-    if (words.length >= 1) backgroundColor = words[0].style.backgroundColor;
-
-    for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor = "yellow";
-    };
-    tag = ''; // reset tag
-    return words;
+    sessionStorage.setItem("text", text); 
+    sessionStorage.setItem("tag", tag); 
+    
+    window.open("text.html");
 }
 
 
@@ -264,10 +202,20 @@ function clearHighlight() {
 
 var groupings_metaclass = {
     "situation": "situación",
-    "fuente": "fuente",
+    "fuente": "fuente",//CORLEC
     "terminos": "términos",
-    "usos": "uso_didáctico",
-    "funciones": "funciones_comunicativas"
+    "usos": "uso_didáctico",//C-Or-DiAL
+    "funciones": "funciones_comunicativas",
+    "ciudad": "ciudad", // PRESEEA
+    "pais": "pais",
+    "tipo_de_texto": "tipo_texto",
+    "sexo": "sexo",
+    "grupo_edad": "grupo_edad",
+    "estudios": "estudios",
+    "profesion": "profesion",
+    "nivel_edu": "nivel_edu",
+    "origen": "origen",
+    "codigo_hab":"codigo_hab"
 };
 
 // Takes in the group_by criterion, the words themselves, the limit on the number of results, and whether 
@@ -278,25 +226,27 @@ function groupBy(group_by, words, limit, multiple) {
     var groupings = {};
     words.forEach(function(currVal, currIndex, listObj) {
         // Get the word itself
-        var word = currVal.innerHTML.trim();
+        // var word = currVal.innerHTML.trim();
+        var word = currVal[1];
 
         // Get the grouping described in the metadata for this word
-        var texthead = currVal.parentNode.previousElementSibling;
-        var meta_grouping = texthead.querySelector("[metaclass=\"" + groupings_metaclass[group_by] + "\"]");
-        var grouping = "";
-        if (meta_grouping != null) grouping = meta_grouping.innerHTML.split(":")[1].trim();
 
-        // If there are multiple parts to this grouping criterion, separated by commas,
-        // split them up and iterate over them
-        if (multiple) {
-            parts = grouping.split(",");
-            for (var i = 0; i < parts.length; i++) {
-                groupings = countFreqForWord(word, groupings, parts[i]);
+        var meta_grouping = currVal[0] // array of div elements
+        for (var i = 0; i < meta_grouping.length; i++) {
+            var grouping = "";
+            if (meta_grouping[i] != null) grouping = meta_grouping[i].innerHTML.split(":")[1].trim();
+
+            // If there are multiple parts to this grouping criterion, separated by commas,
+            // split them up and iterate over them
+            if (multiple) {
+                parts = grouping.split(",");
+                for (var j = 0; j < parts.length; j++) {
+                    groupings = countFreqForWord(word, groupings, parts[j]);
+                }
+            } else {
+                groupings = countFreqForWord(word, groupings, grouping);
             }
-        } else {
-            groupings = countFreqForWord(word, groupings, grouping);
         }
-
     });
 
     // Sort descending by the groupings with the most words
@@ -413,4 +363,23 @@ function buildFreqList(freq_dict, sit_count, limit) {
     }
 
     return freq_html;
+}
+
+
+function showHideSelects() {
+    pos = document.getElementById("POS").value;
+
+    // Make this type select boxes visible and hide other types
+    var selects = document.querySelectorAll("select, label");
+    for (var i = 0; i < selects.length; i++) {
+        selects[i].style.display = "none";
+    };
+
+    var selects = document.querySelectorAll("[class=\"" + pos + "\"]");
+    for (var i = 0; i < selects.length; i++) {
+        selects[i].style.display = "inline-block";
+    };
+
+    document.getElementById("POS").style.display = "inline-block"
+    document.getElementById("POSLabel").style.display = "inline-block"
 }

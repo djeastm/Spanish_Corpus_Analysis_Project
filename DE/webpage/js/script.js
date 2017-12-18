@@ -58,26 +58,14 @@ function highlight(e) {
 
         freq_html = buildFreqList(freq_dict, count, limit);        
     }
-    else if (group_by == "S") {
-        // the groupBy function will take care of building the html grouped by whatever grouping metaclass
-        // we choose
-        freq_html = groupBy("situation", words, limit, false);
-    } // The following are CORLEC-specific
-    else if (group_by == "F") {        
-        freq_html = groupBy("fuente", words, limit, false);
+    // the groupBy function will take care of building the html grouped by whatever grouping metaclass
+    // we choose
+    else if (group_by == "terminos" || group_by == "funciones") {
+        // These have multiple parts, separated by commas, so they're treated differently
+        freq_html = groupBy(group_by, words, limit, true);
     } 
-    else if (group_by == "T") {        
-        freq_html = groupBy("terminos", words, limit, true);
-    } // The following are C-Or-DiAL-specific
-    else if (group_by == "U") {        
-        freq_html = groupBy("usos", words, limit, false);
-    } 
-    else if (group_by == "C") {        
-        freq_html = groupBy("funciones", words, limit, true);
-    } 
-     
     else {
-
+        freq_html = groupBy(group_by, words, limit, false);
     }
 
     // Update HTML with new data

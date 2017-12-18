@@ -138,99 +138,97 @@ function highlight(e) {
         tag += val;
     }
 
-    // Highlight the words 
-    // var words = highlightTaggedWords();
+    // Determine how/if the results will be grouped
+    group_by = document.getElementById("group_by").value;            
+
+    // Clear old search
     var corpus_html = document.getElementById("corpus");
+    corpus_html.innerHTML = "";
+    var wc_div = document.getElementById("word_count");
+    wc_div.innerHTML = "";
+    var freq_div = document.getElementById("frequencies");
+    freq_div.innerHTML = "";
+    
 
     // Go to database and get all the texts that contain these tags    
-    // tag = tag.replace(new RegExp("\\*", 'g'), "\.");
-    tag = "DP2CSS";
+    tag = tag.replace(new RegExp("\\*", 'g'), "\.");    
+    var words = [];
     __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].transaction("r", __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].texts, function() {
-        return __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].texts.limit(2).each(t => {
+        return __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].texts.each(t => {
             console.log("In transaction: " + t.id);
-            //getWordsFromDB(t);
-            console.log("t: " + t);
+
             var text = t.text;
             var text_length = text.length;
 
             var text_div = document.createElement("text");
             var text_head = document.createElement("div");
             text_head.className = "texthead";
-            var text_substrs = document.createElement("div");
-            text_substrs.className = "textsubstrs";
-            var text_body = document.createElement("div");
-            text_body.className = "textbody";
 
-            // Head
-            var metaclasses = Object.keys(t).sort();
-            for (var i = 0; i < metaclasses.length; i++)
-                if (metaclasses[i] !== "text") text_head.appendChild(getHeaderMetaclass(t, metaclasses[i]));
-
-            text_div.appendChild(text_head);
-
-            // Substr
-
-            var tag_re = new RegExp("(<w t=\"" + tag + "\">.*?<\/w>)", "g");
+            
+            var tag_re = new RegExp("(<w t=\"" + tag + "\">(.*?)<\/w>)", "g");
 
             var substrs = [];
             var results_arr;
+            var metaclasses = Object.keys(t).sort();
+            var metagroup = [];
+            
+
+            var header_html = document.createElement("div");
+            header_html.id = t.id;
+            header_html.setAttribute('style', "height:200px; overflow:auto");
+            var text_id = document.createElement("h2");
+            text_id.innerHTML = "Text " + t.id;
+            header_html.appendChild(text_id);
+            
+            for (var i = 0; i < metaclasses.length; i++) {
+                if (metaclasses[i] !== "text") {           
+                    var header_metaclass = getHeaderMetaclass(t, metaclasses[i]);  
+                    header_html.appendChild(header_metaclass);                       
+                    // Store metaclasses for analysis
+                    if (metaclasses[i].endsWith(groupings_metaclass[group_by])) metagroup.push(header_metaclass);
+                }
+            }
+
+
+            var open_full_text_button = document.createElement("button");
+            open_full_text_button.innerText = "Text "+t.id;
+            open_full_text_button.id = "openText";
+            open_full_text_button.addEventListener('click', function() {
+                openText(t.id, header_html.innerHTML, t.text , tag);
+            });     
+
+            // text_head.appendChild(open_full_text_button);
+            text_div.appendChild(open_full_text_button);
+            // text_div.appendChild(header_html);
+            
+            corpus_html.appendChild(text_div);       
+
             while ((results_arr = tag_re.exec(text)) !== null) {
-                var msg = "Found " + results_arr[0] + ".  ";
-                msg += "Next match starts at " + tag_re.lastIndex;
-                //console.log(msg);
-                var start_ind = tag_re.lastIndex - 100;
-
-                // Start the substring at the furthest left possible
-                // and go as far right as possible (keeping the total less than 200 chars)
-                if (start_ind < 0) start_ind = 0;
-                var end_ind = start_ind + 200;
-                if (end_ind >= text_length) end_ind = text_length - 1;
-
-                // Prune off partial tags and words
-                var substr_raw = text.substring(start_ind, end_ind);
-                var substr_re = new RegExp("(<w.*\/w>)");
-                var substr = substr_raw.match(substr_re);
-
-                substrs.push([results_arr[0], substr[0]]);
-            }
-
-            var substr_html = "";
-            for (var i = 0; i < substrs.length; i++) {
-                substr_html += "<b>" + substrs[i][0] + "</b> : " + substrs[i][1].replace(new RegExp("<br>", 'g'), "") + "<br>";
-            }
-            text_substrs.innerHTML = substr_html;
-            text_div.appendChild(text_substrs);
-
-            // Body
-            text_body.innerHTML = t.text;
-            text_div.appendChild(text_body);
-
-            corpus_html.appendChild(text_div);
-            console.log("Hi: " + t.id);
-
+                
+                var tagged_word = results_arr[0];
+                var word = results_arr[2].trim();
+                
+                words.push([metagroup,word]); // store metagroup and original word for analysis                          
+            }               
         });
     }).then(() => {
+        // Words have been populated so analyze them
         console.log("Transaction completed")
-        var words = highlightTaggedWords();
-        console.log(words);
-
 
         // Get total word count
-        var count = words.length;
-
-        // Determine how/if the results will be grouped
-        group_by = document.getElementById("group_by").value;
+        var count = words.length;        
 
         // Determine how many of each grouping, or of total, if no grouping
         var limit = document.getElementById("limit").value;
         if (!Number.isInteger(limit) || limit <= 0) limit = 10; // quick validation and handling
-
+        //console.log(group_by);
         var freq_html;
         if (group_by == "0") {
             var freq_dict = {};
             words.forEach(function(currVal, currIndex, listObj) {
                 // Get the word itself
-                var word = currVal.innerHTML.trim();
+                // var word = currVal.innerHTML.trim();
+                var word = currVal[1];
 
                 // Count the frequencies of each word
                 if (freq_dict[word]) {
@@ -242,27 +240,27 @@ function highlight(e) {
             });
 
             freq_html = buildFreqList(freq_dict, count, limit);
-        } else if (group_by == "S") {
+        } else if (group_by == "1") {
             // the groupBy function will take care of building the html grouped by whatever grouping metaclass
             // we choose
             freq_html = groupBy("situation", words, limit, false);
         } // The following are CORLEC-specific
-        else if (group_by == "F") {
+        else if (group_by == "2") {
             freq_html = groupBy("fuente", words, limit, false);
-        } else if (group_by == "T") {
+        } else if (group_by == "3") {
             freq_html = groupBy("terminos", words, limit, true);
         } // The following are C-Or-DiAL-specific
-        else if (group_by == "U") {
+        else if (group_by == "4") {
             freq_html = groupBy("usos", words, limit, false);
-        } else if (group_by == "C") {
+        } else if (group_by == "5") {
             freq_html = groupBy("funciones", words, limit, true);
-        } else {
-
+        } else { // TODO: change all corpuses to act the same
+            freq_html = groupBy(group_by, words, limit, false);
         }
 
         // Update HTML with new data
-        document.getElementById("word_count").innerHTML = count;
-        document.getElementById("frequencies").innerHTML = freq_html;
+        wc_div.innerHTML = count;
+        freq_div.innerHTML = freq_html;
 
         document.getElementById('export_button').disabled = false;
         
@@ -270,87 +268,27 @@ function highlight(e) {
         return false; // prevent further bubbling of event
     }).catch(function(error) {
         console.log("Database transaction error");
+        console.log(error);
     });
     e.preventDefault(); // disable normal form submit behavior
 }
-
-function showHideSelects() {
-    pos = document.getElementById("POS").value;
-
-    // Make this type select boxes visible and hide other types
-    var selects = document.querySelectorAll("select, label");
-    for (var i = 0; i < selects.length; i++) {
-        selects[i].style.display = "none";
-    };
-
-    var selects = document.querySelectorAll("[class=\"" + pos + "\"]");
-    for (var i = 0; i < selects.length; i++) {
-        selects[i].style.display = "inline-block";
-    };
-
-    document.getElementById("POS").style.display = "inline-block"
-    document.getElementById("POSLabel").style.display = "inline-block"
-}
-
-// function getWordsFromDB(t) {
-
-// }
 
 function getHeaderMetaclass(t, metaclass) {
     var metaclassName = metaclass.toLowerCase();
     var text_head_meta = document.createElement("div");
     text_head_meta.setAttribute('metaclass', metaclassName);
-    text_head_meta.innerHTML = metaclass + ": " + t[metaclass];
+    text_head_meta.innerHTML = "<b>"+metaclass+"</b>: " + t[metaclass];
     return text_head_meta;
-
 }
 
-function highlightTaggedWords() {
+function openText(id, header, text, tag) {
+    sessionStorage.setItem("id", id); 
+    sessionStorage.setItem("header", header); 
 
-    var pieces = tag.split("*");
-    // Every tag will at least start with a letter at index 0 (so as not to highlight every word in corpus)
-    var start_tag = pieces[0]; // If there are no wildcards, this start tag should be all that's needed 
-
-    var this_tag = "[t^=\"" + start_tag + "\"]"
-    var words = document.querySelectorAll(this_tag); // This will grab all the words that start with our tag
-    console.log(words);
-
-
-    // But if there is at least one wildcard in the tail of the tag, the pieces array will contain
-    // the non-wildcard "groups" of tags (e.g. DD0*S0 ---> ["DD0","S0"])
-    // We will deal with the pieces in the negative. That is, we'll take our large batch of words obtained 
-    // above and eliminate the ones that don't match our pieces
-    var kept_words = [];
-    //console.log(pieces);
-    if (pieces.length > 1) { // Our tag has wildcards
-        for (var i = 0; i < words.length; i++) {
-            // Each word's tag will be tested against the pieces, in turn
-            // The "word" is actually an HTML "element", so we need to access the tag we want to look at
-            var w_tag = words[i].getAttribute("t");
-            //console.log(start_tag+" : "+w_tag);
-            var eliminate = false;
-            for (var j = start_tag.length; j < w_tag.length; j++) {
-                // We start where the start tag left off
-                // If this letter is a wildcard, don't eliminate this tag based on this letter (i.e. ignore)
-                if (tag[j] == "*") continue;
-                // Now that we know it's not a wildcard, if the letters of our tag don't match,
-                // we can eliminate it from our words list (i.e. not add it to our kept_words array)
-                if (tag[j] != w_tag[j]) { eliminate = true; break; }
-            }
-            if (eliminate != true) {
-                kept_words.push(words[i]);
-            }
-        }
-        words = kept_words;
-    }
-
-    if (words.length >= 1) backgroundColor = words[0].style.backgroundColor;
-
-    for (var i = 0; i < words.length; i++) {
-        words[i].style.backgroundColor = "yellow";
-    };
-    tag = ''; // reset tag
-    return words;
+    sessionStorage.setItem("text", text); 
+    sessionStorage.setItem("tag", tag); 
+    
+    window.open("text.html");
 }
 
 
@@ -363,10 +301,20 @@ function clearHighlight() {
 
 var groupings_metaclass = {
     "situation": "situación",
-    "fuente": "fuente",
+    "fuente": "fuente",//CORLEC
     "terminos": "términos",
-    "usos": "uso_didáctico",
-    "funciones": "funciones_comunicativas"
+    "usos": "uso_didáctico",//C-Or-DiAL
+    "funciones": "funciones_comunicativas",
+    "ciudad": "ciudad", // PRESEEA
+    "pais": "pais",
+    "tipo_de_texto": "tipo_texto",
+    "sexo": "sexo",
+    "grupo_edad": "grupo_edad",
+    "estudios": "estudios",
+    "profesion": "profesion",
+    "nivel_edu": "nivel_edu",
+    "origen": "origen",
+    "codigo_hab":"codigo_hab"
 };
 
 // Takes in the group_by criterion, the words themselves, the limit on the number of results, and whether 
@@ -377,25 +325,27 @@ function groupBy(group_by, words, limit, multiple) {
     var groupings = {};
     words.forEach(function(currVal, currIndex, listObj) {
         // Get the word itself
-        var word = currVal.innerHTML.trim();
+        // var word = currVal.innerHTML.trim();
+        var word = currVal[1];
 
         // Get the grouping described in the metadata for this word
-        var texthead = currVal.parentNode.previousElementSibling;
-        var meta_grouping = texthead.querySelector("[metaclass=\"" + groupings_metaclass[group_by] + "\"]");
-        var grouping = "";
-        if (meta_grouping != null) grouping = meta_grouping.innerHTML.split(":")[1].trim();
 
-        // If there are multiple parts to this grouping criterion, separated by commas,
-        // split them up and iterate over them
-        if (multiple) {
-            parts = grouping.split(",");
-            for (var i = 0; i < parts.length; i++) {
-                groupings = countFreqForWord(word, groupings, parts[i]);
+        var meta_grouping = currVal[0] // array of div elements
+        for (var i = 0; i < meta_grouping.length; i++) {
+            var grouping = "";
+            if (meta_grouping[i] != null) grouping = meta_grouping[i].innerHTML.split(":")[1].trim();
+
+            // If there are multiple parts to this grouping criterion, separated by commas,
+            // split them up and iterate over them
+            if (multiple) {
+                parts = grouping.split(",");
+                for (var j = 0; j < parts.length; j++) {
+                    groupings = countFreqForWord(word, groupings, parts[j]);
+                }
+            } else {
+                groupings = countFreqForWord(word, groupings, grouping);
             }
-        } else {
-            groupings = countFreqForWord(word, groupings, grouping);
         }
-
     });
 
     // Sort descending by the groupings with the most words
@@ -514,6 +464,25 @@ function buildFreqList(freq_dict, sit_count, limit) {
     return freq_html;
 }
 
+
+function showHideSelects() {
+    pos = document.getElementById("POS").value;
+
+    // Make this type select boxes visible and hide other types
+    var selects = document.querySelectorAll("select, label");
+    for (var i = 0; i < selects.length; i++) {
+        selects[i].style.display = "none";
+    };
+
+    var selects = document.querySelectorAll("[class=\"" + pos + "\"]");
+    for (var i = 0; i < selects.length; i++) {
+        selects[i].style.display = "inline-block";
+    };
+
+    document.getElementById("POS").style.display = "inline-block"
+    document.getElementById("POSLabel").style.display = "inline-block"
+}
+
 /***/ }),
 /* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -532,7 +501,7 @@ var request_corpus = new XMLHttpRequest();
 var db = new __WEBPACK_IMPORTED_MODULE_0_Dexie__["a" /* default */]("PRESEEA");
 
 db.version(1).stores({
-    texts: "++id, text, Datos_Corpus_pais,Hablantes_Relaciones_rel_ent_aud1,Hablantes_Hablante_1_codigo_hab,Hablantes_Hablante_0_edad,Hablantes_Hablante_0_nombre,Datos_Grabacion_resp_grab,Hablantes_Hablante_0_estudios,Hablantes_Hablante_1_sexo,Hablantes_Hablante_0_papel,Datos_Transcripcion_numero_palabras,Datos_Revision_0_num_rev,Hablantes_Relaciones_rel_inf_aud2,Datos_Revision_1_resp_rev,Datos_clave_texto,Hablantes_Hablante_1_papel,Datos_Grabacion_duracion,Hablantes_Hablante_0_codigo_hab,Hablantes_Hablante_0_origen,Hablantes_Hablante_0_nivel_edu,Datos_Corpus_ciudad,Hablantes_Relaciones_rel_ent_aud2,Datos_Revision_0_fecha_rev,Datos_Revision_1_num_rev,Datos_tipo_texto,Datos_Grabacion_sistema,Hablantes_Relaciones_rel_inf_aud1,Datos_Revision_0_resp_rev,Datos_Revision_1_fecha_rev,xml_lang,Hablantes_Hablante_1_edad,Hablantes_Hablante_0_sexo,Hablantes_Relaciones_rel_ent_inf,Datos_Transcripcion_resp_trans,Datos_Corpus_subcorpus,Hablantes_Hablante_0_grupo_edad,Datos_Grabacion_lugar,Hablantes_Hablante_1_id,Hablantes_Hablante_1_nombre,Datos_Transcripcion_fecha_trans,audio_filename,Hablantes_Hablante_1_estudios,Hablantes_Hablante_1_origen,Hablantes_Hablante_1_grupo_edad,Hablantes_Hablante_0_profesion,Hablantes_Hablante_1_profesion,Datos_Grabacion_fecha_grab,Datos_Corpus_corpus,Hablantes_Hablante_1_nivel_edu,Hablantes_Hablante_0_id,Hablantes_Hablante_2_origen,Hablantes_Hablante_2_codigo_hab,Hablantes_Hablante_2_sexo,Hablantes_Hablante_2_estudios,Hablantes_Hablante_2_grupo_edad,Hablantes_Hablante_2_profesion,Hablantes_Hablante_2_papel,Hablantes_Hablante_2_nombre,Hablantes_Hablante_2_nivel_edu,Hablantes_Hablante_2_id,Hablantes_Hablante_2_edad,Hablantes_text,Hablantes_Hablante_0_profesión,Datos_Revision_2_fecha_rev,Datos_Revision_2_num_rev,Datos_Revision_2_resp_rev,Datos_Grabacion_duración,Datos_Revision_4_num_rev,Datos_Revision_4_fecha_rev,Datos_Revision_3_fecha_rev,Datos_Revision_3_resp_rev,Datos_Revision_3_num_rev,Datos_Revision_4_resp_rev,Hablantes_Hablante_9_id,Hablantes_Hablante_7_estudios,Hablantes_Hablante_3_papel,Hablantes_Hablante_6_estudios,Hablantes_Hablante_6_codigo_hab,Hablantes_Hablante_12_nivel_edu,Hablantes_Hablante_13_edad,Hablantes_Hablante_6_nombre,Hablantes_Hablante_7_edad,Hablantes_Hablante_10_nombre,Hablantes_Hablante_3_estudios,Hablantes_Hablante_14_estudios,Hablantes_Hablante_4_grupo_edad,Hablantes_Hablante_4_edad,Hablantes_Hablante_12_edad,Hablantes_Hablante_4_papel,Hablantes_Hablante_5_profesion,Hablantes_Hablante_5_origen,Hablantes_Hablante_13_grupo_edad,Hablantes_Hablante_14_sexo,Hablantes_Hablante_9_nombre,Hablantes_Hablante_13_nombre,Hablantes_Hablante_3_origen,Hablantes_Hablante_7_nivel_edu,Hablantes_Hablante_11_papel,Hablantes_Hablante_8_estudios,Hablantes_Hablante_4_estudios,Hablantes_Hablante_9_papel,Hablantes_Hablante_12_nombre,Hablantes_Hablante_12_id,Hablantes_Hablante_5_estudios,Hablantes_Hablante_5_codigo_hab,Hablantes_Hablante_3_sexo,Hablantes_Hablante_8_papel,Hablantes_Hablante_6_id,Hablantes_Hablante_7_origen,Hablantes_Hablante_8_sexo,Hablantes_Hablante_13_papel,Hablantes_Hablante_3_edad,Hablantes_Hablante_11_codigo_hab,Hablantes_Hablante_7_papel,Hablantes_Hablante_13_estudios,Hablantes_Hablante_11_sexo,Hablantes_Hablante_10_codigo_hab,Hablantes_Hablante_10_estudios,Hablantes_Hablante_4_codigo_hab,Hablantes_Hablante_3_grupo_edad,Hablantes_Hablante_8_id,Hablantes_Hablante_11_origen,Hablantes_Hablante_12_grupo_edad,Hablantes_Hablante_5_nombre,Hablantes_Hablante_13_id,Hablantes_Hablante_11_nombre,Hablantes_Hablante_3_nombre,Hablantes_Hablante_13_codigo_hab,Hablantes_Hablante_9_grupo_edad,Hablantes_Hablante_4_id,Hablantes_Hablante_11_nivel_edu,Hablantes_Hablante_4_nombre,Hablantes_Hablante_8_profesion,Hablantes_Hablante_9_edad,Hablantes_Hablante_8_codigo_hab,Hablantes_Hablante_11_estudios,Hablantes_Hablante_11_profesion,Hablantes_Hablante_9_origen,Hablantes_Hablante_5_nivel_edu,Hablantes_Hablante_6_papel,Hablantes_Hablante_5_grupo_edad,Hablantes_Hablante_14_grupo_edad,Hablantes_Hablante_13_origen,Hablantes_Hablante_5_sexo,Hablantes_Hablante_3_codigo_hab,Hablantes_Hablante_9_profesion,Hablantes_Hablante_6_grupo_edad,Hablantes_Hablante_3_id,Hablantes_Hablante_14_profesion,Hablantes_Hablante_13_sexo,Hablantes_Hablante_3_nivel_edu,Hablantes_Hablante_10_nivel_edu,Hablantes_Hablante_5_id,Hablantes_Hablante_9_nivel_edu,Hablantes_Hablante_5_papel,Hablantes_Hablante_10_grupo_edad,Hablantes_Hablante_10_sexo,Hablantes_Hablante_14_nivel_edu,Hablantes_Hablante_14_origen,Hablantes_Hablante_7_codigo_hab,Hablantes_Hablante_3_profesion,Hablantes_Hablante_6_origen,Hablantes_Hablante_6_edad,Hablantes_Hablante_13_nivel_edu,Hablantes_Hablante_12_papel,Hablantes_Hablante_9_estudios,Hablantes_Hablante_7_sexo,Hablantes_Hablante_6_nivel_edu,Hablantes_Hablante_6_profesion,Hablantes_Hablante_4_sexo,Hablantes_Hablante_12_codigo_hab,Hablantes_Hablante_7_grupo_edad,Hablantes_Hablante_11_id,Hablantes_Hablante_14_papel,Hablantes_Hablante_14_id,Hablantes_Hablante_14_nombre,Hablantes_Hablante_6_sexo,Hablantes_Hablante_14_edad,Hablantes_Hablante_8_nivel_edu,Hablantes_Hablante_8_nombre,Hablantes_Hablante_10_papel,Hablantes_Hablante_9_sexo,Hablantes_Hablante_14_codigo_hab,Hablantes_Hablante_12_estudios,Hablantes_Hablante_11_grupo_edad,Hablantes_Hablante_10_edad,Hablantes_Hablante_11_edad,Hablantes_Hablante_8_edad,Hablantes_Hablante_9_codigo_hab,Hablantes_Hablante_8_origen,Hablantes_Hablante_5_edad,Hablantes_Hablante_4_origen,Hablantes_Hablante_7_nombre,Hablantes_Hablante_4_nivel_edu,Hablantes_Hablante_4_profesion,Hablantes_Hablante_10_id,Hablantes_Hablante_12_origen,Hablantes_Hablante_12_profesion,Hablantes_Hablante_10_origen,Hablantes_Hablante_13_profesion,Hablantes_Hablante_7_id,Hablantes_Hablante_8_grupo_edad,Hablantes_Hablante_12_sexo,Hablantes_Hablante_10_profesion,Hablantes_Hablante_7_profesion,Hablantes_Relaciones_rel_ent_aud3,Hablantes_Relaciones_rel_inf_aud3,Hablantes_Relaciones_rel_ent_inf2,Hablantes_Relaciones_rel_inf_inf2,Hablantes_Relaciones_rel_inf_aud4,Hablantes_Relaciones_rel_ent_aud4,Hablantes_Hablante_1_profesión,Hablantes_Hablante_1_código_hab"
+    texts: "++id, text"
 });
 
 db.on("populate", function() {
