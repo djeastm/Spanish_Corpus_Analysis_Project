@@ -309,7 +309,7 @@ function highlight(e) {
                         corpus_html.appendChild(text_div);   
                     }
                 }
-                corpus_html.appendChild(more_texts_button);
+                if (!saved_texts.isEmpty()) corpus_html.appendChild(more_texts_button);
             });     
 
         corpus_html.appendChild(more_texts_button);
