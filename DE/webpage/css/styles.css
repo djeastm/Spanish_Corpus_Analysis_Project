@@ -19,6 +19,17 @@ select, label {
     display: none;  /*Start out hidden until page load*/
 }
 
+.corpusradio {
+    display: inline-table;
+    padding-right: 10px;
+    
+}
+
+.corpusradiocontainer {
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+
 #frequencies {
     padding: 0px 10px 0px 10px;    
 }

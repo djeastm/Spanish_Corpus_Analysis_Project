@@ -96,20 +96,58 @@ module.exports = g;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__script_db__ = __webpack_require__(2);
 
-console.log("db:" + __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */]);
 
-__WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].open().catch(function(e) {
+__WEBPACK_IMPORTED_MODULE_0__script_db__["a" /* db */].open().catch(function(e) {
     console.error("Open failed: " + e);
 });
 
+var corpus_name = "cordial";
 var tag = '';
 var pos = '';
+var limit = 10;
+var texts_per_page = 50;
+var saved_texts = new Queue();
 var backgroundColor = "white";
 var group_by = "";
 
+var group_by_options = {"cordial": [["situation","Situation"],["usos","Uso didáctico"],["funciones","Funciones comunicativas"]],
+                    "corlec": [["situation","Situation"],["fuente","Fuente"],["terminos","Términos"]],
+                    "preseea" : [["ciudad","Ciudad"],["pais","País"],["tipo_de_texto","Tipo de texto"],
+                            ["sexo","Sexo"],["grupo_edad","Grupo edad"],["estudios","Estudios"],["profesion","Profesión"],
+                            ["nivel_edu","Nivel educativo"],["origen","Origen"],["codigo_hab","Código Hablante"]],
+                    "cdelesp": [["country","Country"],["genre","Genre"]],};
+
 window.onload = showPage;
+
+// Add listener to radio buttons to change corpus
+var radios = document.querySelectorAll('input[name="corpus"]');
+for(var i = 0; i < radios.length; i++) {
+    radios[i].onclick = function() {
+        corpus_name = this.value;
+        // Build group_by select options based on what corpus was selected
+        var options = group_by_options[corpus_name];
+        var group_by_select = document.getElementById("group_by");
+        // Clear all previous options
+        while (group_by_select.firstChild) {
+            group_by_select.removeChild(group_by_select.firstChild);
+        }
+        // Add back 'none' option
+        var none_opt = document.createElement("option");
+        none_opt.value = "0"; 
+        none_opt.innerHTML = "None"; 
+        group_by_select.appendChild(none_opt);
+        // Add corpus-specific options
+        for (var j=0; j<options.length; j++) {
+            var opt = document.createElement("option");
+            opt.value = options[j][0]; // the value
+            opt.innerHTML = options[j][1]; // the text
+            group_by_select.appendChild(opt);
+        }
+    }
+}
+
 document.getElementById("form_submit").addEventListener("submit", function(e) { highlight(e); });
 document.getElementById("POS").addEventListener("change", showHideSelects);
 document.getElementById("export_button").addEventListener("click", exportFreqList);
@@ -123,7 +161,10 @@ function showPage() {
 }
 
 function highlight(e) {
+    corpus_name = document.querySelector('input[name="corpus"]:checked').value;
     clearHighlight(); // Turn off all previous highlighting
+    saved_texts = new Queue();
+    var texts_added = 0;
 
     pos = document.getElementById("POS").value;
     tag = pos;
@@ -153,9 +194,9 @@ function highlight(e) {
     // Go to database and get all the texts that contain these tags    
     tag = tag.replace(new RegExp("\\*", 'g'), "\.");    
     var words = [];
-    __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].transaction("r", __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].texts, function() {
-        return __WEBPACK_IMPORTED_MODULE_0__script_preseea_db__["a" /* db */].texts.each(t => {
-            console.log("In transaction: " + t.id);
+    __WEBPACK_IMPORTED_MODULE_0__script_db__["a" /* db */].transaction("r", __WEBPACK_IMPORTED_MODULE_0__script_db__["a" /* db */].table(corpus_name), function() {
+        return __WEBPACK_IMPORTED_MODULE_0__script_db__["a" /* db */].table(corpus_name).each(t => {
+            //console.log("In transaction: " + t.id);
 
             var text = t.text;
             var text_length = text.length;
@@ -163,15 +204,13 @@ function highlight(e) {
             var text_div = document.createElement("text");
             var text_head = document.createElement("div");
             text_head.className = "texthead";
-
             
             var tag_re = new RegExp("(<w t=\"" + tag + "\">(.*?)<\/w>)", "g");
 
             var substrs = [];
             var results_arr;
             var metaclasses = Object.keys(t).sort();
-            var metagroup = [];
-            
+            var metagroup = [];            
 
             var header_html = document.createElement("div");
             header_html.id = t.id;
@@ -184,11 +223,12 @@ function highlight(e) {
                 if (metaclasses[i] !== "text") {           
                     var header_metaclass = getHeaderMetaclass(t, metaclasses[i]);  
                     header_html.appendChild(header_metaclass);                       
-                    // Store metaclasses for analysis
-                    if (metaclasses[i].endsWith(groupings_metaclass[group_by])) metagroup.push(header_metaclass);
+                    // Store metaclasses for analysis                    
+                    if (metaclasses[i].endsWith(groupings_metaclass[group_by])) {
+                        metagroup.push(header_metaclass);
+                    }
                 }
             }
-
 
             var open_full_text_button = document.createElement("button");
             open_full_text_button.innerText = "Text "+t.id;
@@ -197,11 +237,15 @@ function highlight(e) {
                 openText(t.id, header_html.innerHTML, t.text , tag);
             });     
 
-            // text_head.appendChild(open_full_text_button);
             text_div.appendChild(open_full_text_button);
-            // text_div.appendChild(header_html);
             
-            corpus_html.appendChild(text_div);       
+            
+            if (texts_added <= texts_per_page) {
+                corpus_html.appendChild(text_div);                     
+            } else {
+                saved_texts.enqueue(text_div);  
+            }
+            texts_added++;
 
             while ((results_arr = tag_re.exec(text)) !== null) {
                 
@@ -213,15 +257,14 @@ function highlight(e) {
         });
     }).then(() => {
         // Words have been populated so analyze them
-        console.log("Transaction completed")
+        // console.log("DB Transaction completed")
 
         // Get total word count
         var count = words.length;        
 
         // Determine how many of each grouping, or of total, if no grouping
-        var limit = document.getElementById("limit").value;
-        if (!Number.isInteger(limit) || limit <= 0) limit = 10; // quick validation and handling
-        //console.log(group_by);
+        limit = document.getElementById("limit").value; 
+        if (limit <= 0) limit = 10; // quick validation
         var freq_html;
         if (group_by == "0") {
             var freq_dict = {};
@@ -240,27 +283,36 @@ function highlight(e) {
             });
 
             freq_html = buildFreqList(freq_dict, count, limit);
-        } else if (group_by == "1") {
-            // the groupBy function will take care of building the html grouped by whatever grouping metaclass
-            // we choose
-            freq_html = groupBy("situation", words, limit, false);
-        } // The following are CORLEC-specific
-        else if (group_by == "2") {
-            freq_html = groupBy("fuente", words, limit, false);
-        } else if (group_by == "3") {
-            freq_html = groupBy("terminos", words, limit, true);
-        } // The following are C-Or-DiAL-specific
-        else if (group_by == "4") {
-            freq_html = groupBy("usos", words, limit, false);
-        } else if (group_by == "5") {
-            freq_html = groupBy("funciones", words, limit, true);
-        } else { // TODO: change all corpuses to act the same
+        } else if (group_by == "terminos" || group_by == "funciones") {
+           // These groupings have multiple elements in each of them
+            freq_html = groupBy(group_by, words, limit, true);
+        } else { 
+            // the groupBy function will take care of building the html grouped 
+            // by whatever grouping metaclass we choose
             freq_html = groupBy(group_by, words, limit, false);
         }
 
         // Update HTML with new data
         wc_div.innerHTML = count;
         freq_div.innerHTML = freq_html;
+
+        // Show a button to display more texts
+        var more_texts_button = document.createElement("button");
+            more_texts_button.innerText = "More";
+            more_texts_button.id = "moreText";
+            more_texts_button.classList.add('btn-info');
+            more_texts_button.addEventListener('click', function() {
+                corpus_html.removeChild(more_texts_button);
+                for (var i = 0; i < texts_per_page; i++) {
+                    if (!saved_texts.isEmpty()) {
+                        var text_div = saved_texts.dequeue();
+                        corpus_html.appendChild(text_div);   
+                    }
+                }
+                corpus_html.appendChild(more_texts_button);
+            });     
+
+        corpus_html.appendChild(more_texts_button);
 
         document.getElementById('export_button').disabled = false;
         
@@ -276,8 +328,8 @@ function highlight(e) {
 function getHeaderMetaclass(t, metaclass) {
     var metaclassName = metaclass.toLowerCase();
     var text_head_meta = document.createElement("div");
-    text_head_meta.setAttribute('metaclass', metaclassName);
-    text_head_meta.innerHTML = "<b>"+metaclass+"</b>: " + t[metaclass];
+    text_head_meta.setAttribute('metaclass', metaclassName);    
+    text_head_meta.innerHTML = "<b>"+metaclass+"</b>: " + String(t[metaclass]).trim();
     return text_head_meta;
 }
 
@@ -300,11 +352,11 @@ function clearHighlight() {
 }
 
 var groupings_metaclass = {
-    "situation": "situación",
+    "situation": "Situación",
     "fuente": "fuente",//CORLEC
     "terminos": "términos",
-    "usos": "uso_didáctico",//C-Or-DiAL
-    "funciones": "funciones_comunicativas",
+    "usos": "Uso didáctico",//C-Or-DiAL
+    "funciones": "Funciones comunicativas",
     "ciudad": "ciudad", // PRESEEA
     "pais": "pais",
     "tipo_de_texto": "tipo_texto",
@@ -314,18 +366,20 @@ var groupings_metaclass = {
     "profesion": "profesion",
     "nivel_edu": "nivel_edu",
     "origen": "origen",
-    "codigo_hab":"codigo_hab"
+    "codigo_hab":"codigo_hab", 
+    "country": "country", // CdelEsp
+    "genre":"genre"
 };
 
 // Takes in the group_by criterion, the words themselves, the limit on the number of results, and whether 
 // the particular criterion has multiple elements that need to be parsed
-function groupBy(group_by, words, limit, multiple) {
-
+function groupBy(group_by, words, limit, multiple) {    
     // Find out what groupings are involved using these parts of speech
     var groupings = {};
     words.forEach(function(currVal, currIndex, listObj) {
         // Get the word itself
         // var word = currVal.innerHTML.trim();
+        
         var word = currVal[1];
 
         // Get the grouping described in the metadata for this word
@@ -338,7 +392,7 @@ function groupBy(group_by, words, limit, multiple) {
             // If there are multiple parts to this grouping criterion, separated by commas,
             // split them up and iterate over them
             if (multiple) {
-                parts = grouping.split(",");
+                var parts = grouping.split(",");
                 for (var j = 0; j < parts.length; j++) {
                     groupings = countFreqForWord(word, groupings, parts[j]);
                 }
@@ -352,7 +406,7 @@ function groupBy(group_by, words, limit, multiple) {
     var groupingsSorted = Object.keys(groupings).sort(function(a, b) { return -(groupings[a].sit_count - groupings[b].sit_count); });
 
     var group_html = "";
-    for (var i = 0; i < groupingsSorted.length; i++) {
+    for (var i = 0; i < groupingsSorted.length; i++) {        
         var grouping = groupingsSorted[i];
         group_html += "<h3>" + grouping + " (" + groupings[grouping].sit_count + " matches)" + "</h3><br>"
         var freq_list_i = buildFreqList(groupings[grouping].freq_dict,
@@ -456,7 +510,7 @@ function buildFreqList(freq_dict, sit_count, limit) {
     var freq_html = "";
     // Build HTML for each word frequency in the list, along with a percentage of the count that word comprises 
     for (var j = 0; j < freqSorted.length; j++) {
-        if (j == limit - 1) break; // only take top results up to limit chosen by user
+        if (j == limit) break; // only take top results up to limit chosen by user
         var percent = (100 * Object.values(freqSorted[j])[0] / sit_count).toFixed(2);
         freq_html += Object.keys(freqSorted[j])[0] + " : " + Object.values(freqSorted[j])[0] + " (" + percent + "%) <br>";
     }
@@ -483,6 +537,9 @@ function showHideSelects() {
     document.getElementById("POSLabel").style.display = "inline-block"
 }
 
+//code.stephenmorley.org
+function Queue(){var a=[],b=0;this.getLength=function(){return a.length-b};this.isEmpty=function(){return 0==a.length};this.enqueue=function(b){a.push(b)};this.dequeue=function(){if(0!=a.length){var c=a[b];2*++b>=a.length&&(a=a.slice(b),b=0);return c}};this.peek=function(){return 0<a.length?a[b]:void 0}};
+
 /***/ }),
 /* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -495,98 +552,84 @@ function showHideSelects() {
 
 
 
-var corpus;
-var request_corpus = new XMLHttpRequest();
+var request_corpus_cordial = new XMLHttpRequest();
+var request_corpus_corlec = new XMLHttpRequest();
+var request_corpus_preseea = new XMLHttpRequest();
+var request_corpus_cdelesp = new XMLHttpRequest();
 
-var db = new __WEBPACK_IMPORTED_MODULE_0_Dexie__["a" /* default */]("PRESEEA");
+var db = new __WEBPACK_IMPORTED_MODULE_0_Dexie__["a" /* default */]("corpus_db");
 
 db.version(1).stores({
-    texts: "++id, text"
+    preseea: "++id, text",
+    cordial: "++id, text",
+    corlec: "++id, text",
+    cdelesp: "++id, text"
 });
 
 db.on("populate", function() {
     console.log("Request Corpus");
-    var requestURL_corpus = 'corpus_preseea.json';
-    request_corpus.open('GET', requestURL_corpus);
-    request_corpus.responseType = 'json';
-    request_corpus.send();
+    var requestURL_corpus_cordial = 'corpus_cordial.json';
+    request_corpus_cordial.open('GET', requestURL_corpus_cordial);
+    request_corpus_cordial.responseType = 'json';
+    request_corpus_cordial.send();
+
+    var requestURL_corpus_corlec = 'corpus_corlec.json';
+    request_corpus_corlec.open('GET', requestURL_corpus_corlec);
+    request_corpus_corlec.responseType = 'json';
+    request_corpus_corlec.send();
+
+    var requestURL_corpus_preseea = 'corpus_preseea.json';
+    request_corpus_preseea.open('GET', requestURL_corpus_preseea);
+    request_corpus_preseea.responseType = 'json';
+    request_corpus_preseea.send();
+
+    var requestURL_corpus_cdelesp = 'corpus_cdelesp.json';
+    request_corpus_cdelesp.open('GET', requestURL_corpus_cdelesp);
+    request_corpus_cdelesp.responseType = 'json';
+    request_corpus_cdelesp.send();
 
 });
 
-db.on("ready", function() {
-    getTexts();
-});
-
-request_corpus.onreadystatechange = function() {
-    if (request_corpus.readyState === 4) {
-        //console.log(request_corpus.response); //Outputs a DOMString by default
-        corpus = request_corpus.response;
-        //console.log(JSON.stringify(corpus));
-        //console.log(corpus);
-        var idb_db = db.backendDB(); // get native IDBDatabase object from Dexie wrapper
-
-        var jsonString = '{"texts":' + JSON.stringify(corpus) + '}';
-        __WEBPACK_IMPORTED_MODULE_1_indexeddb_export_import___default.a.importFromJsonString(idb_db, jsonString, function(err) {
-            //console.log("Imported data: " + jsonString);
-            if (!err)
-                console.log("Imported data successfully");
-
-
-        });
-        // // export to JSON, clear database, and import from JSON
-        // IDBExportImport.exportToJsonString(idb_db, function(err, jsonString) {
-        //     if(err)
-        //         console.error(err);
-        //     else {
-
-        //     // console.log("Exported as JSON: " + jsonString);
-
-        //         //console.log("String: " + jsonString);
-        //         IDBExportImport.clearDatabase(idb_db, function(err) {                
-        //             if(!err) // cleared data successfully                    
-
-        //         });
-        //     }
-        // });      
+request_corpus_cordial.onreadystatechange = function() {
+    if (request_corpus_cordial.readyState === 4) {        
+        var corpus = request_corpus_cordial.response; 
+        importCorpus("cordial", corpus);       
     }
 }
 
+request_corpus_corlec.onreadystatechange = function() {
+    if (request_corpus_corlec.readyState === 4) {        
+        var corpus = request_corpus_corlec.response; 
+        importCorpus("corlec", corpus);       
+    }
+}
+
+request_corpus_preseea.onreadystatechange = function() {
+    if (request_corpus_preseea.readyState === 4) {        
+        var corpus = request_corpus_preseea.response; 
+        importCorpus("preseea", corpus);  
+    }
+}
+
+request_corpus_cdelesp.onreadystatechange = function() {
+    if (request_corpus_cdelesp.readyState === 4) {        
+        var corpus = request_corpus_cdelesp.response; 
+        importCorpus("cdelesp", corpus);  
+    }
+}
+
+function importCorpus(corpus_name, corpus_json) {
+    var idb_db = db.backendDB(); // get native IDBDatabase object from Dexie wrapper
+
+    var jsonString = '{"'+corpus_name+'":' + JSON.stringify(corpus_json) + '}';
+    __WEBPACK_IMPORTED_MODULE_1_indexeddb_export_import___default.a.importFromJsonString(idb_db, jsonString, function(err) {            
+        if (!err)
+            console.log("Imported "+corpus_name+" data successfully");
+    });
+}
 
 db.open();
 
-function getTexts() {
-    var corpus_html = document.getElementById("corpus");
-
-
-    // db.texts.get(15).then(function(t) {
-    //     var text_div = document.createElement("text");
-    //     var text_head = document.createElement("div");
-    //     text_head.className = "texthead";
-    //     var text_body = document.createElement("div");
-    //     text_body.className = "textbody";
-
-    //     var metaclasses = Object.keys(t).sort();
-    //     for (var i = 0; i < metaclasses.length; i++)            
-    //         if (metaclasses[i] !== "text") text_head.appendChild(getHeaderMetaclass(t, metaclasses[i]));
-
-    //     text_div.appendChild(text_head);
-
-    //     //Body
-    //     text_body.innerHTML = t.text;
-    //     text_div.appendChild(text_body);
-
-    //     corpus_html.appendChild(text_div);
-    // });
-}
-
-function getHeaderMetaclass(t, metaclass) {
-    var metaclassName = metaclass.toLowerCase();    
-    var text_head_meta = document.createElement("div");
-    text_head_meta.setAttribute('metaclass', metaclassName);
-    text_head_meta.innerHTML = metaclass + ": " + t[metaclass];
-    return text_head_meta;
-
-}
 
 /***/ }),
 /* 3 */

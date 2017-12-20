@@ -149,3 +149,9 @@ html document that can be used with javascript to highlight tagged words on comm
 - Removed substrings (creating them was still too slow) and settled on buttons that link to the full text of each conversation, highlighted, as a compromise.
 - Added grouping ability to this corpus.
 - Set up frequency analysis and prepared for other corpuses to use same database to improve performance.
+
+12/19/17 8:00 am - 3:30 pm
+
+- Fixed bug with limiting frequency list
+- Added fourth corpus (Corpus del Espanol sample, with approx 2 million words)
+- Combined all four current corpuses into one database and one webpage with some minor GUI tweaks.
