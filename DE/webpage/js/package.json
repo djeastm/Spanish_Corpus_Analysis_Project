@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "bundle.js",
   "dependencies": {
-    "dexie": "^2.0.1",
+    "dexie": "^3.2.2",
     "indexeddb-export-import": "^1.0.3"
   },
   "devDependencies": {
